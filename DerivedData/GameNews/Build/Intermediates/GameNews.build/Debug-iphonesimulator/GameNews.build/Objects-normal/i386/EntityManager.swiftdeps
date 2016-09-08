@@ -1,0 +1,575 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EntityManager"
+provides-nominal:
+- "C8GameNews13EntityManager"
+provides-member:
+- ["C8GameNews13EntityManager", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "NSManagedObject"
+- !private "StringLiteralType"
+- "String"
+- !private "UIApplication"
+- !private "!="
+- "NSPredicate"
+- !private "AppDelegate"
+- !private "=="
+- "NSSortDescriptor"
+- !private "NSFetchRequest"
+- "EntityManager"
+- !private "BooleanLiteralType"
+- !private "NSManagedObjectContext"
+- "NSNumber"
+- !private ">"
+- !private "Array"
+- !private "NSEntityDescription"
+- "NSFetchedResultsController"
+depends-member:
+- !private ["Ps9AnyObject", "NSEntityDescription"]
+- !private ["Ps9AnyObject", "NSFetchRequest"]
+- !private ["Ps9AnyObject", "NSFetchedResultsController"]
+- !private ["Ps9AnyObject", "NSPredicate"]
+- !private ["Ps9AnyObject", "NSSortDescriptor"]
+- !private ["Ps9AnyObject", "UIApplication"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "deleteObject"]
+- !private ["Ps9AnyObject", "entity"]
+- !private ["Ps9AnyObject", "entityForName"]
+- !private ["Ps9AnyObject", "executeFetchRequest"]
+- !private ["Ps9AnyObject", "getManagedObjectContext"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "insertNewObjectForEntityForName"]
+- !private ["Ps9AnyObject", "managedObjectContext"]
+- !private ["Ps9AnyObject", "predicate"]
+- !private ["Ps9AnyObject", "returnsObjectsAsFaults"]
+- !private ["Ps9AnyObject", "save"]
+- !private ["Ps9AnyObject", "saveContext"]
+- !private ["Ps9AnyObject", "setValue"]
+- !private ["Ps9AnyObject", "sharedApplication"]
+- !private ["Ps9AnyObject", "sortDescriptors"]
+- !private ["Ps9AnyObject", "stringValue"]
+- ["Ps9AnyObject", ""]
+- !private ["C8GameNews11AppDelegate", "managedObjectContext"]
+- !private ["C8GameNews11AppDelegate", "saveContext"]
+- !private ["Sa", "Element"]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23ArrayLiteralConvertible", "Element"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "count"]
+- !private ["Ps23ArrayLiteralConvertible", "subscript"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "stringValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "delegate"]
+- !private ["Ps11CVarArgType", "deleteObject"]
+- !private ["Ps11CVarArgType", "entity"]
+- !private ["Ps11CVarArgType", "entityForName"]
+- !private ["Ps11CVarArgType", "executeFetchRequest"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "insertNewObjectForEntityForName"]
+- !private ["Ps11CVarArgType", "managedObjectContext"]
+- !private ["Ps11CVarArgType", "predicate"]
+- !private ["Ps11CVarArgType", "returnsObjectsAsFaults"]
+- !private ["Ps11CVarArgType", "saveContext"]
+- !private ["Ps11CVarArgType", "setValue"]
+- !private ["Ps11CVarArgType", "sharedApplication"]
+- !private ["Ps11CVarArgType", "sortDescriptors"]
+- !private ["Ps11CVarArgType", "stringValue"]
+- !private ["Ps14CollectionType", "Element"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "count"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "deleteObject"]
+- !private ["Ps28CustomDebugStringConvertible", "entity"]
+- !private ["Ps28CustomDebugStringConvertible", "entityForName"]
+- !private ["Ps28CustomDebugStringConvertible", "executeFetchRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "insertNewObjectForEntityForName"]
+- !private ["Ps28CustomDebugStringConvertible", "managedObjectContext"]
+- !private ["Ps28CustomDebugStringConvertible", "predicate"]
+- !private ["Ps28CustomDebugStringConvertible", "returnsObjectsAsFaults"]
+- !private ["Ps28CustomDebugStringConvertible", "saveContext"]
+- !private ["Ps28CustomDebugStringConvertible", "setValue"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedApplication"]
+- !private ["Ps28CustomDebugStringConvertible", "sortDescriptors"]
+- !private ["Ps28CustomDebugStringConvertible", "stringValue"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "deleteObject"]
+- !private ["Ps23CustomStringConvertible", "entity"]
+- !private ["Ps23CustomStringConvertible", "entityForName"]
+- !private ["Ps23CustomStringConvertible", "executeFetchRequest"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "insertNewObjectForEntityForName"]
+- !private ["Ps23CustomStringConvertible", "managedObjectContext"]
+- !private ["Ps23CustomStringConvertible", "predicate"]
+- !private ["Ps23CustomStringConvertible", "returnsObjectsAsFaults"]
+- !private ["Ps23CustomStringConvertible", "saveContext"]
+- !private ["Ps23CustomStringConvertible", "setValue"]
+- !private ["Ps23CustomStringConvertible", "sharedApplication"]
+- !private ["Ps23CustomStringConvertible", "sortDescriptors"]
+- !private ["Ps23CustomStringConvertible", "stringValue"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["C8GameNews13EntityManager", "AppDelegate"]
+- !private ["C8GameNews13EntityManager", "NSEntityDescription"]
+- !private ["C8GameNews13EntityManager", "NSFetchRequest"]
+- ["C8GameNews13EntityManager", "NSFetchedResultsController"]
+- ["C8GameNews13EntityManager", "NSManagedObject"]
+- !private ["C8GameNews13EntityManager", "NSManagedObjectContext"]
+- ["C8GameNews13EntityManager", "NSNumber"]
+- ["C8GameNews13EntityManager", "NSPredicate"]
+- ["C8GameNews13EntityManager", "NSSortDescriptor"]
+- ["C8GameNews13EntityManager", "String"]
+- !private ["C8GameNews13EntityManager", "UIApplication"]
+- ["C8GameNews13EntityManager", "deinit"]
+- ["C8GameNews13EntityManager", "delete"]
+- ["C8GameNews13EntityManager", "getAData"]
+- ["C8GameNews13EntityManager", "getData"]
+- ["C8GameNews13EntityManager", "getFetchedResultsController"]
+- !private ["C8GameNews13EntityManager", "getManagedObjectContext"]
+- ["C8GameNews13EntityManager", "init"]
+- ["C8GameNews13EntityManager", "save"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "deleteObject"]
+- !private ["Ps9Equatable", "entity"]
+- !private ["Ps9Equatable", "entityForName"]
+- !private ["Ps9Equatable", "executeFetchRequest"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "insertNewObjectForEntityForName"]
+- !private ["Ps9Equatable", "managedObjectContext"]
+- !private ["Ps9Equatable", "predicate"]
+- !private ["Ps9Equatable", "returnsObjectsAsFaults"]
+- !private ["Ps9Equatable", "saveContext"]
+- !private ["Ps9Equatable", "setValue"]
+- !private ["Ps9Equatable", "sharedApplication"]
+- !private ["Ps9Equatable", "sortDescriptors"]
+- !private ["Ps9Equatable", "stringValue"]
+- !private ["Ps23FloatLiteralConvertible", "stringValue"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "deleteObject"]
+- !private ["Ps8Hashable", "entity"]
+- !private ["Ps8Hashable", "entityForName"]
+- !private ["Ps8Hashable", "executeFetchRequest"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "insertNewObjectForEntityForName"]
+- !private ["Ps8Hashable", "managedObjectContext"]
+- !private ["Ps8Hashable", "predicate"]
+- !private ["Ps8Hashable", "returnsObjectsAsFaults"]
+- !private ["Ps8Hashable", "saveContext"]
+- !private ["Ps8Hashable", "setValue"]
+- !private ["Ps8Hashable", "sharedApplication"]
+- !private ["Ps8Hashable", "sortDescriptors"]
+- !private ["Ps8Hashable", "stringValue"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "stringValue"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps21MutableCollectionType", "Element"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "count"]
+- !private ["Ps21MutableCollectionType", "subscript"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "count"]
+- !private ["Ps16MutableIndexable", "subscript"]
+- !private ["Ps16MutableSliceable", "Element"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "count"]
+- !private ["Ps16MutableSliceable", "subscript"]
+- !private ["PSo8NSCoding", "deleteObject"]
+- !private ["PSo8NSCoding", "entity"]
+- !private ["PSo8NSCoding", "entityForName"]
+- !private ["PSo8NSCoding", "executeFetchRequest"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "insertNewObjectForEntityForName"]
+- !private ["PSo8NSCoding", "predicate"]
+- !private ["PSo8NSCoding", "returnsObjectsAsFaults"]
+- !private ["PSo8NSCoding", "sortDescriptors"]
+- !private ["PSo8NSCoding", "stringValue"]
+- !private ["PSo9NSCopying", "entity"]
+- !private ["PSo9NSCopying", "entityForName"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "insertNewObjectForEntityForName"]
+- !private ["PSo9NSCopying", "predicate"]
+- !private ["PSo9NSCopying", "returnsObjectsAsFaults"]
+- !private ["PSo9NSCopying", "sortDescriptors"]
+- !private ["PSo9NSCopying", "stringValue"]
+- !private ["CSo19NSEntityDescription", "entityForName"]
+- !private ["CSo19NSEntityDescription", "insertNewObjectForEntityForName"]
+- !private ["PSo17NSFastEnumeration", "entityForName"]
+- !private ["PSo17NSFastEnumeration", "insertNewObjectForEntityForName"]
+- !private ["CSo14NSFetchRequest", "entity"]
+- !private ["CSo14NSFetchRequest", "init"]
+- !private ["CSo14NSFetchRequest", "predicate"]
+- !private ["CSo14NSFetchRequest", "returnsObjectsAsFaults"]
+- !private ["CSo14NSFetchRequest", "sortDescriptors"]
+- !private ["CSo26NSFetchedResultsController", "init"]
+- !private ["PSo9NSLocking", "deleteObject"]
+- !private ["PSo9NSLocking", "executeFetchRequest"]
+- !private ["CSo15NSManagedObject", "setValue"]
+- !private ["CSo22NSManagedObjectContext", "deleteObject"]
+- !private ["CSo22NSManagedObjectContext", "executeFetchRequest"]
+- !private ["CSo8NSNumber", "stringValue"]
+- !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "deleteObject"]
+- !private ["CSo8NSObject", "entity"]
+- !private ["CSo8NSObject", "entityForName"]
+- !private ["CSo8NSObject", "executeFetchRequest"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "insertNewObjectForEntityForName"]
+- !private ["CSo8NSObject", "managedObjectContext"]
+- !private ["CSo8NSObject", "predicate"]
+- !private ["CSo8NSObject", "returnsObjectsAsFaults"]
+- !private ["CSo8NSObject", "saveContext"]
+- !private ["CSo8NSObject", "setValue"]
+- !private ["CSo8NSObject", "sharedApplication"]
+- !private ["CSo8NSObject", "sortDescriptors"]
+- !private ["CSo8NSObject", "stringValue"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "deleteObject"]
+- !private ["PSo16NSObjectProtocol", "entity"]
+- !private ["PSo16NSObjectProtocol", "entityForName"]
+- !private ["PSo16NSObjectProtocol", "executeFetchRequest"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "insertNewObjectForEntityForName"]
+- !private ["PSo16NSObjectProtocol", "managedObjectContext"]
+- !private ["PSo16NSObjectProtocol", "predicate"]
+- !private ["PSo16NSObjectProtocol", "returnsObjectsAsFaults"]
+- !private ["PSo16NSObjectProtocol", "saveContext"]
+- !private ["PSo16NSObjectProtocol", "setValue"]
+- !private ["PSo16NSObjectProtocol", "sharedApplication"]
+- !private ["PSo16NSObjectProtocol", "sortDescriptors"]
+- !private ["PSo16NSObjectProtocol", "stringValue"]
+- !private ["CSo24NSPersistentStoreRequest", "entity"]
+- !private ["CSo24NSPersistentStoreRequest", "init"]
+- !private ["CSo24NSPersistentStoreRequest", "predicate"]
+- !private ["CSo24NSPersistentStoreRequest", "returnsObjectsAsFaults"]
+- !private ["CSo24NSPersistentStoreRequest", "sortDescriptors"]
+- !private ["CSo11NSPredicate", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "stringValue"]
+- !private ["CSo16NSSortDescriptor", "init"]
+- !private ["CSo7NSValue", "stringValue"]
+- !private ["Sq", "deinit"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps30RangeReplaceableCollectionType", "Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "count"]
+- !private ["Ps30RangeReplaceableCollectionType", "subscript"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "count"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["SS", "deinit"]
+- !private ["CSo13UIApplication", "delegate"]
+- !private ["CSo13UIApplication", "sharedApplication"]
+- !private ["PSo21UIApplicationDelegate", "managedObjectContext"]
+- !private ["PSo21UIApplicationDelegate", "saveContext"]
+- !private ["CSo11UIResponder", "delegate"]
+- !private ["CSo11UIResponder", "managedObjectContext"]
+- !private ["CSo11UIResponder", "saveContext"]
+- !private ["CSo11UIResponder", "sharedApplication"]
+- !private ["Ps10_ArrayType", "Element"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "count"]
+- !private ["Ps10_ArrayType", "subscript"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Element"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "count"]
+- !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "C8GameNews11AppDelegate"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- "C8GameNews13EntityManager"
+- !private "Ps9Equatable"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo19NSEntityDescription"
+- !private "PSo17NSFastEnumeration"
+- !private "CSo14NSFetchRequest"
+- !private "CSo26NSFetchedResultsController"
+- !private "PSo9NSLocking"
+- !private "CSo15NSManagedObject"
+- !private "CSo22NSManagedObjectContext"
+- !private "CSo8NSNumber"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "CSo24NSPersistentStoreRequest"
+- !private "CSo11NSPredicate"
+- !private "PSo14NSSecureCoding"
+- !private "CSo16NSSortDescriptor"
+- !private "CSo7NSValue"
+- !private "Sq"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "CSo13UIApplication"
+- !private "PSo21UIApplicationDelegate"
+- !private "CSo11UIResponder"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Firebase/Analytics/Sources/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreData.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/XLPagerTabStrip.swiftmodule/i386.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-Swift.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/FXPageControl.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-umbrella.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLActionController/XLActionController.framework/Modules/XLActionController.swiftmodule/i386.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLActionController/XLActionController.framework/Headers/XLActionController-Swift.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLActionController/XLActionController.framework/Headers/XLActionController-umbrella.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLActionController/XLActionController.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/WebKit.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Modules/BSGridCollectionViewLayout.swiftmodule/i386.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Headers/BSGridCollectionViewLayout-Swift.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Headers/BSGridCollectionViewLayout-umbrella.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdReward.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADSearchRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADSearchBannerView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADDynamicHeightSearchRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeContentAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAppInstallAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAdNotificationSource.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventParameters.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventNativeAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventNativeAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventInterstitialDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventInterstitial.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventExtras.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventBannerDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventBanner.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImageAdLoaderOptions.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeCustomTemplateAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeContentAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAppInstallAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImage+Mediation.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImage.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdLoaderAdTypes.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPInterstitial.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedInterstitialDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAppEventDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedBannerViewDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPBannerView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADVideoOptions.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADVideoControllerDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADVideoController.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeExpressAdViewDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeExpressAdView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMobileAds.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediaView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADInterstitialDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADInterstitial.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADInAppPurchase.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADExtras.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdLoaderDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdLoader.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCorrelatorAdLoaderOptions.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCorrelator.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADRequestError.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADInAppPurchaseDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADBannerViewDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdSizeDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADBannerView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdSize.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdNetworkExtras.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GoogleMobileAdsDefines.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GoogleMobileAds.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Firebase/Analytics/Sources/Firebase.h"
+interface-hash: "c64495221e3dcbdc00a11f7134ceffdb"

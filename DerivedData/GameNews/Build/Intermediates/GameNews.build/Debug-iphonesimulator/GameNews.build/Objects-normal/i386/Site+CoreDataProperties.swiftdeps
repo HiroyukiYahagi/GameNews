@@ -1,0 +1,458 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C8GameNews4Site", ""]
+- ["C8GameNews4Site", "id"]
+- ["C8GameNews4Site", "name"]
+- ["C8GameNews4Site", "image"]
+- ["C8GameNews4Site", "imageData"]
+- ["C8GameNews4Site", "url"]
+- ["C8GameNews4Site", "category"]
+- ["C8GameNews4Site", "articles"]
+- ["C8GameNews4Site", "addArticle"]
+- ["C8GameNews4Site", "setImageAndClearData"]
+- ["C8GameNews4Site", "getImageData"]
+- ["C8GameNews4Site", "patchDictionary"]
+provides-dynamic-lookup:
+- "patchDictionary"
+- "getImageData"
+- "addArticle"
+- "url"
+- "image"
+- "articles"
+- "id"
+- "name"
+- "setImageAndClearData"
+- "imageData"
+- "category"
+depends-top-level:
+- "Article"
+- "NSData"
+- "String"
+- !private "CommonUtil"
+- "NSDictionary"
+- !private "!="
+- "UIImage"
+- "NSMutableSet"
+- "NSNumber"
+- !private "=="
+- "Void"
+- !private "StringLiteralType"
+- "Category"
+- !private "EntityManager"
+- !private "PropertiesLoader"
+- "Site"
+depends-member:
+- !private ["Ps9AnyObject", "CommonUtil"]
+- !private ["Ps9AnyObject", "EntityManager"]
+- !private ["Ps9AnyObject", "NSMutableSet"]
+- !private ["Ps9AnyObject", "PropertiesLoader"]
+- !private ["Ps9AnyObject", "UIImage"]
+- ["Ps9AnyObject", "addArticle"]
+- !private ["Ps9AnyObject", "addObject"]
+- !private ["Ps9AnyObject", "addSite"]
+- ["Ps9AnyObject", "articles"]
+- ["Ps9AnyObject", "category"]
+- !private ["Ps9AnyObject", "getAData"]
+- !private ["Ps9AnyObject", "getContentsFromUrl"]
+- ["Ps9AnyObject", "getImageData"]
+- !private ["Ps9AnyObject", "getProperties"]
+- ["Ps9AnyObject", "id"]
+- ["Ps9AnyObject", "image"]
+- ["Ps9AnyObject", "imageData"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "patchDictionary"]
+- !private ["Ps9AnyObject", "save"]
+- ["Ps9AnyObject", "setImageAndClearData"]
+- ["Ps9AnyObject", "url"]
+- !private ["Ps9AnyObject", "valueForKey"]
+- !private ["Ps23ArrayLiteralConvertible", "addObject"]
+- !private ["Ps23ArrayLiteralConvertible", "init"]
+- !private ["C8GameNews7Article", "deinit"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "CommonUtil"]
+- !private ["Ps11CVarArgType", "EntityManager"]
+- !private ["Ps11CVarArgType", "NSMutableSet"]
+- !private ["Ps11CVarArgType", "PropertiesLoader"]
+- !private ["Ps11CVarArgType", "UIImage"]
+- ["Ps11CVarArgType", "addArticle"]
+- !private ["Ps11CVarArgType", "addObject"]
+- !private ["Ps11CVarArgType", "addSite"]
+- ["Ps11CVarArgType", "articles"]
+- ["Ps11CVarArgType", "category"]
+- ["Ps11CVarArgType", "getImageData"]
+- ["Ps11CVarArgType", "id"]
+- ["Ps11CVarArgType", "image"]
+- ["Ps11CVarArgType", "imageData"]
+- !private ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "name"]
+- ["Ps11CVarArgType", "patchDictionary"]
+- ["Ps11CVarArgType", "setImageAndClearData"]
+- ["Ps11CVarArgType", "url"]
+- !private ["Ps11CVarArgType", "valueForKey"]
+- !private ["C8GameNews8Category", "addSite"]
+- !private ["C8GameNews8Category", "patchDictionary"]
+- !private ["C8GameNews10CommonUtil", "getContentsFromUrl"]
+- !private ["Ps28CustomDebugStringConvertible", "CommonUtil"]
+- !private ["Ps28CustomDebugStringConvertible", "EntityManager"]
+- !private ["Ps28CustomDebugStringConvertible", "NSMutableSet"]
+- !private ["Ps28CustomDebugStringConvertible", "PropertiesLoader"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- ["Ps28CustomDebugStringConvertible", "addArticle"]
+- !private ["Ps28CustomDebugStringConvertible", "addObject"]
+- !private ["Ps28CustomDebugStringConvertible", "addSite"]
+- ["Ps28CustomDebugStringConvertible", "articles"]
+- ["Ps28CustomDebugStringConvertible", "category"]
+- ["Ps28CustomDebugStringConvertible", "getImageData"]
+- ["Ps28CustomDebugStringConvertible", "id"]
+- ["Ps28CustomDebugStringConvertible", "image"]
+- ["Ps28CustomDebugStringConvertible", "imageData"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "name"]
+- ["Ps28CustomDebugStringConvertible", "patchDictionary"]
+- ["Ps28CustomDebugStringConvertible", "setImageAndClearData"]
+- ["Ps28CustomDebugStringConvertible", "url"]
+- !private ["Ps28CustomDebugStringConvertible", "valueForKey"]
+- !private ["Ps23CustomStringConvertible", "CommonUtil"]
+- !private ["Ps23CustomStringConvertible", "EntityManager"]
+- !private ["Ps23CustomStringConvertible", "NSMutableSet"]
+- !private ["Ps23CustomStringConvertible", "PropertiesLoader"]
+- !private ["Ps23CustomStringConvertible", "UIImage"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "addArticle"]
+- !private ["Ps23CustomStringConvertible", "addObject"]
+- !private ["Ps23CustomStringConvertible", "addSite"]
+- ["Ps23CustomStringConvertible", "articles"]
+- ["Ps23CustomStringConvertible", "category"]
+- ["Ps23CustomStringConvertible", "getImageData"]
+- ["Ps23CustomStringConvertible", "id"]
+- ["Ps23CustomStringConvertible", "image"]
+- ["Ps23CustomStringConvertible", "imageData"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "name"]
+- ["Ps23CustomStringConvertible", "patchDictionary"]
+- ["Ps23CustomStringConvertible", "setImageAndClearData"]
+- ["Ps23CustomStringConvertible", "url"]
+- !private ["Ps23CustomStringConvertible", "valueForKey"]
+- !private ["Ps28DictionaryLiteralConvertible", "valueForKey"]
+- !private ["C8GameNews13EntityManager", "getAData"]
+- !private ["C8GameNews13EntityManager", "save"]
+- !private ["Ps9Equatable", "CommonUtil"]
+- !private ["Ps9Equatable", "EntityManager"]
+- !private ["Ps9Equatable", "NSMutableSet"]
+- !private ["Ps9Equatable", "PropertiesLoader"]
+- !private ["Ps9Equatable", "UIImage"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "addArticle"]
+- !private ["Ps9Equatable", "addObject"]
+- !private ["Ps9Equatable", "addSite"]
+- ["Ps9Equatable", "articles"]
+- ["Ps9Equatable", "category"]
+- ["Ps9Equatable", "getImageData"]
+- ["Ps9Equatable", "id"]
+- ["Ps9Equatable", "image"]
+- ["Ps9Equatable", "imageData"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "name"]
+- ["Ps9Equatable", "patchDictionary"]
+- ["Ps9Equatable", "setImageAndClearData"]
+- ["Ps9Equatable", "url"]
+- !private ["Ps9Equatable", "valueForKey"]
+- !private ["Ps8Hashable", "CommonUtil"]
+- !private ["Ps8Hashable", "EntityManager"]
+- !private ["Ps8Hashable", "NSMutableSet"]
+- !private ["Ps8Hashable", "PropertiesLoader"]
+- !private ["Ps8Hashable", "UIImage"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "addArticle"]
+- !private ["Ps8Hashable", "addObject"]
+- !private ["Ps8Hashable", "addSite"]
+- ["Ps8Hashable", "articles"]
+- ["Ps8Hashable", "category"]
+- ["Ps8Hashable", "getImageData"]
+- ["Ps8Hashable", "id"]
+- ["Ps8Hashable", "image"]
+- ["Ps8Hashable", "imageData"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "name"]
+- ["Ps8Hashable", "patchDictionary"]
+- ["Ps8Hashable", "setImageAndClearData"]
+- ["Ps8Hashable", "url"]
+- !private ["Ps8Hashable", "valueForKey"]
+- !private ["PSo8NSCoding", "addObject"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "valueForKey"]
+- !private ["PSo9NSCopying", "addObject"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "valueForKey"]
+- !private ["CSo12NSDictionary", "valueForKey"]
+- !private ["PSo17NSFastEnumeration", "addObject"]
+- !private ["PSo17NSFastEnumeration", "init"]
+- !private ["PSo17NSFastEnumeration", "valueForKey"]
+- ["CSo15NSManagedObject", "Article"]
+- ["CSo15NSManagedObject", "Category"]
+- !private ["CSo15NSManagedObject", "CommonUtil"]
+- !private ["CSo15NSManagedObject", "EntityManager"]
+- ["CSo15NSManagedObject", "NSData"]
+- ["CSo15NSManagedObject", "NSDictionary"]
+- ["CSo15NSManagedObject", "NSMutableSet"]
+- ["CSo15NSManagedObject", "NSNumber"]
+- !private ["CSo15NSManagedObject", "PropertiesLoader"]
+- ["CSo15NSManagedObject", "String"]
+- ["CSo15NSManagedObject", "UIImage"]
+- ["CSo15NSManagedObject", "Void"]
+- ["CSo15NSManagedObject", "addArticle"]
+- !private ["CSo15NSManagedObject", "addSite"]
+- ["CSo15NSManagedObject", "articles"]
+- ["CSo15NSManagedObject", "category"]
+- !private ["CSo15NSManagedObject", "deinit"]
+- ["CSo15NSManagedObject", "getImageData"]
+- ["CSo15NSManagedObject", "id"]
+- ["CSo15NSManagedObject", "image"]
+- ["CSo15NSManagedObject", "imageData"]
+- ["CSo15NSManagedObject", "name"]
+- ["CSo15NSManagedObject", "patchDictionary"]
+- ["CSo15NSManagedObject", "setImageAndClearData"]
+- ["CSo15NSManagedObject", "url"]
+- !private ["PSo16NSMutableCopying", "addObject"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "valueForKey"]
+- !private ["CSo12NSMutableSet", "addObject"]
+- !private ["CSo12NSMutableSet", "init"]
+- ["CSo8NSObject", "Article"]
+- ["CSo8NSObject", "Category"]
+- !private ["CSo8NSObject", "CommonUtil"]
+- !private ["CSo8NSObject", "EntityManager"]
+- ["CSo8NSObject", "NSData"]
+- ["CSo8NSObject", "NSDictionary"]
+- ["CSo8NSObject", "NSMutableSet"]
+- ["CSo8NSObject", "NSNumber"]
+- !private ["CSo8NSObject", "PropertiesLoader"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "addArticle"]
+- !private ["CSo8NSObject", "addObject"]
+- !private ["CSo8NSObject", "addSite"]
+- ["CSo8NSObject", "articles"]
+- ["CSo8NSObject", "category"]
+- ["CSo8NSObject", "getImageData"]
+- ["CSo8NSObject", "id"]
+- ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "imageData"]
+- !private ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "patchDictionary"]
+- ["CSo8NSObject", "setImageAndClearData"]
+- ["CSo8NSObject", "url"]
+- !private ["CSo8NSObject", "valueForKey"]
+- !private ["PSo16NSObjectProtocol", "CommonUtil"]
+- !private ["PSo16NSObjectProtocol", "EntityManager"]
+- !private ["PSo16NSObjectProtocol", "NSMutableSet"]
+- !private ["PSo16NSObjectProtocol", "PropertiesLoader"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- ["PSo16NSObjectProtocol", "addArticle"]
+- !private ["PSo16NSObjectProtocol", "addObject"]
+- !private ["PSo16NSObjectProtocol", "addSite"]
+- ["PSo16NSObjectProtocol", "articles"]
+- ["PSo16NSObjectProtocol", "category"]
+- ["PSo16NSObjectProtocol", "getImageData"]
+- ["PSo16NSObjectProtocol", "id"]
+- ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "imageData"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "patchDictionary"]
+- ["PSo16NSObjectProtocol", "setImageAndClearData"]
+- ["PSo16NSObjectProtocol", "url"]
+- !private ["PSo16NSObjectProtocol", "valueForKey"]
+- !private ["PSo14NSSecureCoding", "addObject"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "valueForKey"]
+- !private ["CSo5NSSet", "addObject"]
+- !private ["CSo5NSSet", "init"]
+- !private ["Sq", "deinit"]
+- !private ["C8GameNews16PropertiesLoader", "getProperties"]
+- !private ["Ps12SequenceType", "addObject"]
+- !private ["Ps12SequenceType", "init"]
+- !private ["Ps12SequenceType", "valueForKey"]
+- ["C8GameNews4Site", "Article"]
+- ["C8GameNews4Site", "Category"]
+- !private ["C8GameNews4Site", "CommonUtil"]
+- !private ["C8GameNews4Site", "EntityManager"]
+- ["C8GameNews4Site", "NSData"]
+- ["C8GameNews4Site", "NSDictionary"]
+- ["C8GameNews4Site", "NSMutableSet"]
+- ["C8GameNews4Site", "NSNumber"]
+- !private ["C8GameNews4Site", "PropertiesLoader"]
+- ["C8GameNews4Site", "String"]
+- ["C8GameNews4Site", "UIImage"]
+- ["C8GameNews4Site", "Void"]
+- ["C8GameNews4Site", "addArticle"]
+- ["C8GameNews4Site", "articles"]
+- ["C8GameNews4Site", "category"]
+- ["C8GameNews4Site", "getImageData"]
+- ["C8GameNews4Site", "id"]
+- ["C8GameNews4Site", "image"]
+- ["C8GameNews4Site", "imageData"]
+- ["C8GameNews4Site", "name"]
+- ["C8GameNews4Site", "patchDictionary"]
+- ["C8GameNews4Site", "setImageAndClearData"]
+- ["C8GameNews4Site", "url"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["CSo7UIImage", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps24_ImageLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "addObject"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "valueForKey"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "C8GameNews7Article"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "C8GameNews8Category"
+- !private "C8GameNews10CommonUtil"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Ps28DictionaryLiteralConvertible"
+- !private "C8GameNews13EntityManager"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo12NSDictionary"
+- !private "PSo17NSFastEnumeration"
+- "CSo15NSManagedObject"
+- !private "PSo16NSMutableCopying"
+- !private "CSo12NSMutableSet"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo5NSSet"
+- !private "Sq"
+- !private "C8GameNews16PropertiesLoader"
+- !private "Ps12SequenceType"
+- "C8GameNews4Site"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo7UIImage"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps24_ImageLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Firebase/Analytics/Sources/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreData.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/XLPagerTabStrip.swiftmodule/i386.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-Swift.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/FXPageControl.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-umbrella.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLActionController/XLActionController.framework/Modules/XLActionController.swiftmodule/i386.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLActionController/XLActionController.framework/Headers/XLActionController-Swift.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLActionController/XLActionController.framework/Headers/XLActionController-umbrella.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLActionController/XLActionController.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/WebKit.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Modules/BSGridCollectionViewLayout.swiftmodule/i386.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Headers/BSGridCollectionViewLayout-Swift.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Headers/BSGridCollectionViewLayout-umbrella.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdReward.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADSearchRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADSearchBannerView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADDynamicHeightSearchRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeContentAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAppInstallAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAdNotificationSource.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventParameters.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventNativeAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventNativeAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventInterstitialDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventInterstitial.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventExtras.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventBannerDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventBanner.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImageAdLoaderOptions.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeCustomTemplateAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeContentAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAppInstallAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImage+Mediation.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImage.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdLoaderAdTypes.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPInterstitial.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedInterstitialDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAppEventDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedBannerViewDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPBannerView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADVideoOptions.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADVideoControllerDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADVideoController.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeExpressAdViewDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeExpressAdView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMobileAds.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediaView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADInterstitialDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADInterstitial.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADInAppPurchase.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADExtras.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdLoaderDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdLoader.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCorrelatorAdLoaderOptions.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCorrelator.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADRequestError.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADInAppPurchaseDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADBannerViewDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdSizeDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADBannerView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdSize.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdNetworkExtras.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GoogleMobileAdsDefines.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GoogleMobileAds.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Firebase/Analytics/Sources/Firebase.h"
+interface-hash: "35ca39c0f8c41dd118232886d11a3ba0"

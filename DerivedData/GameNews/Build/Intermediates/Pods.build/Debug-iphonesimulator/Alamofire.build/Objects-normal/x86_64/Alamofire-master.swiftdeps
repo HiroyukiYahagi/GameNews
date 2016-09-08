@@ -1,0 +1,21 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "fdce00a8eceba06955ff348e004eff49"
+build_time: [526139761, 766487000]
+inputs:
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/Alamofire/Source/Alamofire.swift": [526139642, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/Alamofire/Source/Download.swift": [526139642, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/Alamofire/Source/Error.swift": [526139642, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/Alamofire/Source/Manager.swift": [526139642, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/Alamofire/Source/MultipartFormData.swift": [526139642, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [526139642, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/Alamofire/Source/Notifications.swift": [526139642, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/Alamofire/Source/ParameterEncoding.swift": [526139642, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/Alamofire/Source/Request.swift": [526139642, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/Alamofire/Source/Response.swift": [526139642, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/Alamofire/Source/ResponseSerialization.swift": [526139642, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/Alamofire/Source/Result.swift": [526139642, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/Alamofire/Source/ServerTrustPolicy.swift": [526139642, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/Alamofire/Source/Stream.swift": [526139642, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/Alamofire/Source/Timeline.swift": [526139642, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/Alamofire/Source/Upload.swift": [526139642, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/Alamofire/Source/Validation.swift": [526139642, 0]

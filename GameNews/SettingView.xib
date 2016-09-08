@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SettingViewController" customModule="GameNews" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="8HC-Pm-0JN" id="5hi-ft-dPm"/>
+                <outlet property="navigationBar" destination="3Gy-ah-Bc5" id="4vu-Ny-mm9"/>
+                <outlet property="stopButton" destination="iGh-6c-vRv" id="WZV-Y1-hts"/>
+                <outlet property="view" destination="iN0-l3-epB" id="xKk-UG-H2N"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Gy-ah-Bc5">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="irk-tq-2zx"/>
+                    </constraints>
+                    <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <items>
+                        <navigationItem title="設定" id="TWi-6E-UFH">
+                            <barButtonItem key="rightBarButtonItem" systemItem="stop" id="iGh-6c-vRv">
+                                <connections>
+                                    <action selector="stopButtonPressed:" destination="-1" id="qzL-K9-JPS"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="irk-tq-2zx"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="irk-tq-2zx"/>
+                        </mask>
+                    </variation>
+                </navigationBar>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="8HC-Pm-0JN">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="nf0-vO-rls">
+                            <variation key="widthClass=compact" constant="400"/>
+                        </constraint>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="IxQ-a4-fQw">
+                        <size key="itemSize" width="214" height="149"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <cells/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="nf0-vO-rls"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="nf0-vO-rls"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="A0u-PI-sM5"/>
+                        <outlet property="delegate" destination="-1" id="BnJ-IM-sKg"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8HC-Pm-0JN" secondAttribute="trailing" id="5Wn-eY-Q4M"/>
+                <constraint firstItem="8HC-Pm-0JN" firstAttribute="top" secondItem="3Gy-ah-Bc5" secondAttribute="bottom" id="JBQ-KJ-iN1"/>
+                <constraint firstItem="3Gy-ah-Bc5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="LlV-iS-cmC"/>
+                <constraint firstAttribute="trailing" secondItem="3Gy-ah-Bc5" secondAttribute="trailing" id="eap-Aq-0tE"/>
+                <constraint firstItem="3Gy-ah-Bc5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xFA-NI-7oH"/>
+                <constraint firstItem="8HC-Pm-0JN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ya9-VM-Tly"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="3Gy-ah-Bc5"/>
+                    <exclude reference="8HC-Pm-0JN"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="LlV-iS-cmC"/>
+                    <exclude reference="eap-Aq-0tE"/>
+                    <exclude reference="xFA-NI-7oH"/>
+                    <exclude reference="5Wn-eY-Q4M"/>
+                    <exclude reference="JBQ-KJ-iN1"/>
+                    <exclude reference="ya9-VM-Tly"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="3Gy-ah-Bc5"/>
+                    <include reference="8HC-Pm-0JN"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="LlV-iS-cmC"/>
+                    <include reference="eap-Aq-0tE"/>
+                    <include reference="xFA-NI-7oH"/>
+                    <include reference="5Wn-eY-Q4M"/>
+                    <include reference="JBQ-KJ-iN1"/>
+                    <include reference="ya9-VM-Tly"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

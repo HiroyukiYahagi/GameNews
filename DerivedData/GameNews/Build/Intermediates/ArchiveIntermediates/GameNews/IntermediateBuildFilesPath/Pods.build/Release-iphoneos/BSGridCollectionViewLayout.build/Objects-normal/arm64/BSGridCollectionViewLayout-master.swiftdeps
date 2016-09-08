@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "b9cb42c062e270dff4e78f59319d6593"
+build_time: [526412227, 128168000]
+inputs:
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/BSGridCollectionViewLayout/Pod/Classes/GridCollectionViewLayout.swift": [9223372036854775807, 0]

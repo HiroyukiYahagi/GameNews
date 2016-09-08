@@ -1,0 +1,241 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ColorPallete"
+provides-nominal:
+- "C8GameNews12ColorPallete"
+provides-member:
+- ["C8GameNews12ColorPallete", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "String"
+- !private "PropertiesLoader"
+- "ColorPallete"
+- !private "=="
+- !private "NSNumber"
+- "UIColor"
+- !private "StringLiteralType"
+- !private "CGFloat"
+- !private "/"
+- !private "+"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "ColorPallete"]
+- !private ["Ps9AnyObject", "PropertiesLoader"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "doubleValue"]
+- !private ["Ps9AnyObject", "getProperties"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "mainColor"]
+- !private ["Ps9AnyObject", "subColor"]
+- !private ["Ps9AnyObject", "uiColorFromPropertieName"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "doubleValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["Ps11CVarArgType", "doubleValue"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["C8GameNews12ColorPallete", "CGFloat"]
+- !private ["C8GameNews12ColorPallete", "ColorPallete"]
+- !private ["C8GameNews12ColorPallete", "NSNumber"]
+- !private ["C8GameNews12ColorPallete", "PropertiesLoader"]
+- !private ["C8GameNews12ColorPallete", "String"]
+- ["C8GameNews12ColorPallete", "UIColor"]
+- ["C8GameNews12ColorPallete", "deinit"]
+- ["C8GameNews12ColorPallete", "getMainColor"]
+- ["C8GameNews12ColorPallete", "getSubColor"]
+- ["C8GameNews12ColorPallete", "init"]
+- ["C8GameNews12ColorPallete", "mainColor"]
+- ["C8GameNews12ColorPallete", "subColor"]
+- !private ["C8GameNews12ColorPallete", "uiColorFromPropertieName"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "doubleValue"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "doubleValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "doubleValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps23FloatLiteralConvertible", "doubleValue"]
+- !private ["Ps23FloatLiteralConvertible", "init"]
+- !private ["Ps17FloatingPointType", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "doubleValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["SQ", "deinit"]
+- !private ["Ps25IntegerLiteralConvertible", "doubleValue"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["PSo8NSCoding", "doubleValue"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "doubleValue"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["CSo8NSNumber", "doubleValue"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "doubleValue"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "doubleValue"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "doubleValue"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo7NSValue", "doubleValue"]
+- !private ["Sq", "deinit"]
+- !private ["C8GameNews16PropertiesLoader", "getProperties"]
+- !private ["Ps16SignedNumberType", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["CSo7UIColor", "deinit"]
+- !private ["CSo7UIColor", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps19_CVarArgAlignedType", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps24_ColorLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "Ps11CVarArgType"
+- "C8GameNews12ColorPallete"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps17FloatingPointType"
+- !private "Ps8Hashable"
+- !private "SQ"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo8NSNumber"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo7NSValue"
+- !private "Sq"
+- !private "C8GameNews16PropertiesLoader"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Strideable"
+- !private "CSo7UIColor"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_ColorLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Firebase/Analytics/Sources/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphoneos/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/XLPagerTabStrip.swiftmodule/arm.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-Swift.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/FXPageControl.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-umbrella.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphoneos/XLActionController/XLActionController.framework/Modules/XLActionController.swiftmodule/arm.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLActionController/XLActionController.framework/Headers/XLActionController-Swift.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLActionController/XLActionController.framework/Headers/XLActionController-umbrella.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLActionController/XLActionController.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/WebKit.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphoneos/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Modules/BSGridCollectionViewLayout.swiftmodule/arm.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Headers/BSGridCollectionViewLayout-Swift.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Headers/BSGridCollectionViewLayout-umbrella.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdReward.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADSearchRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADSearchBannerView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADDynamicHeightSearchRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeContentAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAppInstallAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAdNotificationSource.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventParameters.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventNativeAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventNativeAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventInterstitialDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventInterstitial.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventExtras.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventBannerDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventBanner.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImageAdLoaderOptions.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeCustomTemplateAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeContentAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAppInstallAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImage+Mediation.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImage.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdLoaderAdTypes.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPInterstitial.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedInterstitialDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAppEventDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedBannerViewDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPBannerView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADVideoOptions.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADVideoControllerDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADVideoController.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeExpressAdViewDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeExpressAdView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMobileAds.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediaView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADInterstitialDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADInterstitial.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADInAppPurchase.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADExtras.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdLoaderDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdLoader.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCorrelatorAdLoaderOptions.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCorrelator.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADRequestError.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADInAppPurchaseDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADBannerViewDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdSizeDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADBannerView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdSize.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdNetworkExtras.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GoogleMobileAdsDefines.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GoogleMobileAds.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Firebase/Analytics/Sources/Firebase.h"
+interface-hash: "051b7ace04271333b9181ed07a8ffaee"

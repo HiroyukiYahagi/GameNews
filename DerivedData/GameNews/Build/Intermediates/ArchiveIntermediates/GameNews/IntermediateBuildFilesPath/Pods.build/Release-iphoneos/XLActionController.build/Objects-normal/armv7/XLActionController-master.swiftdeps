@@ -1,0 +1,9 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "cbcf8fa6f159930cb300c44a4cf51af9"
+build_time: [526412222, 57924000]
+inputs:
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/XLActionController/Source/Action.swift": [9223372036854775807, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/XLActionController/Source/ActionCell.swift": [9223372036854775807, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/XLActionController/Source/ActionController.swift": [9223372036854775807, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/XLActionController/Source/ActionControllerSettings.swift": [9223372036854775807, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/XLActionController/Source/DynamicCollectionViewFlowLayout.swift": [9223372036854775807, 0]

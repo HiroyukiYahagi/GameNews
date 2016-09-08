@@ -1,0 +1,642 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ArticleDao"
+- "LOADMODE"
+provides-nominal:
+- "C8GameNews10ArticleDao"
+- "O8GameNews8LOADMODE"
+provides-member:
+- ["C8GameNews10ArticleDao", ""]
+- ["O8GameNews8LOADMODE", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "NSPredicate"
+- "Bool"
+- "StringLiteralType"
+- "ArticleDao"
+- "NSManagedObject"
+- !private "EntityManager"
+- !private "NSNumber"
+- !private "Array"
+- !private "*"
+- "=="
+- !private "UnicodeScalarType"
+- "Double"
+- !private "NSComparisonResult"
+- !private "+"
+- !private "String"
+- !private "BooleanLiteralType"
+- "Article"
+- !private "NSSortDescriptor"
+- !private "NSDate"
+- !private "CommonUtil"
+- "NSInteger"
+- !private "JSONParser"
+- "LOADMODE"
+- "NSDictionary"
+- "Void"
+- "PropertiesLoader"
+- !private "Tag"
+- !private "dump"
+depends-member:
+- !private ["Ps9AnyObject", "ArticleDao"]
+- !private ["Ps9AnyObject", "CommonUtil"]
+- !private ["Ps9AnyObject", "EntityManager"]
+- !private ["Ps9AnyObject", "JSONParser"]
+- !private ["Ps9AnyObject", "LOADMODE"]
+- !private ["Ps9AnyObject", "NSComparisonResult"]
+- !private ["Ps9AnyObject", "NSDate"]
+- !private ["Ps9AnyObject", "NSPredicate"]
+- !private ["Ps9AnyObject", "NSSortDescriptor"]
+- ["Ps9AnyObject", "PropertiesLoader"]
+- !private ["Ps9AnyObject", "articles"]
+- !private ["Ps9AnyObject", "compare"]
+- !private ["Ps9AnyObject", "deinit"]
+- !private ["Ps9AnyObject", "delete"]
+- !private ["Ps9AnyObject", "deleteInterval"]
+- !private ["Ps9AnyObject", "dump"]
+- !private ["Ps9AnyObject", "findAll"]
+- !private ["Ps9AnyObject", "findRanking"]
+- !private ["Ps9AnyObject", "getAData"]
+- !private ["Ps9AnyObject", "getData"]
+- !private ["Ps9AnyObject", "getDateFormatterJPDate"]
+- !private ["Ps9AnyObject", "getDateFormatterJPTime"]
+- !private ["Ps9AnyObject", "getLastUpdate"]
+- !private ["Ps9AnyObject", "getMode"]
+- ["Ps9AnyObject", "getProperties"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "interval"]
+- !private ["Ps9AnyObject", "load"]
+- !private ["Ps9AnyObject", "parse"]
+- !private ["Ps9AnyObject", "patchDictionary"]
+- !private ["Ps9AnyObject", "ranking"]
+- !private ["Ps9AnyObject", "rankingMax"]
+- !private ["Ps9AnyObject", "resetRanking"]
+- !private ["Ps9AnyObject", "save"]
+- !private ["Ps9AnyObject", "setValue"]
+- !private ["Ps9AnyObject", "shouldLoad"]
+- !private ["Ps9AnyObject", "sortedArrayUsingDescriptors"]
+- !private ["Ps9AnyObject", "stringByAppendingString"]
+- !private ["Ps9AnyObject", "stringFromDate"]
+- !private ["Ps9AnyObject", "updateLastUpdate"]
+- !private ["Ps9AnyObject", "valueForKey"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "Element"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "sortedArrayUsingDescriptors"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["C8GameNews7Article", "patchDictionary"]
+- !private ["C8GameNews7Article", "ranking"]
+- ["C8GameNews10ArticleDao", "Article"]
+- !private ["C8GameNews10ArticleDao", "ArticleDao"]
+- ["C8GameNews10ArticleDao", "Bool"]
+- !private ["C8GameNews10ArticleDao", "CommonUtil"]
+- ["C8GameNews10ArticleDao", "Double"]
+- !private ["C8GameNews10ArticleDao", "EntityManager"]
+- !private ["C8GameNews10ArticleDao", "JSONParser"]
+- ["C8GameNews10ArticleDao", "LOADMODE"]
+- !private ["C8GameNews10ArticleDao", "NSComparisonResult"]
+- !private ["C8GameNews10ArticleDao", "NSDate"]
+- ["C8GameNews10ArticleDao", "NSDictionary"]
+- ["C8GameNews10ArticleDao", "NSInteger"]
+- ["C8GameNews10ArticleDao", "NSManagedObject"]
+- !private ["C8GameNews10ArticleDao", "NSNumber"]
+- !private ["C8GameNews10ArticleDao", "NSPredicate"]
+- !private ["C8GameNews10ArticleDao", "NSSortDescriptor"]
+- ["C8GameNews10ArticleDao", "PropertiesLoader"]
+- !private ["C8GameNews10ArticleDao", "String"]
+- !private ["C8GameNews10ArticleDao", "Tag"]
+- ["C8GameNews10ArticleDao", "Void"]
+- ["C8GameNews10ArticleDao", "deinit"]
+- ["C8GameNews10ArticleDao", "delete"]
+- ["C8GameNews10ArticleDao", "deleteInterval"]
+- ["C8GameNews10ArticleDao", "deleteOldArticles"]
+- !private ["C8GameNews10ArticleDao", "dump"]
+- ["C8GameNews10ArticleDao", "findAll"]
+- ["C8GameNews10ArticleDao", "findFavorite"]
+- ["C8GameNews10ArticleDao", "findMovie"]
+- ["C8GameNews10ArticleDao", "findNews"]
+- ["C8GameNews10ArticleDao", "findRanking"]
+- ["C8GameNews10ArticleDao", "init"]
+- ["C8GameNews10ArticleDao", "interval"]
+- ["C8GameNews10ArticleDao", "load"]
+- ["C8GameNews10ArticleDao", "rankingMax"]
+- ["C8GameNews10ArticleDao", "resetRanking"]
+- ["C8GameNews10ArticleDao", "shouldLoad"]
+- ["C8GameNews10ArticleDao", "update"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps22BidirectionalIndexType", "hashValue"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "articles"]
+- !private ["Ps11CVarArgType", "compare"]
+- !private ["Ps11CVarArgType", "hashValue"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "patchDictionary"]
+- !private ["Ps11CVarArgType", "ranking"]
+- !private ["Ps11CVarArgType", "setValue"]
+- !private ["Ps11CVarArgType", "sortedArrayUsingDescriptors"]
+- !private ["Ps11CVarArgType", "stringByAppendingString"]
+- !private ["Ps11CVarArgType", "stringFromDate"]
+- !private ["Ps11CVarArgType", "valueForKey"]
+- !private ["Ps14CollectionType", "Element"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["C8GameNews10CommonUtil", "getDateFormatterJPDate"]
+- !private ["C8GameNews10CommonUtil", "getDateFormatterJPTime"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps10Comparable", "stringByAppendingString"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "articles"]
+- !private ["Ps28CustomDebugStringConvertible", "compare"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "patchDictionary"]
+- !private ["Ps28CustomDebugStringConvertible", "ranking"]
+- !private ["Ps28CustomDebugStringConvertible", "setValue"]
+- !private ["Ps28CustomDebugStringConvertible", "sortedArrayUsingDescriptors"]
+- !private ["Ps28CustomDebugStringConvertible", "stringByAppendingString"]
+- !private ["Ps28CustomDebugStringConvertible", "stringFromDate"]
+- !private ["Ps28CustomDebugStringConvertible", "valueForKey"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "articles"]
+- !private ["Ps23CustomStringConvertible", "compare"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "patchDictionary"]
+- !private ["Ps23CustomStringConvertible", "ranking"]
+- !private ["Ps23CustomStringConvertible", "setValue"]
+- !private ["Ps23CustomStringConvertible", "sortedArrayUsingDescriptors"]
+- !private ["Ps23CustomStringConvertible", "stringByAppendingString"]
+- !private ["Ps23CustomStringConvertible", "stringFromDate"]
+- !private ["Ps23CustomStringConvertible", "valueForKey"]
+- !private ["Ps28DictionaryLiteralConvertible", "valueForKey"]
+- !private ["C8GameNews13EntityManager", "delete"]
+- !private ["C8GameNews13EntityManager", "getAData"]
+- !private ["C8GameNews13EntityManager", "getData"]
+- !private ["C8GameNews13EntityManager", "save"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "LOAD"]
+- !private ["Ps9Equatable", "NOLOAD"]
+- !private ["Ps9Equatable", "OrderedAscending"]
+- !private ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "articles"]
+- !private ["Ps9Equatable", "compare"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "patchDictionary"]
+- !private ["Ps9Equatable", "ranking"]
+- !private ["Ps9Equatable", "setValue"]
+- !private ["Ps9Equatable", "sortedArrayUsingDescriptors"]
+- !private ["Ps9Equatable", "stringByAppendingString"]
+- !private ["Ps9Equatable", "stringFromDate"]
+- !private ["Ps9Equatable", "valueForKey"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "stringByAppendingString"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps16ForwardIndexType", "hashValue"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "LOAD"]
+- !private ["Ps8Hashable", "NOLOAD"]
+- !private ["Ps8Hashable", "OrderedAscending"]
+- !private ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "articles"]
+- !private ["Ps8Hashable", "compare"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "patchDictionary"]
+- !private ["Ps8Hashable", "ranking"]
+- !private ["Ps8Hashable", "setValue"]
+- !private ["Ps8Hashable", "sortedArrayUsingDescriptors"]
+- !private ["Ps8Hashable", "stringByAppendingString"]
+- !private ["Ps8Hashable", "stringFromDate"]
+- !private ["Ps8Hashable", "valueForKey"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "hashValue"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "hashValue"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "hashValue"]
+- !private ["C8GameNews10JSONParser", "parse"]
+- ["O8GameNews8LOADMODE", "INTERVAL"]
+- ["O8GameNews8LOADMODE", "LOAD"]
+- ["O8GameNews8LOADMODE", "NOLOAD"]
+- ["O8GameNews8LOADMODE", "deinit"]
+- ["O8GameNews8LOADMODE", "hashValue"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "hashValue"]
+- !private ["Ps14MirrorPathType", "stringByAppendingString"]
+- !private ["Ps21MutableCollectionType", "Element"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableSliceable", "Element"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "_Element"]
+- !private ["PSo8NSCoding", "compare"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "sortedArrayUsingDescriptors"]
+- !private ["PSo8NSCoding", "stringByAppendingString"]
+- !private ["PSo8NSCoding", "stringFromDate"]
+- !private ["PSo8NSCoding", "valueForKey"]
+- !private ["OSC18NSComparisonResult", "OrderedAscending"]
+- !private ["OSC18NSComparisonResult", "RawValue"]
+- !private ["OSC18NSComparisonResult", "deinit"]
+- !private ["PSo9NSCopying", "compare"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "sortedArrayUsingDescriptors"]
+- !private ["PSo9NSCopying", "stringByAppendingString"]
+- !private ["PSo9NSCopying", "stringFromDate"]
+- !private ["PSo9NSCopying", "valueForKey"]
+- !private ["CSo6NSDate", "compare"]
+- !private ["CSo6NSDate", "init"]
+- !private ["CSo15NSDateFormatter", "stringFromDate"]
+- !private ["CSo12NSDictionary", "valueForKey"]
+- !private ["PSo17NSFastEnumeration", "sortedArrayUsingDescriptors"]
+- !private ["PSo17NSFastEnumeration", "valueForKey"]
+- !private ["CSo11NSFormatter", "stringFromDate"]
+- !private ["CSo15NSManagedObject", "articles"]
+- !private ["CSo15NSManagedObject", "deinit"]
+- !private ["CSo15NSManagedObject", "patchDictionary"]
+- !private ["CSo15NSManagedObject", "ranking"]
+- !private ["CSo15NSManagedObject", "setValue"]
+- !private ["PSo16NSMutableCopying", "sortedArrayUsingDescriptors"]
+- !private ["PSo16NSMutableCopying", "stringByAppendingString"]
+- !private ["PSo16NSMutableCopying", "valueForKey"]
+- !private ["CSo12NSMutableSet", "sortedArrayUsingDescriptors"]
+- !private ["CSo8NSNumber", "deinit"]
+- !private ["CSo8NSObject", "articles"]
+- !private ["CSo8NSObject", "compare"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "patchDictionary"]
+- !private ["CSo8NSObject", "ranking"]
+- !private ["CSo8NSObject", "setValue"]
+- !private ["CSo8NSObject", "sortedArrayUsingDescriptors"]
+- !private ["CSo8NSObject", "stringByAppendingString"]
+- !private ["CSo8NSObject", "stringFromDate"]
+- !private ["CSo8NSObject", "valueForKey"]
+- !private ["PSo16NSObjectProtocol", "articles"]
+- !private ["PSo16NSObjectProtocol", "compare"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "patchDictionary"]
+- !private ["PSo16NSObjectProtocol", "ranking"]
+- !private ["PSo16NSObjectProtocol", "setValue"]
+- !private ["PSo16NSObjectProtocol", "sortedArrayUsingDescriptors"]
+- !private ["PSo16NSObjectProtocol", "stringByAppendingString"]
+- !private ["PSo16NSObjectProtocol", "stringFromDate"]
+- !private ["PSo16NSObjectProtocol", "valueForKey"]
+- !private ["CSo11NSPredicate", "init"]
+- !private ["PSo14NSSecureCoding", "compare"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "sortedArrayUsingDescriptors"]
+- !private ["PSo14NSSecureCoding", "stringByAppendingString"]
+- !private ["PSo14NSSecureCoding", "valueForKey"]
+- !private ["CSo5NSSet", "sortedArrayUsingDescriptors"]
+- !private ["CSo16NSSortDescriptor", "init"]
+- !private ["CSo8NSString", "stringByAppendingString"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "stringByAppendingString"]
+- !private ["C8GameNews16PropertiesLoader", "getLastUpdate"]
+- !private ["C8GameNews16PropertiesLoader", "getMode"]
+- ["C8GameNews16PropertiesLoader", "getProperties"]
+- !private ["C8GameNews16PropertiesLoader", "updateLastUpdate"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps21RandomAccessIndexType", "hashValue"]
+- !private ["Ps30RangeReplaceableCollectionType", "Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps16RawRepresentable", "OrderedAscending"]
+- !private ["Ps16RawRepresentable", "RawValue"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "sortedArrayUsingDescriptors"]
+- !private ["Ps12SequenceType", "valueForKey"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps17SignedIntegerType", "hashValue"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "hashValue"]
+- !private ["Ps10Streamable", "stringByAppendingString"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["SS", "stringByAppendingString"]
+- !private ["Ps30StringInterpolationConvertible", "stringByAppendingString"]
+- !private ["Ps24StringLiteralConvertible", "stringByAppendingString"]
+- !private ["C8GameNews3Tag", "articles"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "stringByAppendingString"]
+- !private ["Ps10_ArrayType", "Element"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "_Element"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "stringByAppendingString"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "stringByAppendingString"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "stringByAppendingString"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "stringByAppendingString"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "hashValue"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "stringByAppendingString"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps22_RandomAccessAmbiguity", "hashValue"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Element"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "compare"]
+- !private ["Ps12_Reflectable", "hashValue"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "sortedArrayUsingDescriptors"]
+- !private ["Ps12_Reflectable", "stringByAppendingString"]
+- !private ["Ps12_Reflectable", "valueForKey"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps18_SignedIntegerType", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "C8GameNews7Article"
+- "C8GameNews10ArticleDao"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- !private "C8GameNews10CommonUtil"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps28DictionaryLiteralConvertible"
+- !private "C8GameNews13EntityManager"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "C8GameNews10JSONParser"
+- "O8GameNews8LOADMODE"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "OSC18NSComparisonResult"
+- !private "PSo9NSCopying"
+- !private "CSo6NSDate"
+- !private "CSo15NSDateFormatter"
+- !private "CSo12NSDictionary"
+- !private "PSo17NSFastEnumeration"
+- !private "CSo11NSFormatter"
+- !private "CSo15NSManagedObject"
+- !private "PSo16NSMutableCopying"
+- !private "CSo12NSMutableSet"
+- !private "CSo8NSNumber"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "CSo11NSPredicate"
+- !private "PSo14NSSecureCoding"
+- !private "CSo5NSSet"
+- !private "CSo16NSSortDescriptor"
+- !private "CSo8NSString"
+- !private "Sq"
+- !private "Ps16OutputStreamType"
+- "C8GameNews16PropertiesLoader"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps16RawRepresentable"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "C8GameNews3Tag"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Firebase/Analytics/Sources/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/XLPagerTabStrip.swiftmodule/x86_64.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-Swift.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/FXPageControl.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-umbrella.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLActionController/XLActionController.framework/Modules/XLActionController.swiftmodule/x86_64.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLActionController/XLActionController.framework/Headers/XLActionController-Swift.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLActionController/XLActionController.framework/Headers/XLActionController-umbrella.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLActionController/XLActionController.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/WebKit.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Modules/BSGridCollectionViewLayout.swiftmodule/x86_64.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Headers/BSGridCollectionViewLayout-Swift.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Headers/BSGridCollectionViewLayout-umbrella.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdReward.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADSearchRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADSearchBannerView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADDynamicHeightSearchRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeContentAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAppInstallAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAdNotificationSource.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventParameters.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventNativeAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventNativeAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventInterstitialDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventInterstitial.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventExtras.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventBannerDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventBanner.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImageAdLoaderOptions.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeCustomTemplateAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeContentAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAppInstallAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImage+Mediation.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImage.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdLoaderAdTypes.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPInterstitial.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedInterstitialDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAppEventDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedBannerViewDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPBannerView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADVideoOptions.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADVideoControllerDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADVideoController.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeExpressAdViewDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeExpressAdView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMobileAds.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediaView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADInterstitialDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADInterstitial.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADInAppPurchase.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADExtras.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdLoaderDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdLoader.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCorrelatorAdLoaderOptions.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCorrelator.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADRequestError.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADInAppPurchaseDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADBannerViewDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdSizeDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADBannerView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdSize.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdNetworkExtras.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GoogleMobileAdsDefines.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GoogleMobileAds.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Firebase/Analytics/Sources/Firebase.h"
+interface-hash: "1d8dd4346ae42704e46d1e7de8f273b2"

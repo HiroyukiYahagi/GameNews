@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "305734f55226aa0ef063a9fa7561d6b9"
+build_time: [526139769, 249931000]
+inputs:
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/AlamofireNetworkActivityIndicator/Source/NetworkActivityIndicatorManager.swift": [526138956, 0]

@@ -1,0 +1,17 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "2f69c2cd035a2c1abe0999fbeaa36139"
+build_time: [526412180, 745293000]
+inputs:
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/XLPagerTabStrip/Sources/BarPagerTabStripViewController.swift": [524848549, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/XLPagerTabStrip/Sources/BarView.swift": [524848549, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/XLPagerTabStrip/Sources/BaseButtonBarPagerTabStripViewController.swift": [524848549, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/XLPagerTabStrip/Sources/ButtonBarPagerTabStripViewController.swift": [524848549, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/XLPagerTabStrip/Sources/ButtonBarView.swift": [524848549, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/XLPagerTabStrip/Sources/ButtonBarViewCell.swift": [524848549, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/XLPagerTabStrip/Sources/IndicatorInfo.swift": [524848549, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/XLPagerTabStrip/Sources/PagerTabStripBehaviour.swift": [524848549, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/XLPagerTabStrip/Sources/PagerTabStripError.swift": [524848549, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/XLPagerTabStrip/Sources/PagerTabStripViewController.swift": [524848549, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/XLPagerTabStrip/Sources/SegmentedPagerTabStripViewController.swift": [524848549, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/XLPagerTabStrip/Sources/SwipeDirection.swift": [524848549, 0]
+  "/Users/yahagihiroyuki/work/others/GameNews/Pods/XLPagerTabStrip/Sources/TwitterPagerTabStripViewController.swift": [524848549, 0]

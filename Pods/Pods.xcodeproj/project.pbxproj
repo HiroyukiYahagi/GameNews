@@ -1,0 +1,1530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0494804DDB0237EEAF8B7364A1DF9EA2 /* XLActionController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40345A82394BA88D1F3591CD0F07C2A1 /* XLActionController-dummy.m */; };
+		0A74F15934305D7E9EFE880B1865C6DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */; };
+		0B547244FA20AA7B6CF4D935AD599291 /* ActionCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 7F9ADE48390D6A5B880CFA2138E47BB2 /* ActionCell.xib */; };
+		19F3F310EBC9C91168083D015E705592 /* ActionControllerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6900FDB418641B154E6F0E9DE223D27 /* ActionControllerSettings.swift */; };
+		1C33FD78005932356FF3E937998CBCC5 /* BSGridCollectionViewLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05B70B579D90FBD5018DF4A6BC7C87D0 /* BSGridCollectionViewLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DAED1047C6B0C31B559A7EB69729AA2 /* ButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7941D54F0520AF6F3BF5BA149155CCC6 /* ButtonBarView.swift */; };
+		204522EB06DEF2217530D8B79CBF45F8 /* Pods-GameNewsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA04C9971310E6F0114A68BF5192238C /* Pods-GameNewsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		277F2A3C9B4D0357C2433A50F08227A9 /* SegmentedPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7917D79DD400039FAC85C15B4CC101 /* SegmentedPagerTabStripViewController.swift */; };
+		293AC744906A295B91E2F2322E3084FB /* Pods-GameNewsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1119861EEB9BD32892CCFAE649A94645 /* Pods-GameNewsUITests-dummy.m */; };
+		314BA4760CFEA3E1F0015C1F69E358A5 /* Pods-GameNewsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF847379726FA8B7989EB4E04FF5C95 /* Pods-GameNewsTests-dummy.m */; };
+		3C936AA36EC7D38D3CB60C804E0142DE /* DynamicCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9890B0E413780C6C61C3E830B08E8E /* DynamicCollectionViewFlowLayout.swift */; };
+		441310D91AF2E5BC43AE96DF43A464A1 /* IndicatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF6856A3CB00F8851A3F3139ABC8E3 /* IndicatorInfo.swift */; };
+		46D063F2B8B8301438B3FE7658284500 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */; };
+		4DDFD4A5DC27624BD6E4BE75C13A0FD5 /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D253F8CF0D80B2BDD2E6A6206A9CB1FC /* FXPageControl.m */; };
+		51BE54F9FEF523FEB8AC1A8FA53CE15C /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CC18FF625405E79EF4EFACFD44D03B /* SwipeDirection.swift */; };
+		5481EA50EF33BD9788754F4AA06A3B1D /* ButtonCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = CFDC8AB73970B0C3AE5E0E6B666B10AD /* ButtonCell.xib */; };
+		61B3E8B44D6F2EA17EDE942B24371232 /* BSGridCollectionViewLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A9D2009BC93C917BAF53F1E4081219 /* BSGridCollectionViewLayout-dummy.m */; };
+		67437C4FDE1C2C442A8720945473FEBD /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFDC8AB73970B0C3AE5E0E6B666B10AD /* ButtonCell.xib */; };
+		6FE77AB887EC5EA4DA4A8D66EA355E73 /* ActionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EC07718D46AB12BD34DF7A5C9A587D /* ActionController.swift */; };
+		73DD748811D46822FA49EA64EE27A251 /* XLPagerTabStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A1E560E75E39D554A78DAEBF8735D3E /* XLPagerTabStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		763A09FDB400985873C7D1EF7728925F /* PagerTabStripBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BCCD89F74FD707187D4F22C79F56B7 /* PagerTabStripBehaviour.swift */; };
+		7CFF0B4EA8106C5A04174ABCA00A5B65 /* ButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E5674D519BB20D545F95078C42904C /* ButtonBarPagerTabStripViewController.swift */; };
+		80075772A919F52CCF7287C6B573DF91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		83006ED89FB134BA74E55BEA0E20D8FA /* ActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296E513697F25746DE5E3ACBD21760A2 /* ActionCell.swift */; };
+		8984DCD4E7A2FF3E011A5EEB1A713EF9 /* Pods-GameNewsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B37330B05BE7AC806249EC94D2E9A1E1 /* Pods-GameNewsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		916B409A1B1F94DE30DF2A5CBFDE5A70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		97F001A6B8D532DD37C19A71D7A3CD5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */; };
+		A1E665F26C8D663F6CC72E00D0F0EB8E /* Pods-GameNews-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE0F0E49C65BB171AF6130EBD348EC3 /* Pods-GameNews-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A78C33A3869537D7BBE90994F44F3596 /* Pods-GameNews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B46E2EA485336BA0507062B665C26D /* Pods-GameNews-dummy.m */; };
+		AD3F0EA5D9AF49F31BEC90DB2A13DB8E /* XLPagerTabStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A8A7EAE1B700A5090AEBAF8DA12171 /* XLPagerTabStrip-dummy.m */; };
+		AEF1D082C35329406CBC193EC9823D89 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE74F0415B62039B68A63F6A51F8436 /* BarView.swift */; };
+		B5F7715229A56E39CAC95B07A83E9B86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		B642DC276DAFD80E21F0769FE9FB844D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		C4E2D0F315EF88B7FC658882504DC9B1 /* BaseButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0189B9890649E8EDB9E064AD84951 /* BaseButtonBarPagerTabStripViewController.swift */; };
+		CCEA26201F74E01FD9621E1CACAD85A8 /* GridCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB9E5FB3C0387BF29ED4C7EAB82817C /* GridCollectionViewLayout.swift */; };
+		D6669893F949E101FDD600FCD43950F4 /* BarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E035A9273BEB2490EAE00802B8698B25 /* BarPagerTabStripViewController.swift */; };
+		D66F8739EEC2C87BCAD4BA1960FB38F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		E019690576655C6CF4F3EAC85AEEF119 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		E2211E82ACE9ED821B9ACCD6CF85C27D /* PagerTabStripError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FF72121B5CA0ECA68BB164C132C19 /* PagerTabStripError.swift */; };
+		E8937515BF144BE1A273359F7F45ACA5 /* FXPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BBF92531A23B5363FE4A3858FF21DCF /* FXPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED4243BCA662A4C59603CA8C8FA971B6 /* ButtonBarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E9BE369A2D4D0B3D1FF03C151D8EB0 /* ButtonBarViewCell.swift */; };
+		EE0046A002C6666870D3F92EA991BCD8 /* TwitterPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C54AA7B0B67677E8C57CD03DCBFAD0 /* TwitterPagerTabStripViewController.swift */; };
+		EF84E846DC790EE4D36488D5A45051B4 /* XLActionController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A94B2EFD4AD4C8939C2C391756FDCB5 /* XLActionController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD07886BA41CD42E78AE279153C0C5A /* XLPagerTabStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A076877CA4BF6605049DA22763E15DA0 /* XLPagerTabStrip.bundle */; };
+		F9AAF0E9D01A237F6CF52995006BDB39 /* PagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835B99A0C1D727723522AEBD13E00562 /* PagerTabStripViewController.swift */; };
+		FDA1400A97B58A73481CE0CDDBC3F8AB /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FE3C43B79117191AE82240735E37E5 /* Action.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40C616C285F47BFCB8D6C6ACCADFBB9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0056B6323D4E2D45A577B8F8396E4781;
+			remoteInfo = XLActionController;
+		};
+		7626A471E4425CC2E1A64A97806CA575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AA3DDB8797222294E1288CB197A8347;
+			remoteInfo = BSGridCollectionViewLayout;
+		};
+		CC80C0E8276281D968926861454EAAB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0A65515F1EED79B6153A20CD9603B52;
+			remoteInfo = XLPagerTabStrip;
+		};
+		D0E137EA1E29B6C5C5E99C796E38528B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3BB4F6AB3A6187146BAB431F65B61B8;
+			remoteInfo = "XLPagerTabStrip-XLPagerTabStrip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0245C2D6A7BEB3166C3D622CB954236E /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		0257B98078BEF00FC4F74B0FB1746676 /* Pods-GameNewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameNewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		02AA32AACF27908905568E95F7F736E9 /* Pods-GameNews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GameNews.modulemap"; sourceTree = "<group>"; };
+		030B4ADE204C286A791079D6ECE45EF3 /* BSGridCollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BSGridCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		047A44494FDC248EE30232C378DF7426 /* Pods-GameNewsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GameNewsTests-resources.sh"; sourceTree = "<group>"; };
+		05B70B579D90FBD5018DF4A6BC7C87D0 /* BSGridCollectionViewLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSGridCollectionViewLayout-umbrella.h"; sourceTree = "<group>"; };
+		0BBF92531A23B5363FE4A3858FF21DCF /* FXPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXPageControl.h; path = Sources/FXPageControl.h; sourceTree = "<group>"; };
+		0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1119861EEB9BD32892CCFAE649A94645 /* Pods-GameNewsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GameNewsUITests-dummy.m"; sourceTree = "<group>"; };
+		121F98777ACEC812135C274ED372E648 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		130FC96A9A80D11744274E9055482AAE /* XLPagerTabStrip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-prefix.pch"; sourceTree = "<group>"; };
+		174D788BB50B66350858229F4F313CFF /* XLActionController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLActionController.xcconfig; sourceTree = "<group>"; };
+		17EC07718D46AB12BD34DF7A5C9A587D /* ActionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionController.swift; path = Source/ActionController.swift; sourceTree = "<group>"; };
+		296E513697F25746DE5E3ACBD21760A2 /* ActionCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionCell.swift; path = Source/ActionCell.swift; sourceTree = "<group>"; };
+		29FE3C43B79117191AE82240735E37E5 /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = Source/Action.swift; sourceTree = "<group>"; };
+		2C38C52A5322C0ECC64587C2C8FFD91A /* XLActionController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XLActionController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FF6856A3CB00F8851A3F3139ABC8E3 /* IndicatorInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorInfo.swift; path = Sources/IndicatorInfo.swift; sourceTree = "<group>"; };
+		3384AA86A0E4AFB6AEBA6E1243A81334 /* Pods_GameNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameNewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CC18FF625405E79EF4EFACFD44D03B /* SwipeDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeDirection.swift; path = Sources/SwipeDirection.swift; sourceTree = "<group>"; };
+		381E8C8770FDCA7C99BC16F47BFB3972 /* Pods-GameNews-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GameNews-resources.sh"; sourceTree = "<group>"; };
+		3A1E560E75E39D554A78DAEBF8735D3E /* XLPagerTabStrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-umbrella.h"; sourceTree = "<group>"; };
+		3C9854452B704969D40D932335DEE0FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		40345A82394BA88D1F3591CD0F07C2A1 /* XLActionController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLActionController-dummy.m"; sourceTree = "<group>"; };
+		40DC0DA79CFEF3260B14817DD911B95C /* Pods-GameNewsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GameNewsTests.modulemap"; sourceTree = "<group>"; };
+		4774BA58CD7BD5BA7089E2471E6643D5 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		478695AA669C1F99AAD34FAF4621D676 /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		481EF244D1C92C876E0A6FBC6B5DA789 /* ResourceBundle-XLPagerTabStrip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XLPagerTabStrip-Info.plist"; sourceTree = "<group>"; };
+		4A94B2EFD4AD4C8939C2C391756FDCB5 /* XLActionController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLActionController-umbrella.h"; sourceTree = "<group>"; };
+		50BED4EB7A9D831674423F753F0A32AF /* XLPagerTabStrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = XLPagerTabStrip.modulemap; sourceTree = "<group>"; };
+		54FD6C2F8BB551CAA26FDF2FDCDEB57A /* XLPagerTabStrip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLPagerTabStrip.xcconfig; sourceTree = "<group>"; };
+		624E000B2E2DBD68D71C92DD331C91D7 /* Pods-GameNewsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GameNewsUITests.modulemap"; sourceTree = "<group>"; };
+		65755FEBC91488F1F3C4115EC3813FCB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B46E2EA485336BA0507062B665C26D /* Pods-GameNews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GameNews-dummy.m"; sourceTree = "<group>"; };
+		689842E632345940079D87F63E3737FD /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		6CBDB7581A5D88EFE7D515058F725E2E /* Pods-GameNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameNews.release.xcconfig"; sourceTree = "<group>"; };
+		6D2D8E7A361001BB6328791BCBEE785E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FD51FBB273135BA9B15AAE44AD070A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		713A75FCF08AE535EC2AD512543EFC7C /* Pods-GameNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		71BCCD89F74FD707187D4F22C79F56B7 /* PagerTabStripBehaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripBehaviour.swift; path = Sources/PagerTabStripBehaviour.swift; sourceTree = "<group>"; };
+		72035C2B2F826D61AD0A9DDA890B449A /* Pods-GameNewsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GameNewsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		768857A3191A6E0EBEEFD77ADECF2882 /* BSGridCollectionViewLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSGridCollectionViewLayout.xcconfig; sourceTree = "<group>"; };
+		787E5A577121CC3AA0505BF22DD041CA /* Pods-GameNewsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GameNewsTests-frameworks.sh"; sourceTree = "<group>"; };
+		7941D54F0520AF6F3BF5BA149155CCC6 /* ButtonBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarView.swift; path = Sources/ButtonBarView.swift; sourceTree = "<group>"; };
+		7DC3AAAA8B42BC54917418112152E00B /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		7F9ADE48390D6A5B880CFA2138E47BB2 /* ActionCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ActionCell.xib; path = Source/ActionCell.xib; sourceTree = "<group>"; };
+		835B99A0C1D727723522AEBD13E00562 /* PagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripViewController.swift; path = Sources/PagerTabStripViewController.swift; sourceTree = "<group>"; };
+		85FFF0E0374CE1F91F926230BD15B7C6 /* Pods-GameNews-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GameNews-frameworks.sh"; sourceTree = "<group>"; };
+		873FF72121B5CA0ECA68BB164C132C19 /* PagerTabStripError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripError.swift; path = Sources/PagerTabStripError.swift; sourceTree = "<group>"; };
+		8AE74F0415B62039B68A63F6A51F8436 /* BarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarView.swift; path = Sources/BarView.swift; sourceTree = "<group>"; };
+		8F3DADC8D67793B1E7D6EAE842CDD02E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93CA103CC5EC44A1E9204EBBAF6EBEBD /* XLActionController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLActionController-prefix.pch"; sourceTree = "<group>"; };
+		95A9D2009BC93C917BAF53F1E4081219 /* BSGridCollectionViewLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BSGridCollectionViewLayout-dummy.m"; sourceTree = "<group>"; };
+		99A8A7EAE1B700A5090AEBAF8DA12171 /* XLPagerTabStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLPagerTabStrip-dummy.m"; sourceTree = "<group>"; };
+		A076877CA4BF6605049DA22763E15DA0 /* XLPagerTabStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPagerTabStrip.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A139D0758577BADB1BD8F270B82EF004 /* Pods_GameNewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameNewsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1992DC0AB29BD4C1A1CBADF1BE89EDF /* BSGridCollectionViewLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSGridCollectionViewLayout-prefix.pch"; sourceTree = "<group>"; };
+		A5E66A74A844C20BEA26D0C771C4850A /* Pods-GameNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameNewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		A6B3F4F76618C21DDCA57F9B0896BA00 /* Pods-GameNews-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GameNews-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA04C9971310E6F0114A68BF5192238C /* Pods-GameNewsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GameNewsUITests-umbrella.h"; sourceTree = "<group>"; };
+		ABBFB80EEEF94DE784E73E18DEFAE0B8 /* BSGridCollectionViewLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BSGridCollectionViewLayout.modulemap; sourceTree = "<group>"; };
+		AD9890B0E413780C6C61C3E830B08E8E /* DynamicCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicCollectionViewFlowLayout.swift; path = Source/DynamicCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		AFB9E5FB3C0387BF29ED4C7EAB82817C /* GridCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GridCollectionViewLayout.swift; path = Pod/Classes/GridCollectionViewLayout.swift; sourceTree = "<group>"; };
+		B37330B05BE7AC806249EC94D2E9A1E1 /* Pods-GameNewsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GameNewsTests-umbrella.h"; sourceTree = "<group>"; };
+		B37DFFAC53BEE02D211C8D36A2CA7153 /* Pods-GameNewsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GameNewsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		BB46415E4445A3BC2219E951714884BF /* Pods-GameNewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameNewsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BB7D198D41B4980562781282CB6BF77B /* Pods_GameNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2EC3F9F98762B28F657477C146FCA9 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		C289FC10CBFA392DCEF5065536331C9D /* Pods-GameNewsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GameNewsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		C37D3D12F07389D0A23ABE13C87F9994 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7429F177785F5901F78C7730013E5E9 /* Pods-GameNewsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GameNewsUITests-resources.sh"; sourceTree = "<group>"; };
+		C7D0EF0356B178240CE32ECCE2B53128 /* Pods-GameNewsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GameNewsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C7E0189B9890649E8EDB9E064AD84951 /* BaseButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseButtonBarPagerTabStripViewController.swift; path = Sources/BaseButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		CE102C3AD1F19CFF997D1B2FD2539834 /* Pods-GameNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameNews.debug.xcconfig"; sourceTree = "<group>"; };
+		CE7917D79DD400039FAC85C15B4CC101 /* SegmentedPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedPagerTabStripViewController.swift; path = Sources/SegmentedPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		CED3FDC742547D67449A31A9FD18F8A9 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		CFDC8AB73970B0C3AE5E0E6B666B10AD /* ButtonCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ButtonCell.xib; path = Sources/ButtonCell.xib; sourceTree = "<group>"; };
+		D253F8CF0D80B2BDD2E6A6206A9CB1FC /* FXPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXPageControl.m; path = Sources/FXPageControl.m; sourceTree = "<group>"; };
+		D415B494E670328D6AEE3D0703B55069 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		D4801D67D70FF5C578B9D8D639600B2C /* XLActionController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = XLActionController.modulemap; sourceTree = "<group>"; };
+		D9C54AA7B0B67677E8C57CD03DCBFAD0 /* TwitterPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterPagerTabStripViewController.swift; path = Sources/TwitterPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		DCF847379726FA8B7989EB4E04FF5C95 /* Pods-GameNewsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GameNewsTests-dummy.m"; sourceTree = "<group>"; };
+		DDE0F0E49C65BB171AF6130EBD348EC3 /* Pods-GameNews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GameNews-umbrella.h"; sourceTree = "<group>"; };
+		E035A9273BEB2490EAE00802B8698B25 /* BarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPagerTabStripViewController.swift; path = Sources/BarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		E0E5674D519BB20D545F95078C42904C /* ButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarPagerTabStripViewController.swift; path = Sources/ButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		E1D8918B81A05FF3283DDFFD56991894 /* Pods-GameNews-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GameNews-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E6900FDB418641B154E6F0E9DE223D27 /* ActionControllerSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionControllerSettings.swift; path = Source/ActionControllerSettings.swift; sourceTree = "<group>"; };
+		E7E9BE369A2D4D0B3D1FF03C151D8EB0 /* ButtonBarViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarViewCell.swift; path = Sources/ButtonBarViewCell.swift; sourceTree = "<group>"; };
+		ED5DCE2A2281681FA6F8C240924A3ECB /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		F8D23AE0F2F1F6A8C476C402CE683495 /* Pods-GameNewsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GameNewsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		028D4E8CBBD8F0BD5DA49E7E7EDCB507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FE4274E57F0AC1A748B60C3AF5D2F58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A74F15934305D7E9EFE880B1865C6DA /* CoreGraphics.framework in Frameworks */,
+				B642DC276DAFD80E21F0769FE9FB844D /* Foundation.framework in Frameworks */,
+				46D063F2B8B8301438B3FE7658284500 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E2C710DCBB6BEB3C8CCF8EA1ED724F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F7715229A56E39CAC95B07A83E9B86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE3C14925C36EFF5E5E686B612741B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916B409A1B1F94DE30DF2A5CBFDE5A70 /* Foundation.framework in Frameworks */,
+				97F001A6B8D532DD37C19A71D7A3CD5B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9F31A0C256B743C4BA511486C2186F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E019690576655C6CF4F3EAC85AEEF119 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE52A7C74973CCCAEDE350D280C70D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80075772A919F52CCF7287C6B573DF91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF94C6D3F73FEB230D1350A332977798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66F8739EEC2C87BCAD4BA1960FB38F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A68FE8A6158D395EC4CB10F8472F165 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */,
+				3C9854452B704969D40D932335DEE0FF /* Foundation.framework */,
+				0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A68FE8A6158D395EC4CB10F8472F165 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19276F900E5CD2A856D1444EFC9B4210 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34C91E61A03949CBB4ED9D6AD1050B55 /* Pods-GameNews */,
+				1FE0C0476590327EFCFD6391289DA85A /* Pods-GameNewsTests */,
+				B71E9AE8A7EEC96582525963120F42DA /* Pods-GameNewsUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1EBFB93B95F78F37F04E85D3E4D67BA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				030B4ADE204C286A791079D6ECE45EF3 /* BSGridCollectionViewLayout.framework */,
+				BB7D198D41B4980562781282CB6BF77B /* Pods_GameNews.framework */,
+				3384AA86A0E4AFB6AEBA6E1243A81334 /* Pods_GameNewsTests.framework */,
+				A139D0758577BADB1BD8F270B82EF004 /* Pods_GameNewsUITests.framework */,
+				2C38C52A5322C0ECC64587C2C8FFD91A /* XLActionController.framework */,
+				A076877CA4BF6605049DA22763E15DA0 /* XLPagerTabStrip.bundle */,
+				478695AA669C1F99AAD34FAF4621D676 /* XLPagerTabStrip.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FE0C0476590327EFCFD6391289DA85A /* Pods-GameNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FD51FBB273135BA9B15AAE44AD070A9 /* Info.plist */,
+				40DC0DA79CFEF3260B14817DD911B95C /* Pods-GameNewsTests.modulemap */,
+				72035C2B2F826D61AD0A9DDA890B449A /* Pods-GameNewsTests-acknowledgements.markdown */,
+				C7D0EF0356B178240CE32ECCE2B53128 /* Pods-GameNewsTests-acknowledgements.plist */,
+				DCF847379726FA8B7989EB4E04FF5C95 /* Pods-GameNewsTests-dummy.m */,
+				787E5A577121CC3AA0505BF22DD041CA /* Pods-GameNewsTests-frameworks.sh */,
+				047A44494FDC248EE30232C378DF7426 /* Pods-GameNewsTests-resources.sh */,
+				B37330B05BE7AC806249EC94D2E9A1E1 /* Pods-GameNewsTests-umbrella.h */,
+				713A75FCF08AE535EC2AD512543EFC7C /* Pods-GameNewsTests.debug.xcconfig */,
+				A5E66A74A844C20BEA26D0C771C4850A /* Pods-GameNewsTests.release.xcconfig */,
+			);
+			name = "Pods-GameNewsTests";
+			path = "Target Support Files/Pods-GameNewsTests";
+			sourceTree = "<group>";
+		};
+		2E7A23ABAF446E53C806C8F5526A3CB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66145F7E02A74A4CEE8E7BCF72518B1A /* BSGridCollectionViewLayout */,
+				6CB1264A924C54224B73410F925F24F5 /* Firebase */,
+				F8B46574A2474DDFD9F1005C5424A122 /* FirebaseAnalytics */,
+				634D2E9968DA5313D0E85B51E6274A6F /* FirebaseInstanceID */,
+				4E0144178842DBD1BFBE7539D8C044DB /* Google-Mobile-Ads-SDK */,
+				8A591D0DB5DA2D429C80241DD5314C81 /* GoogleInterchangeUtilities */,
+				6F0FEA25683B26F224216AF01597DB96 /* GoogleSymbolUtilities */,
+				ABE18A46F37A0D0989B4D3EA916689CA /* GoogleUtilities */,
+				A50B5DA4513BD0DF9788FFADB5856D49 /* XLActionController */,
+				5CD71A40EB867926B64607363CF9E2E6 /* XLPagerTabStrip */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		34C91E61A03949CBB4ED9D6AD1050B55 /* Pods-GameNews */ = {
+			isa = PBXGroup;
+			children = (
+				C37D3D12F07389D0A23ABE13C87F9994 /* Info.plist */,
+				02AA32AACF27908905568E95F7F736E9 /* Pods-GameNews.modulemap */,
+				E1D8918B81A05FF3283DDFFD56991894 /* Pods-GameNews-acknowledgements.markdown */,
+				A6B3F4F76618C21DDCA57F9B0896BA00 /* Pods-GameNews-acknowledgements.plist */,
+				65B46E2EA485336BA0507062B665C26D /* Pods-GameNews-dummy.m */,
+				85FFF0E0374CE1F91F926230BD15B7C6 /* Pods-GameNews-frameworks.sh */,
+				381E8C8770FDCA7C99BC16F47BFB3972 /* Pods-GameNews-resources.sh */,
+				DDE0F0E49C65BB171AF6130EBD348EC3 /* Pods-GameNews-umbrella.h */,
+				CE102C3AD1F19CFF997D1B2FD2539834 /* Pods-GameNews.debug.xcconfig */,
+				6CBDB7581A5D88EFE7D515058F725E2E /* Pods-GameNews.release.xcconfig */,
+			);
+			name = "Pods-GameNews";
+			path = "Target Support Files/Pods-GameNews";
+			sourceTree = "<group>";
+		};
+		350C556EB0E29DF03E8F5030B81EB954 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABBFB80EEEF94DE784E73E18DEFAE0B8 /* BSGridCollectionViewLayout.modulemap */,
+				768857A3191A6E0EBEEFD77ADECF2882 /* BSGridCollectionViewLayout.xcconfig */,
+				95A9D2009BC93C917BAF53F1E4081219 /* BSGridCollectionViewLayout-dummy.m */,
+				A1992DC0AB29BD4C1A1CBADF1BE89EDF /* BSGridCollectionViewLayout-prefix.pch */,
+				05B70B579D90FBD5018DF4A6BC7C87D0 /* BSGridCollectionViewLayout-umbrella.h */,
+				6D2D8E7A361001BB6328791BCBEE785E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BSGridCollectionViewLayout";
+			sourceTree = "<group>";
+		};
+		4E0144178842DBD1BFBE7539D8C044DB /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				629AB943EA117795FB93620D1F94B83A /* Frameworks */,
+			);
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		5676E66026D38F0F12858F6FCB07A189 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				29FE3C43B79117191AE82240735E37E5 /* Action.swift */,
+				296E513697F25746DE5E3ACBD21760A2 /* ActionCell.swift */,
+				7F9ADE48390D6A5B880CFA2138E47BB2 /* ActionCell.xib */,
+				17EC07718D46AB12BD34DF7A5C9A587D /* ActionController.swift */,
+				E6900FDB418641B154E6F0E9DE223D27 /* ActionControllerSettings.swift */,
+				AD9890B0E413780C6C61C3E830B08E8E /* DynamicCollectionViewFlowLayout.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		5CD71A40EB867926B64607363CF9E2E6 /* XLPagerTabStrip */ = {
+			isa = PBXGroup;
+			children = (
+				E035A9273BEB2490EAE00802B8698B25 /* BarPagerTabStripViewController.swift */,
+				8AE74F0415B62039B68A63F6A51F8436 /* BarView.swift */,
+				C7E0189B9890649E8EDB9E064AD84951 /* BaseButtonBarPagerTabStripViewController.swift */,
+				E0E5674D519BB20D545F95078C42904C /* ButtonBarPagerTabStripViewController.swift */,
+				7941D54F0520AF6F3BF5BA149155CCC6 /* ButtonBarView.swift */,
+				E7E9BE369A2D4D0B3D1FF03C151D8EB0 /* ButtonBarViewCell.swift */,
+				CFDC8AB73970B0C3AE5E0E6B666B10AD /* ButtonCell.xib */,
+				0BBF92531A23B5363FE4A3858FF21DCF /* FXPageControl.h */,
+				D253F8CF0D80B2BDD2E6A6206A9CB1FC /* FXPageControl.m */,
+				31FF6856A3CB00F8851A3F3139ABC8E3 /* IndicatorInfo.swift */,
+				71BCCD89F74FD707187D4F22C79F56B7 /* PagerTabStripBehaviour.swift */,
+				873FF72121B5CA0ECA68BB164C132C19 /* PagerTabStripError.swift */,
+				835B99A0C1D727723522AEBD13E00562 /* PagerTabStripViewController.swift */,
+				CE7917D79DD400039FAC85C15B4CC101 /* SegmentedPagerTabStripViewController.swift */,
+				33CC18FF625405E79EF4EFACFD44D03B /* SwipeDirection.swift */,
+				D9C54AA7B0B67677E8C57CD03DCBFAD0 /* TwitterPagerTabStripViewController.swift */,
+				E70F576DC7176CC285220E9E83574373 /* Resources */,
+				B06F98BB27ADEE7E23227394E907EF02 /* Support Files */,
+			);
+			path = XLPagerTabStrip;
+			sourceTree = "<group>";
+		};
+		629AB943EA117795FB93620D1F94B83A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				689842E632345940079D87F63E3737FD /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		634D2E9968DA5313D0E85B51E6274A6F /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				0245C2D6A7BEB3166C3D622CB954236E /* FIRInstanceID.h */,
+				6E633900688AADFF982A5D4A434D812F /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		66145F7E02A74A4CEE8E7BCF72518B1A /* BSGridCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				AFB9E5FB3C0387BF29ED4C7EAB82817C /* GridCollectionViewLayout.swift */,
+				350C556EB0E29DF03E8F5030B81EB954 /* Support Files */,
+			);
+			path = BSGridCollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		6CB1264A924C54224B73410F925F24F5 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				BB1DE6D1EB4FBD8F4442CE3DED6B41A3 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		6E633900688AADFF982A5D4A434D812F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4774BA58CD7BD5BA7089E2471E6643D5 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F0FEA25683B26F224216AF01597DB96 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				D26F5D1C147B5DC84C14E5A972A6E94B /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				2E7A23ABAF446E53C806C8F5526A3CB0 /* Pods */,
+				1EBFB93B95F78F37F04E85D3E4D67BA6 /* Products */,
+				19276F900E5CD2A856D1444EFC9B4210 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8368E8232AECB3100CD60D962D795F10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D415B494E670328D6AEE3D0703B55069 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A591D0DB5DA2D429C80241DD5314C81 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				8368E8232AECB3100CD60D962D795F10 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		8AE0E8D482CF754C23E0FAAE8DFDE559 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DC3AAAA8B42BC54917418112152E00B /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A50B5DA4513BD0DF9788FFADB5856D49 /* XLActionController */ = {
+			isa = PBXGroup;
+			children = (
+				5676E66026D38F0F12858F6FCB07A189 /* Core */,
+				A7791118C7D005EE3F9622C8980661CB /* Support Files */,
+			);
+			path = XLActionController;
+			sourceTree = "<group>";
+		};
+		A7791118C7D005EE3F9622C8980661CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F3DADC8D67793B1E7D6EAE842CDD02E /* Info.plist */,
+				D4801D67D70FF5C578B9D8D639600B2C /* XLActionController.modulemap */,
+				174D788BB50B66350858229F4F313CFF /* XLActionController.xcconfig */,
+				40345A82394BA88D1F3591CD0F07C2A1 /* XLActionController-dummy.m */,
+				93CA103CC5EC44A1E9204EBBAF6EBEBD /* XLActionController-prefix.pch */,
+				4A94B2EFD4AD4C8939C2C391756FDCB5 /* XLActionController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XLActionController";
+			sourceTree = "<group>";
+		};
+		ABE18A46F37A0D0989B4D3EA916689CA /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				8AE0E8D482CF754C23E0FAAE8DFDE559 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		B06F98BB27ADEE7E23227394E907EF02 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				121F98777ACEC812135C274ED372E648 /* Info.plist */,
+				481EF244D1C92C876E0A6FBC6B5DA789 /* ResourceBundle-XLPagerTabStrip-Info.plist */,
+				50BED4EB7A9D831674423F753F0A32AF /* XLPagerTabStrip.modulemap */,
+				54FD6C2F8BB551CAA26FDF2FDCDEB57A /* XLPagerTabStrip.xcconfig */,
+				99A8A7EAE1B700A5090AEBAF8DA12171 /* XLPagerTabStrip-dummy.m */,
+				130FC96A9A80D11744274E9055482AAE /* XLPagerTabStrip-prefix.pch */,
+				3A1E560E75E39D554A78DAEBF8735D3E /* XLPagerTabStrip-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XLPagerTabStrip";
+			sourceTree = "<group>";
+		};
+		B71E9AE8A7EEC96582525963120F42DA /* Pods-GameNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65755FEBC91488F1F3C4115EC3813FCB /* Info.plist */,
+				624E000B2E2DBD68D71C92DD331C91D7 /* Pods-GameNewsUITests.modulemap */,
+				B37DFFAC53BEE02D211C8D36A2CA7153 /* Pods-GameNewsUITests-acknowledgements.markdown */,
+				F8D23AE0F2F1F6A8C476C402CE683495 /* Pods-GameNewsUITests-acknowledgements.plist */,
+				1119861EEB9BD32892CCFAE649A94645 /* Pods-GameNewsUITests-dummy.m */,
+				C289FC10CBFA392DCEF5065536331C9D /* Pods-GameNewsUITests-frameworks.sh */,
+				C7429F177785F5901F78C7730013E5E9 /* Pods-GameNewsUITests-resources.sh */,
+				AA04C9971310E6F0114A68BF5192238C /* Pods-GameNewsUITests-umbrella.h */,
+				0257B98078BEF00FC4F74B0FB1746676 /* Pods-GameNewsUITests.debug.xcconfig */,
+				BB46415E4445A3BC2219E951714884BF /* Pods-GameNewsUITests.release.xcconfig */,
+			);
+			name = "Pods-GameNewsUITests";
+			path = "Target Support Files/Pods-GameNewsUITests";
+			sourceTree = "<group>";
+		};
+		BB1DE6D1EB4FBD8F4442CE3DED6B41A3 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				ED5DCE2A2281681FA6F8C240924A3ECB /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		CEC9ECB80B96B2F5690080A11680048C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD2EC3F9F98762B28F657477C146FCA9 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D26F5D1C147B5DC84C14E5A972A6E94B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CED3FDC742547D67449A31A9FD18F8A9 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E70F576DC7176CC285220E9E83574373 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F8B46574A2474DDFD9F1005C5424A122 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				CEC9ECB80B96B2F5690080A11680048C /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07B677129D3F5C135689093DE6666A7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204522EB06DEF2217530D8B79CBF45F8 /* Pods-GameNewsUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BFA4233DC89DD0C9E2E5D592AA5C02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF84E846DC790EE4D36488D5A45051B4 /* XLActionController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78ABE153E1195DBCEAF402F7ECEE0553 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E665F26C8D663F6CC72E00D0F0EB8E /* Pods-GameNews-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC23DD66416E7EDC188FEF75C1FA984 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8984DCD4E7A2FF3E011A5EEB1A713EF9 /* Pods-GameNewsTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7AE37F3D84CF828487EAED2A873E07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8937515BF144BE1A273359F7F45ACA5 /* FXPageControl.h in Headers */,
+				73DD748811D46822FA49EA64EE27A251 /* XLPagerTabStrip-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE611FF59203C57951C5EA18DC90FC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C33FD78005932356FF3E937998CBCC5 /* BSGridCollectionViewLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0056B6323D4E2D45A577B8F8396E4781 /* XLActionController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AF96EC2B1FDB5EFFE0A5E78BA7E08F9 /* Build configuration list for PBXNativeTarget "XLActionController" */;
+			buildPhases = (
+				A1657302CDE82613F9E06F743795DB44 /* Sources */,
+				0FE4274E57F0AC1A748B60C3AF5D2F58 /* Frameworks */,
+				34BFA4233DC89DD0C9E2E5D592AA5C02 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLActionController;
+			productName = XLActionController;
+			productReference = 2C38C52A5322C0ECC64587C2C8FFD91A /* XLActionController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0AD9356012566CACC912055EE5AAFEFA /* Pods-GameNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3C30C9F8867D8E91D3CD7DBCE78836B /* Build configuration list for PBXNativeTarget "Pods-GameNewsTests" */;
+			buildPhases = (
+				343063187B2AA57C411D2A5A16D6CA0C /* Sources */,
+				FF94C6D3F73FEB230D1350A332977798 /* Frameworks */,
+				9CC23DD66416E7EDC188FEF75C1FA984 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GameNewsTests";
+			productName = "Pods-GameNewsTests";
+			productReference = 3384AA86A0E4AFB6AEBA6E1243A81334 /* Pods_GameNewsTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3EC96FE56434933531D61A9863D7F494 /* Pods-GameNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3428ACC1FBE991EFD92F9C657A0C6284 /* Build configuration list for PBXNativeTarget "Pods-GameNewsUITests" */;
+			buildPhases = (
+				7F8475DF54537B2F75D050DBC77269E7 /* Sources */,
+				8D9F31A0C256B743C4BA511486C2186F /* Frameworks */,
+				07B677129D3F5C135689093DE6666A7E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GameNewsUITests";
+			productName = "Pods-GameNewsUITests";
+			productReference = A139D0758577BADB1BD8F270B82EF004 /* Pods_GameNewsUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		69D088BAF8D73BA22EED696741719FAF /* Pods-GameNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805D4EF9945263A6D38A8E73267D5285 /* Build configuration list for PBXNativeTarget "Pods-GameNews" */;
+			buildPhases = (
+				8284C433F7AE66154998BE563005B1BF /* Sources */,
+				CEE52A7C74973CCCAEDE350D280C70D8 /* Frameworks */,
+				78ABE153E1195DBCEAF402F7ECEE0553 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5821455F716B011F094A4A82AB5A3A /* PBXTargetDependency */,
+				3383FFAC78D48059BCE1411CF0C8236E /* PBXTargetDependency */,
+				E5D728AA6685570A1A568085E93817C9 /* PBXTargetDependency */,
+			);
+			name = "Pods-GameNews";
+			productName = "Pods-GameNews";
+			productReference = BB7D198D41B4980562781282CB6BF77B /* Pods_GameNews.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8AA3DDB8797222294E1288CB197A8347 /* BSGridCollectionViewLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63412E7E42A91BBEB478A10316F237E /* Build configuration list for PBXNativeTarget "BSGridCollectionViewLayout" */;
+			buildPhases = (
+				D518FFBEA35BDE226139B5CE2081F913 /* Sources */,
+				26E2C710DCBB6BEB3C8CCF8EA1ED724F /* Frameworks */,
+				CCE611FF59203C57951C5EA18DC90FC9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSGridCollectionViewLayout;
+			productName = BSGridCollectionViewLayout;
+			productReference = 030B4ADE204C286A791079D6ECE45EF3 /* BSGridCollectionViewLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0A65515F1EED79B6153A20CD9603B52 /* XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA01D358A55192B3128957D7CCD6829 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */;
+			buildPhases = (
+				DCE984D67BD4078D1494BDA9DFE00876 /* Sources */,
+				5FE3C14925C36EFF5E5E686B612741B5 /* Frameworks */,
+				5656CA9A76CEC0C7A3ED1831CB114998 /* Resources */,
+				BB7AE37F3D84CF828487EAED2A873E07 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F82E44C2A974D66D70F94127D783F0EF /* PBXTargetDependency */,
+			);
+			name = XLPagerTabStrip;
+			productName = XLPagerTabStrip;
+			productReference = 478695AA669C1F99AAD34FAF4621D676 /* XLPagerTabStrip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3BB4F6AB3A6187146BAB431F65B61B8 /* XLPagerTabStrip-XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC39D5D14F79F8052FFFDE8EC71E48C4 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */;
+			buildPhases = (
+				C071080A4F3999AB42ECA42217626FE3 /* Sources */,
+				028D4E8CBBD8F0BD5DA49E7E7EDCB507 /* Frameworks */,
+				AC9CEE35F9512D41F9857E3300DEC3D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			productName = "XLPagerTabStrip-XLPagerTabStrip";
+			productReference = A076877CA4BF6605049DA22763E15DA0 /* XLPagerTabStrip.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					0056B6323D4E2D45A577B8F8396E4781 = {
+						DevelopmentTeam = A4SNNFG58F;
+					};
+					0AD9356012566CACC912055EE5AAFEFA = {
+						DevelopmentTeam = A4SNNFG58F;
+					};
+					3EC96FE56434933531D61A9863D7F494 = {
+						DevelopmentTeam = A4SNNFG58F;
+					};
+					69D088BAF8D73BA22EED696741719FAF = {
+						DevelopmentTeam = A4SNNFG58F;
+					};
+					8AA3DDB8797222294E1288CB197A8347 = {
+						DevelopmentTeam = A4SNNFG58F;
+					};
+					D0A65515F1EED79B6153A20CD9603B52 = {
+						DevelopmentTeam = A4SNNFG58F;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1EBFB93B95F78F37F04E85D3E4D67BA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AA3DDB8797222294E1288CB197A8347 /* BSGridCollectionViewLayout */,
+				69D088BAF8D73BA22EED696741719FAF /* Pods-GameNews */,
+				0AD9356012566CACC912055EE5AAFEFA /* Pods-GameNewsTests */,
+				3EC96FE56434933531D61A9863D7F494 /* Pods-GameNewsUITests */,
+				0056B6323D4E2D45A577B8F8396E4781 /* XLActionController */,
+				D0A65515F1EED79B6153A20CD9603B52 /* XLPagerTabStrip */,
+				E3BB4F6AB3A6187146BAB431F65B61B8 /* XLPagerTabStrip-XLPagerTabStrip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5656CA9A76CEC0C7A3ED1831CB114998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD07886BA41CD42E78AE279153C0C5A /* XLPagerTabStrip.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9CEE35F9512D41F9857E3300DEC3D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67437C4FDE1C2C442A8720945473FEBD /* ButtonCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		343063187B2AA57C411D2A5A16D6CA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314BA4760CFEA3E1F0015C1F69E358A5 /* Pods-GameNewsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8475DF54537B2F75D050DBC77269E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293AC744906A295B91E2F2322E3084FB /* Pods-GameNewsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8284C433F7AE66154998BE563005B1BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78C33A3869537D7BBE90994F44F3596 /* Pods-GameNews-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1657302CDE82613F9E06F743795DB44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA1400A97B58A73481CE0CDDBC3F8AB /* Action.swift in Sources */,
+				83006ED89FB134BA74E55BEA0E20D8FA /* ActionCell.swift in Sources */,
+				0B547244FA20AA7B6CF4D935AD599291 /* ActionCell.xib in Sources */,
+				6FE77AB887EC5EA4DA4A8D66EA355E73 /* ActionController.swift in Sources */,
+				19F3F310EBC9C91168083D015E705592 /* ActionControllerSettings.swift in Sources */,
+				3C936AA36EC7D38D3CB60C804E0142DE /* DynamicCollectionViewFlowLayout.swift in Sources */,
+				0494804DDB0237EEAF8B7364A1DF9EA2 /* XLActionController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C071080A4F3999AB42ECA42217626FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D518FFBEA35BDE226139B5CE2081F913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B3E8B44D6F2EA17EDE942B24371232 /* BSGridCollectionViewLayout-dummy.m in Sources */,
+				CCEA26201F74E01FD9621E1CACAD85A8 /* GridCollectionViewLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE984D67BD4078D1494BDA9DFE00876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6669893F949E101FDD600FCD43950F4 /* BarPagerTabStripViewController.swift in Sources */,
+				AEF1D082C35329406CBC193EC9823D89 /* BarView.swift in Sources */,
+				C4E2D0F315EF88B7FC658882504DC9B1 /* BaseButtonBarPagerTabStripViewController.swift in Sources */,
+				7CFF0B4EA8106C5A04174ABCA00A5B65 /* ButtonBarPagerTabStripViewController.swift in Sources */,
+				1DAED1047C6B0C31B559A7EB69729AA2 /* ButtonBarView.swift in Sources */,
+				ED4243BCA662A4C59603CA8C8FA971B6 /* ButtonBarViewCell.swift in Sources */,
+				5481EA50EF33BD9788754F4AA06A3B1D /* ButtonCell.xib in Sources */,
+				4DDFD4A5DC27624BD6E4BE75C13A0FD5 /* FXPageControl.m in Sources */,
+				441310D91AF2E5BC43AE96DF43A464A1 /* IndicatorInfo.swift in Sources */,
+				763A09FDB400985873C7D1EF7728925F /* PagerTabStripBehaviour.swift in Sources */,
+				E2211E82ACE9ED821B9ACCD6CF85C27D /* PagerTabStripError.swift in Sources */,
+				F9AAF0E9D01A237F6CF52995006BDB39 /* PagerTabStripViewController.swift in Sources */,
+				277F2A3C9B4D0357C2433A50F08227A9 /* SegmentedPagerTabStripViewController.swift in Sources */,
+				51BE54F9FEF523FEB8AC1A8FA53CE15C /* SwipeDirection.swift in Sources */,
+				EE0046A002C6666870D3F92EA991BCD8 /* TwitterPagerTabStripViewController.swift in Sources */,
+				AD3F0EA5D9AF49F31BEC90DB2A13DB8E /* XLPagerTabStrip-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3383FFAC78D48059BCE1411CF0C8236E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XLActionController;
+			target = 0056B6323D4E2D45A577B8F8396E4781 /* XLActionController */;
+			targetProxy = 40C616C285F47BFCB8D6C6ACCADFBB9A /* PBXContainerItemProxy */;
+		};
+		E5D728AA6685570A1A568085E93817C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XLPagerTabStrip;
+			target = D0A65515F1EED79B6153A20CD9603B52 /* XLPagerTabStrip */;
+			targetProxy = CC80C0E8276281D968926861454EAAB7 /* PBXContainerItemProxy */;
+		};
+		F82E44C2A974D66D70F94127D783F0EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			target = E3BB4F6AB3A6187146BAB431F65B61B8 /* XLPagerTabStrip-XLPagerTabStrip */;
+			targetProxy = D0E137EA1E29B6C5C5E99C796E38528B /* PBXContainerItemProxy */;
+		};
+		FA5821455F716B011F094A4A82AB5A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BSGridCollectionViewLayout;
+			target = 8AA3DDB8797222294E1288CB197A8347 /* BSGridCollectionViewLayout */;
+			targetProxy = 7626A471E4425CC2E1A64A97806CA575 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hiroyuki Yahagi (53K8Z43UKW)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		03E6A4D764F2B784825C6ED4F173257F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54FD6C2F8BB551CAA26FDF2FDCDEB57A /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		09E6E63AEBBA6F3AB7B5555DC5C2FBD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5E66A74A844C20BEA26D0C771C4850A /* Pods-GameNewsTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GameNewsTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GameNewsTests/Pods-GameNewsTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GameNewsTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		15680202B48BD6C93509DCC478AFA3BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE102C3AD1F19CFF997D1B2FD2539834 /* Pods-GameNews.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GameNews/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GameNews/Pods-GameNews.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GameNews;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D02698181454015113FCDC4E7C6149C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 768857A3191A6E0EBEEFD77ADECF2882 /* BSGridCollectionViewLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BSGridCollectionViewLayout/BSGridCollectionViewLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BSGridCollectionViewLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BSGridCollectionViewLayout/BSGridCollectionViewLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BSGridCollectionViewLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4141020BAC5245EA5EF98C015CA8593A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 174D788BB50B66350858229F4F313CFF /* XLActionController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XLActionController/XLActionController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLActionController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLActionController/XLActionController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = XLActionController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CDE2C9DFF62574849392507E0B873CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB46415E4445A3BC2219E951714884BF /* Pods-GameNewsUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GameNewsUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GameNewsUITests/Pods-GameNewsUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GameNewsUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73591DDA2CDACDB24597D49C884304BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54FD6C2F8BB551CAA26FDF2FDCDEB57A /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E21EA0F86005F2EC7951EA5D7F55365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 713A75FCF08AE535EC2AD512543EFC7C /* Pods-GameNewsTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GameNewsTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GameNewsTests/Pods-GameNewsTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GameNewsTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD77E25128D86C8FE865B886EF82CD43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CBDB7581A5D88EFE7D515058F725E2E /* Pods-GameNews.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GameNews/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GameNews/Pods-GameNews.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GameNews;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hiroyuki Yahagi (A4SNNFG58F)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				SDKROOT = iphoneos9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEA6A42753EBCEF32992807141EB9AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 768857A3191A6E0EBEEFD77ADECF2882 /* BSGridCollectionViewLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BSGridCollectionViewLayout/BSGridCollectionViewLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BSGridCollectionViewLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BSGridCollectionViewLayout/BSGridCollectionViewLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BSGridCollectionViewLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECDB6715F8D8C2EC10482394915DD652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 174D788BB50B66350858229F4F313CFF /* XLActionController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XLActionController/XLActionController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLActionController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLActionController/XLActionController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = XLActionController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6864A868190BE671A79CD3AB8AA0DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0257B98078BEF00FC4F74B0FB1746676 /* Pods-GameNewsUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GameNewsUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GameNewsUITests/Pods-GameNewsUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GameNewsUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F793A13D7726DE9E10EBC516240E586D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54FD6C2F8BB551CAA26FDF2FDCDEB57A /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F987E2F11A8DE414F58E16EDB3283136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54FD6C2F8BB551CAA26FDF2FDCDEB57A /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EA01D358A55192B3128957D7CCD6829 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73591DDA2CDACDB24597D49C884304BC /* Debug */,
+				F793A13D7726DE9E10EBC516240E586D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3428ACC1FBE991EFD92F9C657A0C6284 /* Build configuration list for PBXNativeTarget "Pods-GameNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6864A868190BE671A79CD3AB8AA0DD1 /* Debug */,
+				6CDE2C9DFF62574849392507E0B873CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AF96EC2B1FDB5EFFE0A5E78BA7E08F9 /* Build configuration list for PBXNativeTarget "XLActionController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4141020BAC5245EA5EF98C015CA8593A /* Debug */,
+				ECDB6715F8D8C2EC10482394915DD652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805D4EF9945263A6D38A8E73267D5285 /* Build configuration list for PBXNativeTarget "Pods-GameNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15680202B48BD6C93509DCC478AFA3BC /* Debug */,
+				AD77E25128D86C8FE865B886EF82CD43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63412E7E42A91BBEB478A10316F237E /* Build configuration list for PBXNativeTarget "BSGridCollectionViewLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA6A42753EBCEF32992807141EB9AF4 /* Debug */,
+				3D02698181454015113FCDC4E7C6149C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC39D5D14F79F8052FFFDE8EC71E48C4 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F987E2F11A8DE414F58E16EDB3283136 /* Debug */,
+				03E6A4D764F2B784825C6ED4F173257F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3C30C9F8867D8E91D3CD7DBCE78836B /* Build configuration list for PBXNativeTarget "Pods-GameNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E21EA0F86005F2EC7951EA5D7F55365 /* Debug */,
+				09E6E63AEBBA6F3AB7B5555DC5C2FBD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

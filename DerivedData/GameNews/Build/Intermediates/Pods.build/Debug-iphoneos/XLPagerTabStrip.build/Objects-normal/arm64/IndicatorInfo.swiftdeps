@@ -1,0 +1,67 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "IndicatorInfo"
+provides-nominal:
+- "V15XLPagerTabStrip13IndicatorInfo"
+provides-member:
+- ["V15XLPagerTabStrip13IndicatorInfo", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "IndicatorInfo"
+- "UIImage"
+- "String"
+- "StringLiteralConvertible"
+depends-member:
+- ["Ps41ExtendedGraphemeClusterLiteralConvertible", "ExtendedGraphemeClusterLiteralType"]
+- ["Ps41ExtendedGraphemeClusterLiteralConvertible", "StringLiteralType"]
+- ["Ps41ExtendedGraphemeClusterLiteralConvertible", "UnicodeScalarLiteralType"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "highlightedImage"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "image"]
+- ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "title"]
+- ["Ps41ExtendedGraphemeClusterLiteralConvertible", ""]
+- ["V15XLPagerTabStrip13IndicatorInfo", "ExtendedGraphemeClusterLiteralType"]
+- ["V15XLPagerTabStrip13IndicatorInfo", "String"]
+- ["V15XLPagerTabStrip13IndicatorInfo", "StringLiteralType"]
+- ["V15XLPagerTabStrip13IndicatorInfo", "UIImage"]
+- ["V15XLPagerTabStrip13IndicatorInfo", "UnicodeScalarLiteralType"]
+- ["V15XLPagerTabStrip13IndicatorInfo", "deinit"]
+- ["V15XLPagerTabStrip13IndicatorInfo", "highlightedImage"]
+- ["V15XLPagerTabStrip13IndicatorInfo", "image"]
+- ["V15XLPagerTabStrip13IndicatorInfo", "init"]
+- ["V15XLPagerTabStrip13IndicatorInfo", "title"]
+- ["Ps24StringLiteralConvertible", "ExtendedGraphemeClusterLiteralType"]
+- ["Ps24StringLiteralConvertible", "StringLiteralType"]
+- ["Ps24StringLiteralConvertible", "UnicodeScalarLiteralType"]
+- !private ["Ps24StringLiteralConvertible", "highlightedImage"]
+- !private ["Ps24StringLiteralConvertible", "image"]
+- ["Ps24StringLiteralConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "title"]
+- ["Ps24StringLiteralConvertible", ""]
+- ["Ps31UnicodeScalarLiteralConvertible", "ExtendedGraphemeClusterLiteralType"]
+- ["Ps31UnicodeScalarLiteralConvertible", "StringLiteralType"]
+- ["Ps31UnicodeScalarLiteralConvertible", "UnicodeScalarLiteralType"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "highlightedImage"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "image"]
+- ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "title"]
+- ["Ps31UnicodeScalarLiteralConvertible", ""]
+depends-nominal:
+- "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- "V15XLPagerTabStrip13IndicatorInfo"
+- "Ps24StringLiteralConvertible"
+- "Ps31UnicodeScalarLiteralConvertible"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/XLPagerTabStrip/Sources/FXPageControl.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Target Support Files/XLPagerTabStrip/XLPagerTabStrip-umbrella.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Intermediates/Pods.build/Debug-iphoneos/XLPagerTabStrip.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "d363b33c26c848ff45116ecab5965dc0"

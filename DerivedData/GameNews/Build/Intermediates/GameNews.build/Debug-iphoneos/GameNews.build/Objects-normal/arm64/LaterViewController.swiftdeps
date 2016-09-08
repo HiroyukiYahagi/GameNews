@@ -1,0 +1,576 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LaterViewController"
+provides-nominal:
+- "C8GameNews19LaterViewController"
+provides-member:
+- ["C8GameNews19LaterViewController", ""]
+provides-dynamic-lookup:
+- "reload"
+- "didReceiveMemoryWarning"
+- "viewWillAppear"
+- "rankingButton"
+- "viewDidLoad"
+depends-top-level:
+- "PagerTabStripViewController"
+- "LaterViewController"
+- "UIButton"
+- "IndicatorInfo"
+- "DISPLAYMODE"
+- !private "LOADMODE"
+- "Bool"
+- "IndicatorInfoProvider"
+- !private "ArticleDao"
+- "ReloadableViewController"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "ArticleDao"]
+- !private ["Ps9AnyObject", "DISPLAYMODE"]
+- !private ["Ps9AnyObject", "IndicatorInfo"]
+- !private ["Ps9AnyObject", "LOADMODE"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "findFavorite"]
+- ["Ps9AnyObject", "getDisplayMode"]
+- ["Ps9AnyObject", "indicatorInfoForPagerTabStrip"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "loadButtonPressed"]
+- ["Ps9AnyObject", "rankingButton"]
+- ["Ps9AnyObject", "reload"]
+- !private ["Ps9AnyObject", "reloadData"]
+- !private ["Ps9AnyObject", "tableData"]
+- !private ["Ps9AnyObject", "tableView"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", "viewWillAppear"]
+- ["Ps9AnyObject", ""]
+- !private ["C8GameNews10ArticleDao", "findFavorite"]
+- !private ["Ps11CVarArgType", "ArticleDao"]
+- !private ["Ps11CVarArgType", "DISPLAYMODE"]
+- !private ["Ps11CVarArgType", "IndicatorInfo"]
+- !private ["Ps11CVarArgType", "LOADMODE"]
+- ["Ps11CVarArgType", "didReceiveMemoryWarning"]
+- ["Ps11CVarArgType", "getDisplayMode"]
+- ["Ps11CVarArgType", "indicatorInfoForPagerTabStrip"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "loadButtonPressed"]
+- ["Ps11CVarArgType", "rankingButton"]
+- ["Ps11CVarArgType", "reload"]
+- !private ["Ps11CVarArgType", "reloadData"]
+- !private ["Ps11CVarArgType", "tableData"]
+- !private ["Ps11CVarArgType", "tableView"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", "viewWillAppear"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "ArticleDao"]
+- !private ["Ps28CustomDebugStringConvertible", "DISPLAYMODE"]
+- !private ["Ps28CustomDebugStringConvertible", "IndicatorInfo"]
+- !private ["Ps28CustomDebugStringConvertible", "LOADMODE"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "getDisplayMode"]
+- ["Ps28CustomDebugStringConvertible", "indicatorInfoForPagerTabStrip"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "loadButtonPressed"]
+- ["Ps28CustomDebugStringConvertible", "rankingButton"]
+- ["Ps28CustomDebugStringConvertible", "reload"]
+- !private ["Ps28CustomDebugStringConvertible", "reloadData"]
+- !private ["Ps28CustomDebugStringConvertible", "tableData"]
+- !private ["Ps28CustomDebugStringConvertible", "tableView"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", "viewWillAppear"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "ArticleDao"]
+- !private ["Ps23CustomStringConvertible", "DISPLAYMODE"]
+- !private ["Ps23CustomStringConvertible", "IndicatorInfo"]
+- !private ["Ps23CustomStringConvertible", "LOADMODE"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "getDisplayMode"]
+- ["Ps23CustomStringConvertible", "indicatorInfoForPagerTabStrip"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "loadButtonPressed"]
+- ["Ps23CustomStringConvertible", "rankingButton"]
+- ["Ps23CustomStringConvertible", "reload"]
+- !private ["Ps23CustomStringConvertible", "reloadData"]
+- !private ["Ps23CustomStringConvertible", "tableData"]
+- !private ["Ps23CustomStringConvertible", "tableView"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", "viewWillAppear"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["O8GameNews11DISPLAYMODE", "LATER"]
+- !private ["Ps9Equatable", "ArticleDao"]
+- !private ["Ps9Equatable", "DISPLAYMODE"]
+- !private ["Ps9Equatable", "INTERVAL"]
+- !private ["Ps9Equatable", "IndicatorInfo"]
+- !private ["Ps9Equatable", "LATER"]
+- !private ["Ps9Equatable", "LOADMODE"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- ["Ps9Equatable", "getDisplayMode"]
+- ["Ps9Equatable", "indicatorInfoForPagerTabStrip"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "loadButtonPressed"]
+- ["Ps9Equatable", "rankingButton"]
+- ["Ps9Equatable", "reload"]
+- !private ["Ps9Equatable", "reloadData"]
+- !private ["Ps9Equatable", "tableData"]
+- !private ["Ps9Equatable", "tableView"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", "viewWillAppear"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps8Hashable", "ArticleDao"]
+- !private ["Ps8Hashable", "DISPLAYMODE"]
+- !private ["Ps8Hashable", "INTERVAL"]
+- !private ["Ps8Hashable", "IndicatorInfo"]
+- !private ["Ps8Hashable", "LATER"]
+- !private ["Ps8Hashable", "LOADMODE"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- ["Ps8Hashable", "getDisplayMode"]
+- ["Ps8Hashable", "indicatorInfoForPagerTabStrip"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "loadButtonPressed"]
+- ["Ps8Hashable", "rankingButton"]
+- ["Ps8Hashable", "reload"]
+- !private ["Ps8Hashable", "reloadData"]
+- !private ["Ps8Hashable", "tableData"]
+- !private ["Ps8Hashable", "tableView"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", "viewWillAppear"]
+- ["Ps8Hashable", ""]
+- !private ["V15XLPagerTabStrip13IndicatorInfo", "init"]
+- !private ["P15XLPagerTabStrip21IndicatorInfoProvider", "ArticleDao"]
+- !private ["P15XLPagerTabStrip21IndicatorInfoProvider", "DISPLAYMODE"]
+- !private ["P15XLPagerTabStrip21IndicatorInfoProvider", "IndicatorInfo"]
+- !private ["P15XLPagerTabStrip21IndicatorInfoProvider", "LOADMODE"]
+- ["P15XLPagerTabStrip21IndicatorInfoProvider", "indicatorInfoForPagerTabStrip"]
+- !private ["P15XLPagerTabStrip21IndicatorInfoProvider", "loadButtonPressed"]
+- !private ["P15XLPagerTabStrip21IndicatorInfoProvider", "tableData"]
+- !private ["P15XLPagerTabStrip21IndicatorInfoProvider", "tableView"]
+- ["P15XLPagerTabStrip21IndicatorInfoProvider", ""]
+- !private ["O8GameNews8LOADMODE", "INTERVAL"]
+- !private ["C8GameNews19LaterViewController", "ArticleDao"]
+- ["C8GameNews19LaterViewController", "Bool"]
+- ["C8GameNews19LaterViewController", "DISPLAYMODE"]
+- ["C8GameNews19LaterViewController", "IndicatorInfo"]
+- !private ["C8GameNews19LaterViewController", "LOADMODE"]
+- ["C8GameNews19LaterViewController", "PagerTabStripViewController"]
+- ["C8GameNews19LaterViewController", "UIButton"]
+- ["C8GameNews19LaterViewController", "deinit"]
+- ["C8GameNews19LaterViewController", "didReceiveMemoryWarning"]
+- ["C8GameNews19LaterViewController", "getDisplayMode"]
+- ["C8GameNews19LaterViewController", "indicatorInfoForPagerTabStrip"]
+- ["C8GameNews19LaterViewController", "init"]
+- !private ["C8GameNews19LaterViewController", "loadButtonPressed"]
+- ["C8GameNews19LaterViewController", "rankingButton"]
+- ["C8GameNews19LaterViewController", "reload"]
+- !private ["C8GameNews19LaterViewController", "tableData"]
+- !private ["C8GameNews19LaterViewController", "tableView"]
+- ["C8GameNews19LaterViewController", "viewDidLoad"]
+- ["C8GameNews19LaterViewController", "viewWillAppear"]
+- !private ["PSo8NSCoding", "ArticleDao"]
+- !private ["PSo8NSCoding", "DISPLAYMODE"]
+- !private ["PSo8NSCoding", "IndicatorInfo"]
+- !private ["PSo8NSCoding", "LOADMODE"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "getDisplayMode"]
+- ["PSo8NSCoding", "indicatorInfoForPagerTabStrip"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "loadButtonPressed"]
+- ["PSo8NSCoding", "rankingButton"]
+- ["PSo8NSCoding", "reload"]
+- !private ["PSo8NSCoding", "reloadData"]
+- !private ["PSo8NSCoding", "tableData"]
+- !private ["PSo8NSCoding", "tableView"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "viewWillAppear"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "ArticleDao"]
+- !private ["PSo26NSExtensionRequestHandling", "DISPLAYMODE"]
+- !private ["PSo26NSExtensionRequestHandling", "IndicatorInfo"]
+- !private ["PSo26NSExtensionRequestHandling", "LOADMODE"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "getDisplayMode"]
+- ["PSo26NSExtensionRequestHandling", "indicatorInfoForPagerTabStrip"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "loadButtonPressed"]
+- ["PSo26NSExtensionRequestHandling", "rankingButton"]
+- ["PSo26NSExtensionRequestHandling", "reload"]
+- !private ["PSo26NSExtensionRequestHandling", "tableData"]
+- !private ["PSo26NSExtensionRequestHandling", "tableView"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo8NSObject", "ArticleDao"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "DISPLAYMODE"]
+- ["CSo8NSObject", "IndicatorInfo"]
+- !private ["CSo8NSObject", "LOADMODE"]
+- ["CSo8NSObject", "PagerTabStripViewController"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "getDisplayMode"]
+- ["CSo8NSObject", "indicatorInfoForPagerTabStrip"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "loadButtonPressed"]
+- ["CSo8NSObject", "rankingButton"]
+- ["CSo8NSObject", "reload"]
+- !private ["CSo8NSObject", "reloadData"]
+- !private ["CSo8NSObject", "tableData"]
+- !private ["CSo8NSObject", "tableView"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "viewWillAppear"]
+- !private ["PSo16NSObjectProtocol", "ArticleDao"]
+- !private ["PSo16NSObjectProtocol", "DISPLAYMODE"]
+- !private ["PSo16NSObjectProtocol", "IndicatorInfo"]
+- !private ["PSo16NSObjectProtocol", "LOADMODE"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "getDisplayMode"]
+- ["PSo16NSObjectProtocol", "indicatorInfoForPagerTabStrip"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "loadButtonPressed"]
+- ["PSo16NSObjectProtocol", "rankingButton"]
+- ["PSo16NSObjectProtocol", "reload"]
+- !private ["PSo16NSObjectProtocol", "reloadData"]
+- !private ["PSo16NSObjectProtocol", "tableData"]
+- !private ["PSo16NSObjectProtocol", "tableView"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["C8GameNews24ReloadableViewController", "ArticleDao"]
+- ["C8GameNews24ReloadableViewController", "Bool"]
+- ["C8GameNews24ReloadableViewController", "DISPLAYMODE"]
+- ["C8GameNews24ReloadableViewController", "IndicatorInfo"]
+- !private ["C8GameNews24ReloadableViewController", "LOADMODE"]
+- ["C8GameNews24ReloadableViewController", "PagerTabStripViewController"]
+- ["C8GameNews24ReloadableViewController", "UIButton"]
+- ["C8GameNews24ReloadableViewController", "didReceiveMemoryWarning"]
+- ["C8GameNews24ReloadableViewController", "getDisplayMode"]
+- ["C8GameNews24ReloadableViewController", "indicatorInfoForPagerTabStrip"]
+- ["C8GameNews24ReloadableViewController", "init"]
+- !private ["C8GameNews24ReloadableViewController", "loadButtonPressed"]
+- ["C8GameNews24ReloadableViewController", "rankingButton"]
+- ["C8GameNews24ReloadableViewController", "reload"]
+- !private ["C8GameNews24ReloadableViewController", "tableData"]
+- !private ["C8GameNews24ReloadableViewController", "tableView"]
+- ["C8GameNews24ReloadableViewController", "viewDidLoad"]
+- ["C8GameNews24ReloadableViewController", "viewWillAppear"]
+- ["C8GameNews24ReloadableViewController", ""]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "reloadData"]
+- !private ["PSo12UIAppearance", "reloadData"]
+- !private ["PSo21UIAppearanceContainer", "ArticleDao"]
+- !private ["PSo21UIAppearanceContainer", "DISPLAYMODE"]
+- !private ["PSo21UIAppearanceContainer", "IndicatorInfo"]
+- !private ["PSo21UIAppearanceContainer", "LOADMODE"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "getDisplayMode"]
+- ["PSo21UIAppearanceContainer", "indicatorInfoForPagerTabStrip"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "loadButtonPressed"]
+- ["PSo21UIAppearanceContainer", "rankingButton"]
+- ["PSo21UIAppearanceContainer", "reload"]
+- !private ["PSo21UIAppearanceContainer", "reloadData"]
+- !private ["PSo21UIAppearanceContainer", "tableData"]
+- !private ["PSo21UIAppearanceContainer", "tableView"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "viewWillAppear"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "ArticleDao"]
+- !private ["PSo18UIContentContainer", "DISPLAYMODE"]
+- !private ["PSo18UIContentContainer", "IndicatorInfo"]
+- !private ["PSo18UIContentContainer", "LOADMODE"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "getDisplayMode"]
+- ["PSo18UIContentContainer", "indicatorInfoForPagerTabStrip"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "loadButtonPressed"]
+- ["PSo18UIContentContainer", "rankingButton"]
+- ["PSo18UIContentContainer", "reload"]
+- !private ["PSo18UIContentContainer", "tableData"]
+- !private ["PSo18UIContentContainer", "tableView"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "viewWillAppear"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "reloadData"]
+- !private ["PSo13UIDynamicItem", "reloadData"]
+- !private ["PSo18UIFocusEnvironment", "ArticleDao"]
+- !private ["PSo18UIFocusEnvironment", "DISPLAYMODE"]
+- !private ["PSo18UIFocusEnvironment", "IndicatorInfo"]
+- !private ["PSo18UIFocusEnvironment", "LOADMODE"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "getDisplayMode"]
+- ["PSo18UIFocusEnvironment", "indicatorInfoForPagerTabStrip"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "loadButtonPressed"]
+- ["PSo18UIFocusEnvironment", "rankingButton"]
+- ["PSo18UIFocusEnvironment", "reload"]
+- !private ["PSo18UIFocusEnvironment", "reloadData"]
+- !private ["PSo18UIFocusEnvironment", "tableData"]
+- !private ["PSo18UIFocusEnvironment", "tableView"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "viewWillAppear"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo11UIResponder", "ArticleDao"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "DISPLAYMODE"]
+- ["CSo11UIResponder", "IndicatorInfo"]
+- !private ["CSo11UIResponder", "LOADMODE"]
+- ["CSo11UIResponder", "PagerTabStripViewController"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "getDisplayMode"]
+- ["CSo11UIResponder", "indicatorInfoForPagerTabStrip"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "loadButtonPressed"]
+- ["CSo11UIResponder", "rankingButton"]
+- ["CSo11UIResponder", "reload"]
+- !private ["CSo11UIResponder", "reloadData"]
+- !private ["CSo11UIResponder", "tableData"]
+- !private ["CSo11UIResponder", "tableView"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "viewWillAppear"]
+- !private ["CSo12UIScrollView", "reloadData"]
+- !private ["PSo20UIScrollViewDelegate", "ArticleDao"]
+- !private ["PSo20UIScrollViewDelegate", "DISPLAYMODE"]
+- !private ["PSo20UIScrollViewDelegate", "IndicatorInfo"]
+- !private ["PSo20UIScrollViewDelegate", "LOADMODE"]
+- ["PSo20UIScrollViewDelegate", "didReceiveMemoryWarning"]
+- ["PSo20UIScrollViewDelegate", "getDisplayMode"]
+- ["PSo20UIScrollViewDelegate", "indicatorInfoForPagerTabStrip"]
+- ["PSo20UIScrollViewDelegate", "init"]
+- !private ["PSo20UIScrollViewDelegate", "loadButtonPressed"]
+- ["PSo20UIScrollViewDelegate", "rankingButton"]
+- ["PSo20UIScrollViewDelegate", "reload"]
+- !private ["PSo20UIScrollViewDelegate", "tableData"]
+- !private ["PSo20UIScrollViewDelegate", "tableView"]
+- ["PSo20UIScrollViewDelegate", "viewDidLoad"]
+- ["PSo20UIScrollViewDelegate", "viewWillAppear"]
+- ["PSo20UIScrollViewDelegate", ""]
+- !private ["PSo16UIStateRestoring", "ArticleDao"]
+- !private ["PSo16UIStateRestoring", "DISPLAYMODE"]
+- !private ["PSo16UIStateRestoring", "IndicatorInfo"]
+- !private ["PSo16UIStateRestoring", "LOADMODE"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "getDisplayMode"]
+- ["PSo16UIStateRestoring", "indicatorInfoForPagerTabStrip"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "loadButtonPressed"]
+- ["PSo16UIStateRestoring", "rankingButton"]
+- ["PSo16UIStateRestoring", "reload"]
+- !private ["PSo16UIStateRestoring", "tableData"]
+- !private ["PSo16UIStateRestoring", "tableView"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "viewWillAppear"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITableView", "reloadData"]
+- !private ["PSo21UITableViewDataSource", "ArticleDao"]
+- !private ["PSo21UITableViewDataSource", "DISPLAYMODE"]
+- !private ["PSo21UITableViewDataSource", "IndicatorInfo"]
+- !private ["PSo21UITableViewDataSource", "LOADMODE"]
+- ["PSo21UITableViewDataSource", "didReceiveMemoryWarning"]
+- ["PSo21UITableViewDataSource", "getDisplayMode"]
+- ["PSo21UITableViewDataSource", "indicatorInfoForPagerTabStrip"]
+- ["PSo21UITableViewDataSource", "init"]
+- !private ["PSo21UITableViewDataSource", "loadButtonPressed"]
+- ["PSo21UITableViewDataSource", "rankingButton"]
+- ["PSo21UITableViewDataSource", "reload"]
+- !private ["PSo21UITableViewDataSource", "tableData"]
+- !private ["PSo21UITableViewDataSource", "tableView"]
+- ["PSo21UITableViewDataSource", "viewDidLoad"]
+- ["PSo21UITableViewDataSource", "viewWillAppear"]
+- ["PSo21UITableViewDataSource", ""]
+- !private ["PSo19UITableViewDelegate", "ArticleDao"]
+- !private ["PSo19UITableViewDelegate", "DISPLAYMODE"]
+- !private ["PSo19UITableViewDelegate", "IndicatorInfo"]
+- !private ["PSo19UITableViewDelegate", "LOADMODE"]
+- ["PSo19UITableViewDelegate", "didReceiveMemoryWarning"]
+- ["PSo19UITableViewDelegate", "getDisplayMode"]
+- ["PSo19UITableViewDelegate", "indicatorInfoForPagerTabStrip"]
+- ["PSo19UITableViewDelegate", "init"]
+- !private ["PSo19UITableViewDelegate", "loadButtonPressed"]
+- ["PSo19UITableViewDelegate", "rankingButton"]
+- ["PSo19UITableViewDelegate", "reload"]
+- !private ["PSo19UITableViewDelegate", "tableData"]
+- !private ["PSo19UITableViewDelegate", "tableView"]
+- ["PSo19UITableViewDelegate", "viewDidLoad"]
+- ["PSo19UITableViewDelegate", "viewWillAppear"]
+- ["PSo19UITableViewDelegate", ""]
+- !private ["PSo18UITraitEnvironment", "ArticleDao"]
+- !private ["PSo18UITraitEnvironment", "DISPLAYMODE"]
+- !private ["PSo18UITraitEnvironment", "IndicatorInfo"]
+- !private ["PSo18UITraitEnvironment", "LOADMODE"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "getDisplayMode"]
+- ["PSo18UITraitEnvironment", "indicatorInfoForPagerTabStrip"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "loadButtonPressed"]
+- ["PSo18UITraitEnvironment", "rankingButton"]
+- ["PSo18UITraitEnvironment", "reload"]
+- !private ["PSo18UITraitEnvironment", "reloadData"]
+- !private ["PSo18UITraitEnvironment", "tableData"]
+- !private ["PSo18UITraitEnvironment", "tableView"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "viewWillAppear"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "reloadData"]
+- !private ["CSo16UIViewController", "ArticleDao"]
+- ["CSo16UIViewController", "Bool"]
+- ["CSo16UIViewController", "DISPLAYMODE"]
+- ["CSo16UIViewController", "IndicatorInfo"]
+- !private ["CSo16UIViewController", "LOADMODE"]
+- ["CSo16UIViewController", "PagerTabStripViewController"]
+- ["CSo16UIViewController", "UIButton"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "getDisplayMode"]
+- ["CSo16UIViewController", "indicatorInfoForPagerTabStrip"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "loadButtonPressed"]
+- ["CSo16UIViewController", "rankingButton"]
+- ["CSo16UIViewController", "reload"]
+- !private ["CSo16UIViewController", "tableData"]
+- !private ["CSo16UIViewController", "tableView"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "viewWillAppear"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps12_Reflectable", "reloadData"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "C8GameNews10ArticleDao"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "O8GameNews11DISPLAYMODE"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- "Ps8Hashable"
+- !private "V15XLPagerTabStrip13IndicatorInfo"
+- "P15XLPagerTabStrip21IndicatorInfoProvider"
+- !private "O8GameNews8LOADMODE"
+- "C8GameNews19LaterViewController"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C8GameNews24ReloadableViewController"
+- !private "Ps24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- !private "CSo12UIScrollView"
+- "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- !private "CSo11UITableView"
+- "PSo21UITableViewDataSource"
+- "PSo19UITableViewDelegate"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Firebase/Analytics/Sources/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphoneos/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/XLPagerTabStrip.swiftmodule/arm64.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-Swift.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/FXPageControl.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-umbrella.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphoneos/XLActionController/XLActionController.framework/Modules/XLActionController.swiftmodule/arm64.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLActionController/XLActionController.framework/Headers/XLActionController-Swift.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLActionController/XLActionController.framework/Headers/XLActionController-umbrella.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLActionController/XLActionController.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/WebKit.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphoneos/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Modules/BSGridCollectionViewLayout.swiftmodule/arm64.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Headers/BSGridCollectionViewLayout-Swift.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Headers/BSGridCollectionViewLayout-umbrella.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdReward.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADSearchRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADSearchBannerView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADDynamicHeightSearchRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeContentAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAppInstallAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAdNotificationSource.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventParameters.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventNativeAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventNativeAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventInterstitialDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventInterstitial.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventExtras.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventBannerDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCustomEventBanner.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImageAdLoaderOptions.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeCustomTemplateAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeContentAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAppInstallAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImage+Mediation.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImage.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdLoaderAdTypes.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPInterstitial.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedInterstitialDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedAd.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAppEventDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedBannerViewDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/DFPBannerView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADVideoOptions.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADVideoControllerDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADVideoController.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeExpressAdViewDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADNativeExpressAdView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMobileAds.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADMediaView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADInterstitialDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADInterstitial.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADInAppPurchase.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADExtras.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdLoaderDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdLoader.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCorrelatorAdLoaderOptions.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADCorrelator.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADRequestError.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADRequest.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADInAppPurchaseDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADBannerViewDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdSizeDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADBannerView.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdSize.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdNetworkExtras.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GADAdDelegate.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GoogleMobileAdsDefines.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GoogleMobileAds.h"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Modules/module.modulemap"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Firebase/Analytics/Sources/Firebase.h"
+interface-hash: "28d871fb3050f72a2d42cb6945c8d33f"

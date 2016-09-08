@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ContractViewController" customModule="GameNews" customModuleProvider="target">
+            <connections>
+                <outlet property="closeButton" destination="W2g-Pb-Ovs" id="NlV-jg-aXa"/>
+                <outlet property="navigationBar" destination="bln-R8-p2D" id="eXy-np-JDi"/>
+                <outlet property="textView" destination="nWP-kt-mFg" id="egC-NR-kDs"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Pfb-d2-j86"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bln-R8-p2D">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="gZl-F4-uhL"/>
+                    </constraints>
+                    <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <items>
+                        <navigationItem title="利用規約" id="HGD-Po-eUa">
+                            <barButtonItem key="rightBarButtonItem" systemItem="stop" id="W2g-Pb-Ovs">
+                                <connections>
+                                    <action selector="closeButtonPressed:" destination="-1" id="ei0-0M-dZv"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="gZl-F4-uhL"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact" misplaced="YES">
+                        <rect key="frame" x="0.0" y="19" width="400" height="44"/>
+                        <mask key="constraints">
+                            <include reference="gZl-F4-uhL"/>
+                        </mask>
+                    </variation>
+                </navigationBar>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nWP-kt-mFg">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <variation key="widthClass=compact" misplaced="YES">
+                        <rect key="frame" x="0.0" y="63" width="400" height="537"/>
+                    </variation>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="nWP-kt-mFg" secondAttribute="bottom" id="J3w-k7-7iW"/>
+                <constraint firstAttribute="trailing" secondItem="nWP-kt-mFg" secondAttribute="trailing" id="L0R-0A-EnL"/>
+                <constraint firstItem="bln-R8-p2D" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="OCt-cc-oEw"/>
+                <constraint firstItem="nWP-kt-mFg" firstAttribute="top" secondItem="bln-R8-p2D" secondAttribute="bottom" id="iE2-lH-ou2"/>
+                <constraint firstItem="nWP-kt-mFg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="lk5-oI-a29"/>
+                <constraint firstAttribute="trailing" secondItem="bln-R8-p2D" secondAttribute="trailing" id="qNh-sr-3bW"/>
+                <constraint firstItem="bln-R8-p2D" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="suf-TQ-1aS"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="bln-R8-p2D"/>
+                    <exclude reference="nWP-kt-mFg"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="OCt-cc-oEw"/>
+                    <exclude reference="qNh-sr-3bW"/>
+                    <exclude reference="suf-TQ-1aS"/>
+                    <exclude reference="J3w-k7-7iW"/>
+                    <exclude reference="L0R-0A-EnL"/>
+                    <exclude reference="iE2-lH-ou2"/>
+                    <exclude reference="lk5-oI-a29"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="bln-R8-p2D"/>
+                    <include reference="nWP-kt-mFg"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="OCt-cc-oEw"/>
+                    <include reference="qNh-sr-3bW"/>
+                    <include reference="suf-TQ-1aS"/>
+                    <include reference="J3w-k7-7iW"/>
+                    <include reference="L0R-0A-EnL"/>
+                    <include reference="iE2-lH-ou2"/>
+                    <include reference="lk5-oI-a29"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

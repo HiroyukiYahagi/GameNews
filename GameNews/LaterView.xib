@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LaterViewController" customModule="GameNews" customModuleProvider="target">
+            <connections>
+                <outlet property="activetyIndicator" destination="S7z-zA-Qng" id="6Jd-Dx-Yfu"/>
+                <outlet property="loadingView" destination="XY5-He-TdA" id="MV7-jV-WZJ"/>
+                <outlet property="tableView" destination="F72-5a-Yvw" id="MaU-oH-Y9T"/>
+                <outlet property="view" destination="iN0-l3-epB" id="MMv-KG-EIK"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="F72-5a-Yvw">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="jEO-4E-veb"/>
+                        <outlet property="delegate" destination="-1" id="xIS-3W-P2n"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XY5-He-TdA">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <subviews>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="S7z-zA-Qng">
+                            <rect key="frame" x="-10" y="-10" width="20" height="20"/>
+                        </activityIndicatorView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.7077809343" green="0.7077809343" blue="0.7077809343" alpha="0.5" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="S7z-zA-Qng" firstAttribute="centerX" secondItem="XY5-He-TdA" secondAttribute="centerX" id="46K-lH-wNk"/>
+                        <constraint firstItem="S7z-zA-Qng" firstAttribute="centerY" secondItem="XY5-He-TdA" secondAttribute="centerY" id="EBt-pA-6ZU"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="subviews">
+                            <exclude reference="S7z-zA-Qng"/>
+                        </mask>
+                        <mask key="constraints">
+                            <exclude reference="46K-lH-wNk"/>
+                            <exclude reference="EBt-pA-6ZU"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="subviews">
+                            <include reference="S7z-zA-Qng"/>
+                        </mask>
+                        <mask key="constraints">
+                            <include reference="46K-lH-wNk"/>
+                            <include reference="EBt-pA-6ZU"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="XY5-He-TdA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0e3-oa-tew"/>
+                <constraint firstItem="XY5-He-TdA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="DEO-dw-CkT"/>
+                <constraint firstAttribute="bottom" secondItem="F72-5a-Yvw" secondAttribute="bottom" id="bks-10-6nW"/>
+                <constraint firstAttribute="trailing" secondItem="F72-5a-Yvw" secondAttribute="trailing" id="jaM-ua-8ya"/>
+                <constraint firstItem="F72-5a-Yvw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="k53-qo-gn6"/>
+                <constraint firstItem="F72-5a-Yvw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="rty-VG-d1P"/>
+                <constraint firstAttribute="trailing" secondItem="XY5-He-TdA" secondAttribute="trailing" id="wjK-1t-TjJ"/>
+                <constraint firstAttribute="bottom" secondItem="XY5-He-TdA" secondAttribute="bottom" id="yPZ-kK-5ct"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
