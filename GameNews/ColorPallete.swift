@@ -34,4 +34,15 @@ class ColorPallete{
         return UIColor(red: CGFloat(red.doubleValue/255), green: CGFloat(green.doubleValue/255), blue: CGFloat(blue.doubleValue/255), alpha: 1)
     }
     
+    static func getGoldColor() -> UIColor{
+        return UIColor(red: CGFloat(255.0/255), green: CGFloat(215.0/255), blue: CGFloat(0.0/255), alpha: 1)
+    }
+    
+    static func getSilverColor() -> UIColor{
+        return UIColor(red: CGFloat(192.0/255), green: CGFloat(192.0/255), blue: CGFloat(192.0/255), alpha: 1)
+    }
+    
+    static func getBronzeColor() -> UIColor{
+        return UIColor(red: CGFloat(196.0/255), green: CGFloat(112.0/255), blue: CGFloat(34.0/255), alpha: 1)
+    }
 }

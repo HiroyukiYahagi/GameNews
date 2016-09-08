@@ -6,23 +6,23 @@ provides-nominal:
 provides-member:
 - ["C8GameNews19LaterViewController", ""]
 provides-dynamic-lookup:
+- "rankingButton"
 - "viewWillAppear"
 - "didReceiveMemoryWarning"
-- "rankingButton"
 - "viewDidLoad"
 - "reload"
 depends-top-level:
-- !private "LOADMODE"
-- "IndicatorInfo"
 - "Bool"
-- !private "StringLiteralType"
-- "LaterViewController"
-- "IndicatorInfoProvider"
-- "DISPLAYMODE"
-- "PagerTabStripViewController"
 - "ReloadableViewController"
+- "PagerTabStripViewController"
+- "LaterViewController"
 - "UIButton"
+- !private "LOADMODE"
+- "IndicatorInfoProvider"
 - !private "ArticleDao"
+- "IndicatorInfo"
+- !private "StringLiteralType"
+- "DISPLAYMODE"
 depends-member:
 - !private ["Ps9AnyObject", "ArticleDao"]
 - !private ["Ps9AnyObject", "DISPLAYMODE"]

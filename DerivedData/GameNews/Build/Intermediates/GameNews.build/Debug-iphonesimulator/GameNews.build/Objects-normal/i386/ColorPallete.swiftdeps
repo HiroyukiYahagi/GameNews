@@ -7,16 +7,16 @@ provides-member:
 - ["C8GameNews12ColorPallete", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "StringLiteralType"
-- !private "PropertiesLoader"
-- !private "+"
-- !private "/"
-- "ColorPallete"
-- !private "=="
-- !private "NSNumber"
-- !private "String"
-- "UIColor"
 - !private "CGFloat"
+- !private "String"
+- !private "=="
+- !private "+"
+- !private "StringLiteralType"
+- "ColorPallete"
+- !private "PropertiesLoader"
+- !private "/"
+- "UIColor"
+- !private "NSNumber"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - !private ["Ps9AnyObject", "CGFloat"]
@@ -45,7 +45,10 @@ depends-member:
 - !private ["C8GameNews12ColorPallete", "String"]
 - ["C8GameNews12ColorPallete", "UIColor"]
 - ["C8GameNews12ColorPallete", "deinit"]
+- ["C8GameNews12ColorPallete", "getBronzeColor"]
+- ["C8GameNews12ColorPallete", "getGoldColor"]
 - ["C8GameNews12ColorPallete", "getMainColor"]
+- ["C8GameNews12ColorPallete", "getSilverColor"]
 - ["C8GameNews12ColorPallete", "getSubColor"]
 - ["C8GameNews12ColorPallete", "init"]
 - ["C8GameNews12ColorPallete", "mainColor"]
@@ -238,4 +241,4 @@ depends-external:
 - "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GoogleMobileAds.h"
 - "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Modules/module.modulemap"
 - "/Users/yahagihiroyuki/work/others/GameNews/Pods/Firebase/Analytics/Sources/Firebase.h"
-interface-hash: "051b7ace04271333b9181ed07a8ffaee"
+interface-hash: "c0a760638f11a77a5966784822a416b8"

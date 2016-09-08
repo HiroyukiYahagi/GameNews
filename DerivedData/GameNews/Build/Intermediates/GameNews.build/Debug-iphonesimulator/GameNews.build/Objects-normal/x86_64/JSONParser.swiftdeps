@@ -7,21 +7,21 @@ provides-member:
 - ["C8GameNews10JSONParser", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "NSURL"
-- "String"
-- "JSONParser"
-- !private "NSJSONSerialization"
-- "Void"
-- "NSInteger"
-- !private "NSData"
-- !private "!="
-- !private "NSURLConnection"
 - "NSDictionary"
+- "JSONParser"
 - !private "NSURLRequest"
-- "StringLiteralType"
-- "PropertiesLoader"
-- !private "NSURLSession"
+- !private "NSURLConnection"
+- !private "NSData"
+- !private "NSURL"
+- "NSInteger"
+- "String"
 - !private "NSJSONReadingOptions"
+- !private "NSURLSession"
+- "Void"
+- "PropertiesLoader"
+- !private "NSJSONSerialization"
+- !private "!="
+- "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "JSONObjectWithData"]
 - !private ["Ps9AnyObject", "NSJSONReadingOptions"]

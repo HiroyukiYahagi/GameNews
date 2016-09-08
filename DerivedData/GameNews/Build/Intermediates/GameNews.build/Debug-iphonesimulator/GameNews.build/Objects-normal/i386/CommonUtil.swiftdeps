@@ -7,22 +7,22 @@ provides-member:
 - ["C8GameNews10CommonUtil", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "=="
-- "NSData"
-- !private "NSURL"
+- "NSDateFormatter"
+- !private "&&"
 - "NSDictionary"
+- !private "AnyObject"
+- !private "NSMutableDictionary"
+- !private "NSURLSession"
+- "Void"
+- "NSData"
+- "CommonUtil"
+- !private "NSURL"
+- "String"
 - "NSError"
+- !private "NSLocale"
+- !private "=="
 - "NSURLResponse"
 - !private "StringLiteralType"
-- "CommonUtil"
-- "Void"
-- !private "NSMutableDictionary"
-- !private "AnyObject"
-- !private "&&"
-- !private "NSLocale"
-- !private "NSURLSession"
-- "NSDateFormatter"
-- "String"
 depends-member:
 - !private ["Ps9AnyObject", "CommonUtil"]
 - !private ["Ps9AnyObject", "Element"]

@@ -11,16 +11,16 @@ provides-dynamic-lookup:
 - "reload"
 - "rankingButton"
 depends-top-level:
-- !private "StringLiteralType"
+- !private "ArticleDao"
+- "ReloadableViewController"
 - "DISPLAYMODE"
 - "IndicatorInfo"
-- "UIButton"
-- !private "ArticleDao"
 - "MovieViewController"
+- "UIButton"
 - !private "LOADMODE"
-- "IndicatorInfoProvider"
+- !private "StringLiteralType"
 - "PagerTabStripViewController"
-- "ReloadableViewController"
+- "IndicatorInfoProvider"
 depends-member:
 - !private ["Ps9AnyObject", "ArticleDao"]
 - !private ["Ps9AnyObject", "DISPLAYMODE"]

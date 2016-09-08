@@ -7,8 +7,8 @@ provides-member:
 - ["C8GameNews4Site", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Site"
 - "NSManagedObject"
+- "Site"
 depends-member:
 - ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", ""]
@@ -51,10 +51,10 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Firebase/Analytics/Sources/module.modulemap"
 - "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/XLPagerTabStrip.swiftmodule/x86_64.swiftmodule"
 - "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-Swift.h"
 - "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/FXPageControl.h"
-- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Firebase/Analytics/Sources/module.modulemap"
 - "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-umbrella.h"
 - "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/module.modulemap"
 - "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLActionController/XLActionController.framework/Modules/XLActionController.swiftmodule/x86_64.swiftmodule"

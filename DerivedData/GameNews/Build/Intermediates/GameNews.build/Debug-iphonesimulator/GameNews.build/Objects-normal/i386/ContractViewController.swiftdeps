@@ -6,23 +6,23 @@ provides-nominal:
 provides-member:
 - ["C8GameNews22ContractViewController", ""]
 provides-dynamic-lookup:
-- "textView"
-- "viewDidLoad"
-- "closeButtonPressed"
 - "closeButton"
 - "didReceiveMemoryWarning"
+- "viewDidLoad"
 - "navigationBar"
+- "closeButtonPressed"
+- "textView"
 depends-top-level:
-- !private "Dictionary"
-- "AnyObject"
-- "UINavigationBar"
-- "UITextView"
-- "ContractViewController"
-- "UIViewController"
-- !private "BooleanLiteralType"
 - !private "NSForegroundColorAttributeName"
-- !private "ColorPallete"
 - "UIBarButtonItem"
+- "AnyObject"
+- !private "BooleanLiteralType"
+- !private "ColorPallete"
+- "UITextView"
+- "UIViewController"
+- "UINavigationBar"
+- !private "Dictionary"
+- "ContractViewController"
 depends-member:
 - !private ["Ps9AnyObject", "ColorPallete"]
 - !private ["Ps9AnyObject", "NSForegroundColorAttributeName"]

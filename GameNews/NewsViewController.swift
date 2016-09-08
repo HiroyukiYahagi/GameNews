@@ -17,7 +17,11 @@ class NewsViewController : ReloadableViewController, IndicatorInfoProvider{
     var mode:DISPLAYMODE = DISPLAYMODE.LATEST
     
     func indicatorInfoForPagerTabStrip(pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
-        return IndicatorInfo(title: "ニュース")
+        if(mode == DISPLAYMODE.LATEST){
+            return IndicatorInfo(title: "新着")
+        }else{
+            return IndicatorInfo(title: "ランキング")
+        }
     }
     
     override func viewDidLoad() {
@@ -61,6 +65,38 @@ class NewsViewController : ReloadableViewController, IndicatorInfoProvider{
         return self.getArticles().count
     }
     
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        let cell =  super.tableView(tableView, cellForRowAtIndexPath: indexPath)
+        if(self.mode == DISPLAYMODE.LATEST){
+        }else{
+            for view in cell.contentView.subviews {
+                switch view.tag {
+                case 21:
+                    switch indexPath.row {
+                    case 0:
+                        view.backgroundColor = ColorPallete.getGoldColor()
+                        break
+                    case 1:
+                        view.backgroundColor = ColorPallete.getSilverColor()
+                        break
+                    case 2:
+                       view.backgroundColor = ColorPallete.getBronzeColor()
+                        break
+                    default:
+                        view.backgroundColor = UIColor.whiteColor()
+                        break
+                    }
+                    break
+                default:
+                    break
+                }
+            }
+        }
+        return cell
+    }
+    
+    
     @IBAction func rankingButtonPressed(sender: AnyObject) {
         if(self.mode == DISPLAYMODE.LATEST){
             self.mode = DISPLAYMODE.RANKING
@@ -69,6 +105,8 @@ class NewsViewController : ReloadableViewController, IndicatorInfoProvider{
             self.mode = DISPLAYMODE.LATEST
             self.rankingButton.setImage(UIImage(named: "ranking.png"), forState: UIControlState.Normal)
         }
+        let barbuttonVC = self.parentViewController as! ButtonBarPagerTabStripViewController
+        barbuttonVC.buttonBarView.reloadData()
         self.loadButtonPressed()
     }
     

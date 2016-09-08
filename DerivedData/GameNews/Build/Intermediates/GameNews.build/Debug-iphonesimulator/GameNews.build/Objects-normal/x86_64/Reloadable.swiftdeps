@@ -6,72 +6,70 @@ provides-nominal:
 provides-member:
 - ["C8GameNews24ReloadableViewController", ""]
 provides-dynamic-lookup:
-- "getArticle"
-- "viewDidLoad"
-- "activetyIndicator"
-- "postReload"
-- "viewDidAppear"
-- "reload"
-- "loadingView"
-- "deleteButtonPressed"
 - "didReceiveMemoryWarning"
-- "getArticles"
+- "viewDidAppear"
+- "onRefresh"
+- "postReload"
+- "tableData"
 - "preReload"
+- "deleteButtonPressed"
+- "getArticle"
+- "getArticles"
+- "activetyIndicator"
 - "getCell"
+- "viewDidLoad"
 - "loadButtonPressed"
 - "tableView"
 - "tableView"
 - "tableView"
 - "tableView"
 - "tableView"
-- "onRefresh"
-- "tableData"
+- "reload"
+- "loadingView"
 depends-top-level:
-- "Article"
-- "UITableViewCell"
-- "UIActivityIndicatorView"
-- "Int"
-- !private "StringLiteralType"
-- "UIButton"
-- !private "UIAlertActionStyle"
-- !private "LOADMODE"
 - !private "-"
-- !private "UIControlEvents"
-- !private "String"
-- !private "WebViewController"
-- !private "UIAlertAction"
+- "ReloadableViewController"
+- !private "UIAlertControllerStyle"
+- "Int"
+- !private "UINib"
+- "UIButton"
+- "AnyObject"
+- !private "ArticleDao"
 - "UITableViewDataSource"
-- !private "!="
+- "Bool"
 - "UITableViewDelegate"
-- !private "PropertiesLoader"
-- !private "=="
-- !private "~="
+- !private "UILabel"
+- "UIActivityIndicatorView"
+- !private "WebViewController"
+- "UIViewController"
+- "NSIndexPath"
+- !private "BooleanLiteralType"
+- "UITableViewCell"
+- !private "dispatch_async"
 - !private "dispatch_get_main_queue"
 - !private "UIImageView"
-- "DISPLAYMODE"
-- "UIViewController"
-- "ReloadableViewController"
-- !private "dispatch_async"
 - !private "+"
 - !private "UIAlertController"
-- "Bool"
-- !private "BooleanLiteralType"
-- !private "UINib"
 - "UIRefreshControl"
-- !private "ArticleDao"
-- !private "UIAlertControllerStyle"
+- !private "PropertiesLoader"
+- "DISPLAYMODE"
+- !private "UIAlertAction"
 - "UIView"
-- "UITableView"
-- !private "UILabel"
+- !private "~="
+- !private "=="
+- !private "UIAlertActionStyle"
 - "CGFloat"
-- "AnyObject"
-- "NSIndexPath"
+- !private "LOADMODE"
+- "UITableView"
+- !private "UIControlEvents"
+- !private "!="
+- !private "StringLiteralType"
+- "Article"
 depends-member:
 - !private ["Ps9AnyObject", "ArticleDao"]
 - !private ["Ps9AnyObject", "LOADMODE"]
 - !private ["Ps9AnyObject", "PropertiesLoader"]
 - !private ["Ps9AnyObject", "ReloadableViewController"]
-- !private ["Ps9AnyObject", "String"]
 - !private ["Ps9AnyObject", "UIAlertAction"]
 - !private ["Ps9AnyObject", "UIAlertActionStyle"]
 - !private ["Ps9AnyObject", "UIAlertController"]
@@ -178,7 +176,6 @@ depends-member:
 - !private ["Ps11CVarArgType", "LOADMODE"]
 - !private ["Ps11CVarArgType", "PropertiesLoader"]
 - !private ["Ps11CVarArgType", "ReloadableViewController"]
-- !private ["Ps11CVarArgType", "String"]
 - !private ["Ps11CVarArgType", "UIAlertAction"]
 - !private ["Ps11CVarArgType", "UIAlertActionStyle"]
 - !private ["Ps11CVarArgType", "UIAlertController"]
@@ -254,14 +251,12 @@ depends-member:
 - !private ["Ps14CollectionType", "subscript"]
 - !private ["Ps10Comparable", "Distance"]
 - !private ["Ps10Comparable", "IntegerLiteralType"]
-- !private ["Ps10Comparable", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "ArticleDao"]
 - !private ["Ps28CustomDebugStringConvertible", "Generator"]
 - !private ["Ps28CustomDebugStringConvertible", "Index"]
 - !private ["Ps28CustomDebugStringConvertible", "LOADMODE"]
 - !private ["Ps28CustomDebugStringConvertible", "PropertiesLoader"]
 - !private ["Ps28CustomDebugStringConvertible", "ReloadableViewController"]
-- !private ["Ps28CustomDebugStringConvertible", "String"]
 - !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
 - !private ["Ps28CustomDebugStringConvertible", "UIAlertAction"]
 - !private ["Ps28CustomDebugStringConvertible", "UIAlertActionStyle"]
@@ -341,7 +336,6 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "LOADMODE"]
 - !private ["Ps23CustomStringConvertible", "PropertiesLoader"]
 - !private ["Ps23CustomStringConvertible", "ReloadableViewController"]
-- !private ["Ps23CustomStringConvertible", "String"]
 - !private ["Ps23CustomStringConvertible", "SubSequence"]
 - !private ["Ps23CustomStringConvertible", "UIAlertAction"]
 - !private ["Ps23CustomStringConvertible", "UIAlertActionStyle"]
@@ -424,7 +418,6 @@ depends-member:
 - !private ["Ps9Equatable", "LOADMODE"]
 - !private ["Ps9Equatable", "PropertiesLoader"]
 - !private ["Ps9Equatable", "ReloadableViewController"]
-- !private ["Ps9Equatable", "String"]
 - !private ["Ps9Equatable", "TouchUpInside"]
 - !private ["Ps9Equatable", "UIAlertAction"]
 - !private ["Ps9Equatable", "UIAlertActionStyle"]
@@ -495,7 +488,6 @@ depends-member:
 - ["Ps9Equatable", "viewDidLoad"]
 - ["Ps9Equatable", "viewForZoomingInScrollView"]
 - ["Ps9Equatable", ""]
-- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
 - !private ["Ps16ForwardIndexType", "Distance"]
 - !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
 - !private ["Ps13GeneratorType", "Element"]
@@ -508,7 +500,6 @@ depends-member:
 - !private ["Ps8Hashable", "LOADMODE"]
 - !private ["Ps8Hashable", "PropertiesLoader"]
 - !private ["Ps8Hashable", "ReloadableViewController"]
-- !private ["Ps8Hashable", "String"]
 - !private ["Ps8Hashable", "UIAlertAction"]
 - !private ["Ps8Hashable", "UIAlertActionStyle"]
 - !private ["Ps8Hashable", "UIAlertController"]
@@ -597,7 +588,6 @@ depends-member:
 - !private ["O8GameNews8LOADMODE", "INTERVAL"]
 - !private ["Ps14MirrorPathType", "Distance"]
 - !private ["Ps14MirrorPathType", "IntegerLiteralType"]
-- !private ["Ps14MirrorPathType", "init"]
 - !private ["Ps21MutableCollectionType", "Generator"]
 - !private ["Ps21MutableCollectionType", "Index"]
 - !private ["Ps21MutableCollectionType", "SubSequence"]
@@ -620,7 +610,6 @@ depends-member:
 - !private ["PSo8NSCoding", "LOADMODE"]
 - !private ["PSo8NSCoding", "PropertiesLoader"]
 - !private ["PSo8NSCoding", "ReloadableViewController"]
-- !private ["PSo8NSCoding", "String"]
 - !private ["PSo8NSCoding", "UIAlertAction"]
 - !private ["PSo8NSCoding", "UIAlertActionStyle"]
 - !private ["PSo8NSCoding", "UIAlertController"]
@@ -690,7 +679,6 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "LOADMODE"]
 - !private ["PSo26NSExtensionRequestHandling", "PropertiesLoader"]
 - !private ["PSo26NSExtensionRequestHandling", "ReloadableViewController"]
-- !private ["PSo26NSExtensionRequestHandling", "String"]
 - !private ["PSo26NSExtensionRequestHandling", "UIAlertAction"]
 - !private ["PSo26NSExtensionRequestHandling", "UIAlertActionStyle"]
 - !private ["PSo26NSExtensionRequestHandling", "UIAlertController"]
@@ -756,7 +744,6 @@ depends-member:
 - ["CSo8NSObject", "NSIndexPath"]
 - !private ["CSo8NSObject", "PropertiesLoader"]
 - !private ["CSo8NSObject", "ReloadableViewController"]
-- !private ["CSo8NSObject", "String"]
 - ["CSo8NSObject", "UIActivityIndicatorView"]
 - !private ["CSo8NSObject", "UIAlertAction"]
 - !private ["CSo8NSObject", "UIAlertActionStyle"]
@@ -835,7 +822,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "LOADMODE"]
 - !private ["PSo16NSObjectProtocol", "PropertiesLoader"]
 - !private ["PSo16NSObjectProtocol", "ReloadableViewController"]
-- !private ["PSo16NSObjectProtocol", "String"]
 - !private ["PSo16NSObjectProtocol", "UIAlertAction"]
 - !private ["PSo16NSObjectProtocol", "UIAlertActionStyle"]
 - !private ["PSo16NSObjectProtocol", "UIAlertController"]
@@ -908,7 +894,6 @@ depends-member:
 - !private ["Ps13OptionSetType", "TouchUpInside"]
 - !private ["Ps13OptionSetType", "ValueChanged"]
 - !private ["Sq", "deinit"]
-- !private ["Ps16OutputStreamType", "init"]
 - !private ["C8GameNews16PropertiesLoader", "getMode"]
 - !private ["Ps21RandomAccessIndexType", "Distance"]
 - !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
@@ -934,7 +919,6 @@ depends-member:
 - ["C8GameNews24ReloadableViewController", "NSIndexPath"]
 - !private ["C8GameNews24ReloadableViewController", "PropertiesLoader"]
 - !private ["C8GameNews24ReloadableViewController", "ReloadableViewController"]
-- !private ["C8GameNews24ReloadableViewController", "String"]
 - ["C8GameNews24ReloadableViewController", "UIActivityIndicatorView"]
 - !private ["C8GameNews24ReloadableViewController", "UIAlertAction"]
 - !private ["C8GameNews24ReloadableViewController", "UIAlertActionStyle"]
@@ -1006,12 +990,8 @@ depends-member:
 - !private ["Vs5Slice", "Index"]
 - !private ["Vs5Slice", "SubSequence"]
 - !private ["Vs5Slice", "_Element"]
-- !private ["Ps10Streamable", "init"]
 - !private ["Ps10Strideable", "Distance"]
 - !private ["Ps10Strideable", "IntegerLiteralType"]
-- !private ["SS", "init"]
-- !private ["Ps30StringInterpolationConvertible", "init"]
-- !private ["Ps24StringLiteralConvertible", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "addSubview"]
 - !private ["PSo29UIAccessibilityIdentification", "addTarget"]
 - !private ["PSo29UIAccessibilityIdentification", "beginRefreshing"]
@@ -1053,7 +1033,6 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "LOADMODE"]
 - !private ["PSo21UIAppearanceContainer", "PropertiesLoader"]
 - !private ["PSo21UIAppearanceContainer", "ReloadableViewController"]
-- !private ["PSo21UIAppearanceContainer", "String"]
 - !private ["PSo21UIAppearanceContainer", "UIAlertAction"]
 - !private ["PSo21UIAppearanceContainer", "UIAlertActionStyle"]
 - !private ["PSo21UIAppearanceContainer", "UIAlertController"]
@@ -1123,7 +1102,6 @@ depends-member:
 - !private ["PSo18UIContentContainer", "LOADMODE"]
 - !private ["PSo18UIContentContainer", "PropertiesLoader"]
 - !private ["PSo18UIContentContainer", "ReloadableViewController"]
-- !private ["PSo18UIContentContainer", "String"]
 - !private ["PSo18UIContentContainer", "UIAlertAction"]
 - !private ["PSo18UIContentContainer", "UIAlertActionStyle"]
 - !private ["PSo18UIContentContainer", "UIAlertController"]
@@ -1214,7 +1192,6 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "LOADMODE"]
 - !private ["PSo18UIFocusEnvironment", "PropertiesLoader"]
 - !private ["PSo18UIFocusEnvironment", "ReloadableViewController"]
-- !private ["PSo18UIFocusEnvironment", "String"]
 - !private ["PSo18UIFocusEnvironment", "UIAlertAction"]
 - !private ["PSo18UIFocusEnvironment", "UIAlertActionStyle"]
 - !private ["PSo18UIFocusEnvironment", "UIAlertController"]
@@ -1296,7 +1273,6 @@ depends-member:
 - ["CSo11UIResponder", "NSIndexPath"]
 - !private ["CSo11UIResponder", "PropertiesLoader"]
 - !private ["CSo11UIResponder", "ReloadableViewController"]
-- !private ["CSo11UIResponder", "String"]
 - ["CSo11UIResponder", "UIActivityIndicatorView"]
 - !private ["CSo11UIResponder", "UIAlertAction"]
 - !private ["CSo11UIResponder", "UIAlertActionStyle"]
@@ -1373,7 +1349,6 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "LOADMODE"]
 - !private ["PSo20UIScrollViewDelegate", "PropertiesLoader"]
 - !private ["PSo20UIScrollViewDelegate", "ReloadableViewController"]
-- !private ["PSo20UIScrollViewDelegate", "String"]
 - !private ["PSo20UIScrollViewDelegate", "UIAlertAction"]
 - !private ["PSo20UIScrollViewDelegate", "UIAlertActionStyle"]
 - !private ["PSo20UIScrollViewDelegate", "UIAlertController"]
@@ -1419,7 +1394,6 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "LOADMODE"]
 - !private ["PSo16UIStateRestoring", "PropertiesLoader"]
 - !private ["PSo16UIStateRestoring", "ReloadableViewController"]
-- !private ["PSo16UIStateRestoring", "String"]
 - !private ["PSo16UIStateRestoring", "UIAlertAction"]
 - !private ["PSo16UIStateRestoring", "UIAlertActionStyle"]
 - !private ["PSo16UIStateRestoring", "UIAlertController"]
@@ -1477,7 +1451,6 @@ depends-member:
 - !private ["PSo21UITableViewDataSource", "LOADMODE"]
 - !private ["PSo21UITableViewDataSource", "PropertiesLoader"]
 - !private ["PSo21UITableViewDataSource", "ReloadableViewController"]
-- !private ["PSo21UITableViewDataSource", "String"]
 - !private ["PSo21UITableViewDataSource", "UIAlertAction"]
 - !private ["PSo21UITableViewDataSource", "UIAlertActionStyle"]
 - !private ["PSo21UITableViewDataSource", "UIAlertController"]
@@ -1523,7 +1496,6 @@ depends-member:
 - !private ["PSo19UITableViewDelegate", "LOADMODE"]
 - !private ["PSo19UITableViewDelegate", "PropertiesLoader"]
 - !private ["PSo19UITableViewDelegate", "ReloadableViewController"]
-- !private ["PSo19UITableViewDelegate", "String"]
 - !private ["PSo19UITableViewDelegate", "UIAlertAction"]
 - !private ["PSo19UITableViewDelegate", "UIAlertActionStyle"]
 - !private ["PSo19UITableViewDelegate", "UIAlertController"]
@@ -1569,7 +1541,6 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "LOADMODE"]
 - !private ["PSo18UITraitEnvironment", "PropertiesLoader"]
 - !private ["PSo18UITraitEnvironment", "ReloadableViewController"]
-- !private ["PSo18UITraitEnvironment", "String"]
 - !private ["PSo18UITraitEnvironment", "UIAlertAction"]
 - !private ["PSo18UITraitEnvironment", "UIAlertActionStyle"]
 - !private ["PSo18UITraitEnvironment", "UIAlertController"]
@@ -1659,7 +1630,6 @@ depends-member:
 - ["CSo16UIViewController", "NSIndexPath"]
 - !private ["CSo16UIViewController", "PropertiesLoader"]
 - !private ["CSo16UIViewController", "ReloadableViewController"]
-- !private ["CSo16UIViewController", "String"]
 - ["CSo16UIViewController", "UIActivityIndicatorView"]
 - !private ["CSo16UIViewController", "UIAlertAction"]
 - !private ["CSo16UIViewController", "UIAlertActionStyle"]
@@ -1715,7 +1685,6 @@ depends-member:
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", "viewForZoomingInScrollView"]
 - ["CSo16UIViewController", ""]
-- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
 - !private ["PSo20WKNavigationDelegate", "article"]
 - !private ["PSo20WKNavigationDelegate", "init"]
 - !private ["C8GameNews17WebViewController", "article"]
@@ -1727,12 +1696,8 @@ depends-member:
 - !private ["Ps10_ArrayType", "count"]
 - !private ["Ps10_ArrayType", "subscript"]
 - !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
 - !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
 - !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
-- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
-- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
-- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
 - !private ["Ps24_DestructorSafeContainer", "Generator"]
 - !private ["Ps24_DestructorSafeContainer", "Index"]
 - !private ["Ps24_DestructorSafeContainer", "SubSequence"]
@@ -1753,7 +1718,6 @@ depends-member:
 - !private ["Ps21_ObjectiveCBridgeable", "_Element"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "count"]
-- !private ["Ps21_ObjectiveCBridgeable", "init"]
 - !private ["Ps21_ObjectiveCBridgeable", "subscript"]
 - !private ["Vs26_OptionalNilComparisonType", "deinit"]
 - !private ["Ps22_RandomAccessAmbiguity", "Distance"]
@@ -1804,7 +1768,6 @@ depends-nominal:
 - "Ps23CustomStringConvertible"
 - !private "Sd"
 - "Ps9Equatable"
-- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
 - !private "Ps16ForwardIndexType"
 - !private "Ps13GeneratorType"
 - "Ps8Hashable"
@@ -1832,7 +1795,6 @@ depends-nominal:
 - !private "CSo7NSValue"
 - !private "Ps13OptionSetType"
 - !private "Sq"
-- !private "Ps16OutputStreamType"
 - !private "C8GameNews16PropertiesLoader"
 - !private "Ps21RandomAccessIndexType"
 - !private "Vs5Range"
@@ -1845,11 +1807,7 @@ depends-nominal:
 - !private "Ps16SignedNumberType"
 - !private "C8GameNews4Site"
 - !private "Vs5Slice"
-- !private "Ps10Streamable"
 - !private "Ps10Strideable"
-- !private "SS"
-- !private "Ps30StringInterpolationConvertible"
-- !private "Ps24StringLiteralConvertible"
 - !private "PSo29UIAccessibilityIdentification"
 - !private "CSo23UIActivityIndicatorView"
 - !private "CSo13UIAlertAction"
@@ -1881,16 +1839,11 @@ depends-nominal:
 - "PSo18UITraitEnvironment"
 - !private "CSo6UIView"
 - "CSo16UIViewController"
-- !private "Ps31UnicodeScalarLiteralConvertible"
 - !private "PSo20WKNavigationDelegate"
 - !private "C8GameNews17WebViewController"
 - !private "Ps10_ArrayType"
 - !private "Ps33_BuiltinBooleanLiteralConvertible"
-- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
 - !private "Ps33_BuiltinIntegerLiteralConvertible"
-- !private "Ps32_BuiltinStringLiteralConvertible"
-- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
-- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
 - !private "Ps24_DestructorSafeContainer"
 - !private "Ps14_Incrementable"
 - !private "Ps22_IntegerArithmeticType"

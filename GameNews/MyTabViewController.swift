@@ -34,6 +34,8 @@ class MyTabViewController: ButtonBarPagerTabStripViewController {
         settings.style.buttonBarLeftContentInset = 0
         settings.style.buttonBarRightContentInset = 0
         
+        settings.style.buttonBarItemFont = UIFont.systemFontOfSize(CGFloat(15), weight: UIFontWeightBold)
+        
         super.viewDidLoad()
         buttonBarView.selectedBar.translatesAutoresizingMaskIntoConstraints = true;
         buttonBarView.selectedBar.frame.origin.y = 46;

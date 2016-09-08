@@ -10,20 +10,20 @@ provides-member:
 - ["O8GameNews10ACTIONMODE", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "NSURL"
 - "NSNumber"
-- "=="
 - !private "UnicodeScalarType"
-- !private "StringLiteralType"
+- !private "CommonUtil"
 - "AccessLogDao"
 - !private "NSDate"
-- "String"
-- !private "CommonUtil"
 - !private "NSURLRequest"
+- !private "NSURL"
+- "String"
+- "=="
+- !private "NSURLSession"
 - !private "PropertiesLoader"
 - "ACTIONMODE"
 - !private "+"
-- !private "NSURLSession"
+- !private "StringLiteralType"
 depends-member:
 - ["O8GameNews10ACTIONMODE", "DELETE"]
 - ["O8GameNews10ACTIONMODE", "FAVORITE"]

@@ -6,23 +6,23 @@ provides-nominal:
 provides-member:
 - ["C8GameNews22ContractViewController", ""]
 provides-dynamic-lookup:
-- "closeButton"
-- "closeButtonPressed"
 - "viewDidLoad"
-- "didReceiveMemoryWarning"
+- "closeButtonPressed"
 - "textView"
+- "closeButton"
+- "didReceiveMemoryWarning"
 - "navigationBar"
 depends-top-level:
+- "AnyObject"
 - "UINavigationBar"
-- "ContractViewController"
-- !private "ColorPallete"
-- "UIBarButtonItem"
-- !private "NSForegroundColorAttributeName"
 - "UITextView"
+- "ContractViewController"
 - !private "BooleanLiteralType"
 - "UIViewController"
-- "AnyObject"
 - !private "Dictionary"
+- "UIBarButtonItem"
+- !private "NSForegroundColorAttributeName"
+- !private "ColorPallete"
 depends-member:
 - !private ["Ps9AnyObject", "ColorPallete"]
 - !private ["Ps9AnyObject", "NSForegroundColorAttributeName"]
@@ -339,10 +339,10 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Firebase/Analytics/Sources/module.modulemap"
 - "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/XLPagerTabStrip.swiftmodule/x86_64.swiftmodule"
 - "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-Swift.h"
 - "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/FXPageControl.h"
-- "/Users/yahagihiroyuki/work/others/GameNews/Pods/Firebase/Analytics/Sources/module.modulemap"
 - "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-umbrella.h"
 - "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework/Modules/module.modulemap"
 - "/Users/yahagihiroyuki/work/others/GameNews/DerivedData/GameNews/Build/Products/Debug-iphonesimulator/XLActionController/XLActionController.framework/Modules/XLActionController.swiftmodule/x86_64.swiftmodule"

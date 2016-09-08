@@ -27,11 +27,11 @@ class ReloadableViewController : UIViewController, UITableViewDelegate, UITableV
         refreshControl.addTarget(self, action: #selector(ReloadableViewController.onRefresh(_:)), forControlEvents: UIControlEvents.ValueChanged)
         self.tableView.addSubview(refreshControl)
         
-        self.loadButtonPressed()
     }
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
+        self.loadButtonPressed()
     }
     
     override func didReceiveMemoryWarning() {
@@ -98,10 +98,6 @@ class ReloadableViewController : UIViewController, UITableViewDelegate, UITableV
                         imageView?.image = uiImage
                     })
                 })
-                break
-            case 21:
-                let label = view as? UILabel
-                label?.text = "No " + String(indexPath.row + 1)
                 break
             default:
                 let button = view as? UIButton

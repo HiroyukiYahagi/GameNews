@@ -42,10 +42,10 @@
                                 <exclude reference="EOd-n1-WBj"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="SPt-UT-gMX"/>
                                 <exclude reference="H6C-w9-qtC"/>
                                 <exclude reference="O1n-rG-QiO"/>
                                 <exclude reference="h8m-Io-NuI"/>
-                                <exclude reference="SPt-UT-gMX"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -53,10 +53,10 @@
                                 <include reference="EOd-n1-WBj"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="SPt-UT-gMX"/>
                                 <include reference="H6C-w9-qtC"/>
                                 <include reference="O1n-rG-QiO"/>
                                 <include reference="h8m-Io-NuI"/>
-                                <include reference="SPt-UT-gMX"/>
                             </mask>
                         </variation>
                     </view>

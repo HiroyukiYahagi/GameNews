@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>DeleteInterval</key>
-	<real>144000</real>
+	<real>1440000</real>
 	<key>AppID</key>
 	<string>994173600</string>
 	<key>Mode</key>
@@ -13,7 +13,7 @@
 	<key>NoImage</key>
 	<string>no_image.jpg</string>
 	<key>Timeout</key>
-	<integer>180000</integer>
+	<real>180000</real>
 	<key>LoadInterval</key>
 	<integer>900</integer>
 	<key>RankingMax</key>

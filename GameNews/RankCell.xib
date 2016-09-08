@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -37,18 +37,8 @@
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" tag="11" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="タイトルがここに入りますタイトルがここに入りますタイトルがここに入りますタイトルがここに入りますタイトルがここに入りますタイトルがここに入ります" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8Y-8B-v5s">
                         <rect key="frame" x="8" y="11" width="196" height="62"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" tag="21" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="No.1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CeD-gc-QOb">
-                        <rect key="frame" x="270" y="9" width="42" height="21"/>
-                        <color key="backgroundColor" red="1" green="0.91530980370000004" blue="0.1090166607" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="50" id="ZRo-mr-moU"/>
-                            <constraint firstAttribute="height" constant="20" id="ftH-vO-RVF"/>
-                        </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <button opaque="NO" tag="30" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e54-Xr-p6c">
@@ -62,22 +52,30 @@
                             <color key="titleColor" red="1" green="0.0" blue="0.010051519910000001" alpha="1" colorSpace="calibratedRGB"/>
                         </state>
                     </button>
+                    <view tag="21" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8hz-3k-YgH">
+                        <rect key="frame" x="0.0" y="0.0" width="5" height="101"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="5" id="TcR-xo-242"/>
+                        </constraints>
+                    </view>
                 </subviews>
                 <constraints>
                     <constraint firstItem="0T4-iE-Iyv" firstAttribute="top" secondItem="G99-x4-ygV" secondAttribute="top" constant="10" id="4Bz-bH-I8u"/>
                     <constraint firstItem="0T4-iE-Iyv" firstAttribute="leading" secondItem="e54-Xr-p6c" secondAttribute="trailing" constant="8" id="89r-Om-fb4"/>
+                    <constraint firstAttribute="bottom" secondItem="8hz-3k-YgH" secondAttribute="bottom" constant="2" id="Ah1-gF-HpD"/>
                     <constraint firstItem="0T4-iE-Iyv" firstAttribute="leading" secondItem="o8Y-8B-v5s" secondAttribute="trailing" constant="10" id="EGl-Q9-RIq"/>
                     <constraint firstAttribute="bottom" secondItem="e54-Xr-p6c" secondAttribute="bottom" id="F6y-Le-CaD"/>
                     <constraint firstAttribute="trailing" secondItem="0T4-iE-Iyv" secondAttribute="trailing" constant="10" id="MwT-v7-6nO"/>
                     <constraint firstAttribute="bottom" secondItem="He1-B8-U5j" secondAttribute="bottom" constant="10" id="PEt-gv-zhW"/>
-                    <constraint firstAttribute="trailing" secondItem="CeD-gc-QOb" secondAttribute="trailing" constant="8" id="QGp-1i-AsA"/>
                     <constraint firstItem="o8Y-8B-v5s" firstAttribute="top" secondItem="G99-x4-ygV" secondAttribute="top" constant="10" id="Rtj-Gs-afM"/>
-                    <constraint firstItem="CeD-gc-QOb" firstAttribute="top" secondItem="G99-x4-ygV" secondAttribute="top" constant="8" id="SpT-jN-F8U"/>
                     <constraint firstAttribute="bottom" secondItem="0T4-iE-Iyv" secondAttribute="bottom" constant="10" id="YVM-eN-CS1"/>
                     <constraint firstItem="o8Y-8B-v5s" firstAttribute="leading" secondItem="G99-x4-ygV" secondAttribute="leading" constant="10" id="Z0j-Jh-7a1"/>
                     <constraint firstItem="He1-B8-U5j" firstAttribute="leading" secondItem="G99-x4-ygV" secondAttribute="leading" constant="10" id="qvX-pq-KH9"/>
+                    <constraint firstItem="8hz-3k-YgH" firstAttribute="top" secondItem="G99-x4-ygV" secondAttribute="top" constant="2" id="tH9-PT-qbT"/>
                     <constraint firstItem="0T4-iE-Iyv" firstAttribute="leading" secondItem="He1-B8-U5j" secondAttribute="trailing" constant="10" id="y6m-V5-tmN"/>
                     <constraint firstItem="He1-B8-U5j" firstAttribute="top" secondItem="o8Y-8B-v5s" secondAttribute="bottom" constant="10" id="yTY-O2-IPv"/>
+                    <constraint firstItem="8hz-3k-YgH" firstAttribute="leading" secondItem="G99-x4-ygV" secondAttribute="leading" id="ysU-TS-Kj7"/>
                     <constraint firstItem="0T4-iE-Iyv" firstAttribute="leading" secondItem="G99-x4-ygV" secondAttribute="leading" constant="10" id="z7f-vJ-OKG"/>
                 </constraints>
                 <variation key="default">
@@ -86,6 +84,7 @@
                     </mask>
                 </variation>
             </tableViewCellContentView>
+            <inset key="separatorInset" minX="50" minY="0.0" maxX="50" maxY="0.0"/>
             <point key="canvasLocation" x="292" y="402"/>
         </tableViewCell>
     </objects>

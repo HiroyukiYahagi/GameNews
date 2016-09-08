@@ -297,6 +297,7 @@ SWIFT_CLASS("_TtC8GameNews18NewsViewController")
 - (NSArray * _Nonnull)getArticles;
 - (Article * _Nonnull)getArticle:(NSIndexPath * _Nonnull)indexPath;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (IBAction)rankingButtonPressed:(id _Nonnull)sender;
 - (void)reload;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

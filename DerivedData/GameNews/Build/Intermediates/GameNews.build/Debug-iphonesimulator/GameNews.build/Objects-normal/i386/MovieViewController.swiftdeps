@@ -6,21 +6,21 @@ provides-nominal:
 provides-member:
 - ["C8GameNews19MovieViewController", ""]
 provides-dynamic-lookup:
-- "rankingButton"
-- "reload"
 - "didReceiveMemoryWarning"
+- "rankingButton"
 - "viewDidLoad"
+- "reload"
 depends-top-level:
-- !private "ArticleDao"
-- !private "StringLiteralType"
-- !private "LOADMODE"
-- "IndicatorInfoProvider"
-- "ReloadableViewController"
-- "PagerTabStripViewController"
-- "DISPLAYMODE"
-- "IndicatorInfo"
-- "UIButton"
 - "MovieViewController"
+- "PagerTabStripViewController"
+- !private "ArticleDao"
+- "UIButton"
+- "IndicatorInfoProvider"
+- "DISPLAYMODE"
+- !private "LOADMODE"
+- "ReloadableViewController"
+- "IndicatorInfo"
+- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "ArticleDao"]
 - !private ["Ps9AnyObject", "DISPLAYMODE"]

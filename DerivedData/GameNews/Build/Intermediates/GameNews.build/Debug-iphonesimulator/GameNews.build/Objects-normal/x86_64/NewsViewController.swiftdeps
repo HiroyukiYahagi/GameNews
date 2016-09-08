@@ -9,39 +9,43 @@ provides-member:
 - ["C8GameNews18NewsViewController", ""]
 - ["O8GameNews11DISPLAYMODE", ""]
 provides-dynamic-lookup:
-- "tableView"
-- "reload"
-- "getCell"
-- "getArticles"
 - "getArticle"
-- "didReceiveMemoryWarning"
 - "rankingData"
-- "rankingButtonPressed"
 - "viewDidLoad"
 - "rankingButton"
+- "reload"
+- "didReceiveMemoryWarning"
+- "rankingButtonPressed"
+- "getArticles"
+- "tableView"
+- "tableView"
+- "getCell"
 depends-top-level:
+- "UIButton"
 - "Article"
-- "UITableViewCell"
+- "IndicatorInfoProvider"
+- !private "UIColor"
+- !private "UIImage"
 - "Int"
 - !private "LOADMODE"
-- "UIButton"
-- "UITableView"
-- !private "ColorPallete"
-- "IndicatorInfoProvider"
-- !private "UINib"
-- "AnyObject"
-- !private "UIImage"
-- !private "CGSizeMake"
 - !private "UIControlState"
-- "PagerTabStripViewController"
-- "ReloadableViewController"
 - "DISPLAYMODE"
-- "IndicatorInfo"
-- !private "StringLiteralType"
-- "=="
-- !private "ArticleDao"
-- "NewsViewController"
+- "UITableViewCell"
+- !private "ButtonBarPagerTabStripViewController"
 - "NSIndexPath"
+- "UITableView"
+- "NewsViewController"
+- !private "UINib"
+- !private "CGSizeMake"
+- "IndicatorInfo"
+- !private "~="
+- "=="
+- "ReloadableViewController"
+- "PagerTabStripViewController"
+- !private "ArticleDao"
+- "AnyObject"
+- !private "ColorPallete"
+- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "ArticleDao"]
 - !private ["Ps9AnyObject", "CGSizeMake"]
@@ -49,10 +53,13 @@ depends-member:
 - ["Ps9AnyObject", "DISPLAYMODE"]
 - !private ["Ps9AnyObject", "IndicatorInfo"]
 - !private ["Ps9AnyObject", "LOADMODE"]
+- !private ["Ps9AnyObject", "UIColor"]
 - !private ["Ps9AnyObject", "UIControlState"]
 - !private ["Ps9AnyObject", "UIImage"]
 - !private ["Ps9AnyObject", "UINib"]
 - !private ["Ps9AnyObject", "backgroundColor"]
+- !private ["Ps9AnyObject", "buttonBarView"]
+- !private ["Ps9AnyObject", "contentView"]
 - !private ["Ps9AnyObject", "cornerRadius"]
 - !private ["Ps9AnyObject", "dequeueReusableCellWithIdentifier"]
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
@@ -60,14 +67,18 @@ depends-member:
 - !private ["Ps9AnyObject", "findRanking"]
 - ["Ps9AnyObject", "getArticle"]
 - ["Ps9AnyObject", "getArticles"]
+- !private ["Ps9AnyObject", "getBronzeColor"]
 - ["Ps9AnyObject", "getCell"]
 - ["Ps9AnyObject", "getDisplayMode"]
+- !private ["Ps9AnyObject", "getGoldColor"]
 - !private ["Ps9AnyObject", "getMainColor"]
+- !private ["Ps9AnyObject", "getSilverColor"]
 - ["Ps9AnyObject", "indicatorInfoForPagerTabStrip"]
 - ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "layer"]
 - !private ["Ps9AnyObject", "loadButtonPressed"]
 - ["Ps9AnyObject", "mode"]
+- !private ["Ps9AnyObject", "parentViewController"]
 - ["Ps9AnyObject", "rankingButton"]
 - ["Ps9AnyObject", "rankingButtonPressed"]
 - ["Ps9AnyObject", "rankingData"]
@@ -78,13 +89,17 @@ depends-member:
 - !private ["Ps9AnyObject", "setImage"]
 - !private ["Ps9AnyObject", "shadowOffset"]
 - !private ["Ps9AnyObject", "shadowOpacity"]
+- !private ["Ps9AnyObject", "subviews"]
 - !private ["Ps9AnyObject", "tableData"]
 - ["Ps9AnyObject", "tableView"]
+- !private ["Ps9AnyObject", "tag"]
 - ["Ps9AnyObject", "viewDidLoad"]
+- !private ["Ps9AnyObject", "whiteColor"]
 - ["Ps9AnyObject", ""]
 - !private ["Sa", "Generator"]
 - !private ["Sa", "Index"]
 - !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
 - !private ["Sa", "count"]
 - !private ["Sa", "deinit"]
 - !private ["Sa", "subscript"]
@@ -92,6 +107,7 @@ depends-member:
 - !private ["Ps23ArrayLiteralConvertible", "Index"]
 - !private ["Ps23ArrayLiteralConvertible", "Normal"]
 - !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
 - !private ["Ps23ArrayLiteralConvertible", "count"]
 - !private ["Ps23ArrayLiteralConvertible", "subscript"]
 - !private ["Vs10ArraySlice", "Generator"]
@@ -107,6 +123,8 @@ depends-member:
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["C15XLPagerTabStrip36ButtonBarPagerTabStripViewController", "buttonBarView"]
+- !private ["C15XLPagerTabStrip13ButtonBarView", "reloadData"]
 - !private ["CSo7CALayer", "cornerRadius"]
 - !private ["CSo7CALayer", "shadowOffset"]
 - !private ["CSo7CALayer", "shadowOpacity"]
@@ -122,10 +140,13 @@ depends-member:
 - !private ["Ps11CVarArgType", "IndicatorInfo"]
 - !private ["Ps11CVarArgType", "IntegerLiteralType"]
 - !private ["Ps11CVarArgType", "LOADMODE"]
+- !private ["Ps11CVarArgType", "UIColor"]
 - !private ["Ps11CVarArgType", "UIControlState"]
 - !private ["Ps11CVarArgType", "UIImage"]
 - !private ["Ps11CVarArgType", "UINib"]
 - !private ["Ps11CVarArgType", "backgroundColor"]
+- !private ["Ps11CVarArgType", "buttonBarView"]
+- !private ["Ps11CVarArgType", "contentView"]
 - !private ["Ps11CVarArgType", "cornerRadius"]
 - !private ["Ps11CVarArgType", "dequeueReusableCellWithIdentifier"]
 - ["Ps11CVarArgType", "didReceiveMemoryWarning"]
@@ -139,6 +160,7 @@ depends-member:
 - !private ["Ps11CVarArgType", "layer"]
 - !private ["Ps11CVarArgType", "loadButtonPressed"]
 - ["Ps11CVarArgType", "mode"]
+- !private ["Ps11CVarArgType", "parentViewController"]
 - ["Ps11CVarArgType", "rankingButton"]
 - ["Ps11CVarArgType", "rankingButtonPressed"]
 - ["Ps11CVarArgType", "rankingData"]
@@ -149,9 +171,12 @@ depends-member:
 - !private ["Ps11CVarArgType", "setImage"]
 - !private ["Ps11CVarArgType", "shadowOffset"]
 - !private ["Ps11CVarArgType", "shadowOpacity"]
+- !private ["Ps11CVarArgType", "subviews"]
 - !private ["Ps11CVarArgType", "tableData"]
 - ["Ps11CVarArgType", "tableView"]
+- !private ["Ps11CVarArgType", "tag"]
 - ["Ps11CVarArgType", "viewDidLoad"]
+- !private ["Ps11CVarArgType", "whiteColor"]
 - ["Ps11CVarArgType", ""]
 - !private ["Ps14CollectionType", "Generator"]
 - !private ["Ps14CollectionType", "Index"]
@@ -159,7 +184,10 @@ depends-member:
 - !private ["Ps14CollectionType", "_Element"]
 - !private ["Ps14CollectionType", "count"]
 - !private ["Ps14CollectionType", "subscript"]
+- !private ["C8GameNews12ColorPallete", "getBronzeColor"]
+- !private ["C8GameNews12ColorPallete", "getGoldColor"]
 - !private ["C8GameNews12ColorPallete", "getMainColor"]
+- !private ["C8GameNews12ColorPallete", "getSilverColor"]
 - !private ["Ps10Comparable", "Distance"]
 - !private ["Ps10Comparable", "IntegerLiteralType"]
 - !private ["Ps10Comparable", "hashValue"]
@@ -172,10 +200,14 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "IndicatorInfo"]
 - !private ["Ps28CustomDebugStringConvertible", "LOADMODE"]
 - !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
 - !private ["Ps28CustomDebugStringConvertible", "UIControlState"]
 - !private ["Ps28CustomDebugStringConvertible", "UIImage"]
 - !private ["Ps28CustomDebugStringConvertible", "UINib"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
 - !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
+- !private ["Ps28CustomDebugStringConvertible", "buttonBarView"]
+- !private ["Ps28CustomDebugStringConvertible", "contentView"]
 - !private ["Ps28CustomDebugStringConvertible", "cornerRadius"]
 - !private ["Ps28CustomDebugStringConvertible", "count"]
 - !private ["Ps28CustomDebugStringConvertible", "dequeueReusableCellWithIdentifier"]
@@ -189,6 +221,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "layer"]
 - !private ["Ps28CustomDebugStringConvertible", "loadButtonPressed"]
 - ["Ps28CustomDebugStringConvertible", "mode"]
+- !private ["Ps28CustomDebugStringConvertible", "parentViewController"]
 - ["Ps28CustomDebugStringConvertible", "rankingButton"]
 - ["Ps28CustomDebugStringConvertible", "rankingButtonPressed"]
 - ["Ps28CustomDebugStringConvertible", "rankingData"]
@@ -200,9 +233,12 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "shadowOffset"]
 - !private ["Ps28CustomDebugStringConvertible", "shadowOpacity"]
 - !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "subviews"]
 - !private ["Ps28CustomDebugStringConvertible", "tableData"]
 - ["Ps28CustomDebugStringConvertible", "tableView"]
+- !private ["Ps28CustomDebugStringConvertible", "tag"]
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- !private ["Ps28CustomDebugStringConvertible", "whiteColor"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps23CustomStringConvertible", "ArticleDao"]
 - !private ["Ps23CustomStringConvertible", "CGSizeMake"]
@@ -215,11 +251,15 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
 - !private ["Ps23CustomStringConvertible", "LOADMODE"]
 - !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
 - !private ["Ps23CustomStringConvertible", "UIControlState"]
 - !private ["Ps23CustomStringConvertible", "UIImage"]
 - !private ["Ps23CustomStringConvertible", "UINib"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps23CustomStringConvertible", "backgroundColor"]
+- !private ["Ps23CustomStringConvertible", "buttonBarView"]
+- !private ["Ps23CustomStringConvertible", "contentView"]
 - !private ["Ps23CustomStringConvertible", "cornerRadius"]
 - !private ["Ps23CustomStringConvertible", "count"]
 - !private ["Ps23CustomStringConvertible", "dequeueReusableCellWithIdentifier"]
@@ -234,6 +274,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "layer"]
 - !private ["Ps23CustomStringConvertible", "loadButtonPressed"]
 - ["Ps23CustomStringConvertible", "mode"]
+- !private ["Ps23CustomStringConvertible", "parentViewController"]
 - ["Ps23CustomStringConvertible", "rankingButton"]
 - ["Ps23CustomStringConvertible", "rankingButtonPressed"]
 - ["Ps23CustomStringConvertible", "rankingData"]
@@ -245,9 +286,12 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "shadowOffset"]
 - !private ["Ps23CustomStringConvertible", "shadowOpacity"]
 - !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "subviews"]
 - !private ["Ps23CustomStringConvertible", "tableData"]
 - ["Ps23CustomStringConvertible", "tableView"]
+- !private ["Ps23CustomStringConvertible", "tag"]
 - ["Ps23CustomStringConvertible", "viewDidLoad"]
+- !private ["Ps23CustomStringConvertible", "whiteColor"]
 - ["Ps23CustomStringConvertible", ""]
 - ["O8GameNews11DISPLAYMODE", "LATER"]
 - ["O8GameNews11DISPLAYMODE", "LATEST"]
@@ -255,6 +299,7 @@ depends-member:
 - ["O8GameNews11DISPLAYMODE", "RANKING"]
 - ["O8GameNews11DISPLAYMODE", "deinit"]
 - ["O8GameNews11DISPLAYMODE", "hashValue"]
+- !private ["Sd", "deinit"]
 - !private ["Ps9Equatable", "ArticleDao"]
 - !private ["Ps9Equatable", "CGSizeMake"]
 - !private ["Ps9Equatable", "ColorPallete"]
@@ -267,11 +312,14 @@ depends-member:
 - !private ["Ps9Equatable", "LOADMODE"]
 - !private ["Ps9Equatable", "Normal"]
 - !private ["Ps9Equatable", "RANKING"]
+- !private ["Ps9Equatable", "UIColor"]
 - !private ["Ps9Equatable", "UIControlState"]
 - !private ["Ps9Equatable", "UIImage"]
 - !private ["Ps9Equatable", "UINib"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
 - !private ["Ps9Equatable", "backgroundColor"]
+- !private ["Ps9Equatable", "buttonBarView"]
+- !private ["Ps9Equatable", "contentView"]
 - !private ["Ps9Equatable", "cornerRadius"]
 - !private ["Ps9Equatable", "dequeueReusableCellWithIdentifier"]
 - ["Ps9Equatable", "didReceiveMemoryWarning"]
@@ -285,6 +333,7 @@ depends-member:
 - !private ["Ps9Equatable", "layer"]
 - !private ["Ps9Equatable", "loadButtonPressed"]
 - ["Ps9Equatable", "mode"]
+- !private ["Ps9Equatable", "parentViewController"]
 - ["Ps9Equatable", "rankingButton"]
 - ["Ps9Equatable", "rankingButtonPressed"]
 - ["Ps9Equatable", "rankingData"]
@@ -295,9 +344,12 @@ depends-member:
 - !private ["Ps9Equatable", "setImage"]
 - !private ["Ps9Equatable", "shadowOffset"]
 - !private ["Ps9Equatable", "shadowOpacity"]
+- !private ["Ps9Equatable", "subviews"]
 - !private ["Ps9Equatable", "tableData"]
 - ["Ps9Equatable", "tableView"]
+- !private ["Ps9Equatable", "tag"]
 - ["Ps9Equatable", "viewDidLoad"]
+- !private ["Ps9Equatable", "whiteColor"]
 - ["Ps9Equatable", ""]
 - !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
 - !private ["Ps16ForwardIndexType", "Distance"]
@@ -315,11 +367,14 @@ depends-member:
 - ["Ps8Hashable", "LATEST"]
 - !private ["Ps8Hashable", "LOADMODE"]
 - !private ["Ps8Hashable", "RANKING"]
+- !private ["Ps8Hashable", "UIColor"]
 - !private ["Ps8Hashable", "UIControlState"]
 - !private ["Ps8Hashable", "UIImage"]
 - !private ["Ps8Hashable", "UINib"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps8Hashable", "backgroundColor"]
+- !private ["Ps8Hashable", "buttonBarView"]
+- !private ["Ps8Hashable", "contentView"]
 - !private ["Ps8Hashable", "cornerRadius"]
 - !private ["Ps8Hashable", "dequeueReusableCellWithIdentifier"]
 - ["Ps8Hashable", "didReceiveMemoryWarning"]
@@ -333,6 +388,7 @@ depends-member:
 - !private ["Ps8Hashable", "layer"]
 - !private ["Ps8Hashable", "loadButtonPressed"]
 - ["Ps8Hashable", "mode"]
+- !private ["Ps8Hashable", "parentViewController"]
 - ["Ps8Hashable", "rankingButton"]
 - ["Ps8Hashable", "rankingButtonPressed"]
 - ["Ps8Hashable", "rankingData"]
@@ -343,9 +399,12 @@ depends-member:
 - !private ["Ps8Hashable", "setImage"]
 - !private ["Ps8Hashable", "shadowOffset"]
 - !private ["Ps8Hashable", "shadowOpacity"]
+- !private ["Ps8Hashable", "subviews"]
 - !private ["Ps8Hashable", "tableData"]
 - ["Ps8Hashable", "tableView"]
+- !private ["Ps8Hashable", "tag"]
 - ["Ps8Hashable", "viewDidLoad"]
+- !private ["Ps8Hashable", "whiteColor"]
 - ["Ps8Hashable", ""]
 - !private ["Ps9Indexable", "Generator"]
 - !private ["Ps9Indexable", "Index"]
@@ -361,6 +420,7 @@ depends-member:
 - ["P15XLPagerTabStrip21IndicatorInfoProvider", "DISPLAYMODE"]
 - !private ["P15XLPagerTabStrip21IndicatorInfoProvider", "IndicatorInfo"]
 - !private ["P15XLPagerTabStrip21IndicatorInfoProvider", "LOADMODE"]
+- !private ["P15XLPagerTabStrip21IndicatorInfoProvider", "UIColor"]
 - !private ["P15XLPagerTabStrip21IndicatorInfoProvider", "UIControlState"]
 - !private ["P15XLPagerTabStrip21IndicatorInfoProvider", "UIImage"]
 - !private ["P15XLPagerTabStrip21IndicatorInfoProvider", "UINib"]
@@ -368,6 +428,7 @@ depends-member:
 - ["P15XLPagerTabStrip21IndicatorInfoProvider", "indicatorInfoForPagerTabStrip"]
 - !private ["P15XLPagerTabStrip21IndicatorInfoProvider", "loadButtonPressed"]
 - !private ["P15XLPagerTabStrip21IndicatorInfoProvider", "mode"]
+- !private ["P15XLPagerTabStrip21IndicatorInfoProvider", "parentViewController"]
 - !private ["P15XLPagerTabStrip21IndicatorInfoProvider", "rankingButton"]
 - !private ["P15XLPagerTabStrip21IndicatorInfoProvider", "rankingData"]
 - !private ["P15XLPagerTabStrip21IndicatorInfoProvider", "tableData"]
@@ -375,6 +436,7 @@ depends-member:
 - ["P15XLPagerTabStrip21IndicatorInfoProvider", ""]
 - !private ["Si", "Distance"]
 - !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
 - !private ["Si", "hashValue"]
 - !private ["Ps21IntegerArithmeticType", "Distance"]
 - !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
@@ -392,16 +454,19 @@ depends-member:
 - !private ["Ps21MutableCollectionType", "Generator"]
 - !private ["Ps21MutableCollectionType", "Index"]
 - !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "_Element"]
 - !private ["Ps21MutableCollectionType", "count"]
 - !private ["Ps21MutableCollectionType", "subscript"]
 - !private ["Ps16MutableIndexable", "Generator"]
 - !private ["Ps16MutableIndexable", "Index"]
 - !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
 - !private ["Ps16MutableIndexable", "count"]
 - !private ["Ps16MutableIndexable", "subscript"]
 - !private ["Ps16MutableSliceable", "Generator"]
 - !private ["Ps16MutableSliceable", "Index"]
 - !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "_Element"]
 - !private ["Ps16MutableSliceable", "count"]
 - !private ["Ps16MutableSliceable", "subscript"]
 - !private ["PSo8NSCoding", "ArticleDao"]
@@ -410,10 +475,13 @@ depends-member:
 - ["PSo8NSCoding", "DISPLAYMODE"]
 - !private ["PSo8NSCoding", "IndicatorInfo"]
 - !private ["PSo8NSCoding", "LOADMODE"]
+- !private ["PSo8NSCoding", "UIColor"]
 - !private ["PSo8NSCoding", "UIControlState"]
 - !private ["PSo8NSCoding", "UIImage"]
 - !private ["PSo8NSCoding", "UINib"]
 - !private ["PSo8NSCoding", "backgroundColor"]
+- !private ["PSo8NSCoding", "buttonBarView"]
+- !private ["PSo8NSCoding", "contentView"]
 - !private ["PSo8NSCoding", "cornerRadius"]
 - !private ["PSo8NSCoding", "dequeueReusableCellWithIdentifier"]
 - ["PSo8NSCoding", "didReceiveMemoryWarning"]
@@ -426,6 +494,7 @@ depends-member:
 - !private ["PSo8NSCoding", "layer"]
 - !private ["PSo8NSCoding", "loadButtonPressed"]
 - ["PSo8NSCoding", "mode"]
+- !private ["PSo8NSCoding", "parentViewController"]
 - ["PSo8NSCoding", "rankingButton"]
 - ["PSo8NSCoding", "rankingButtonPressed"]
 - ["PSo8NSCoding", "rankingData"]
@@ -436,20 +505,26 @@ depends-member:
 - !private ["PSo8NSCoding", "setImage"]
 - !private ["PSo8NSCoding", "shadowOffset"]
 - !private ["PSo8NSCoding", "shadowOpacity"]
+- !private ["PSo8NSCoding", "subviews"]
 - !private ["PSo8NSCoding", "tableData"]
 - ["PSo8NSCoding", "tableView"]
+- !private ["PSo8NSCoding", "tag"]
 - ["PSo8NSCoding", "viewDidLoad"]
+- !private ["PSo8NSCoding", "whiteColor"]
 - ["PSo8NSCoding", ""]
 - !private ["PSo9NSCopying", "row"]
+- !private ["PSo9NSCopying", "whiteColor"]
 - !private ["PSo26NSExtensionRequestHandling", "ArticleDao"]
 - !private ["PSo26NSExtensionRequestHandling", "CGSizeMake"]
 - !private ["PSo26NSExtensionRequestHandling", "ColorPallete"]
 - ["PSo26NSExtensionRequestHandling", "DISPLAYMODE"]
 - !private ["PSo26NSExtensionRequestHandling", "IndicatorInfo"]
 - !private ["PSo26NSExtensionRequestHandling", "LOADMODE"]
+- !private ["PSo26NSExtensionRequestHandling", "UIColor"]
 - !private ["PSo26NSExtensionRequestHandling", "UIControlState"]
 - !private ["PSo26NSExtensionRequestHandling", "UIImage"]
 - !private ["PSo26NSExtensionRequestHandling", "UINib"]
+- !private ["PSo26NSExtensionRequestHandling", "buttonBarView"]
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
 - ["PSo26NSExtensionRequestHandling", "getArticle"]
 - ["PSo26NSExtensionRequestHandling", "getArticles"]
@@ -459,6 +534,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "init"]
 - !private ["PSo26NSExtensionRequestHandling", "loadButtonPressed"]
 - ["PSo26NSExtensionRequestHandling", "mode"]
+- !private ["PSo26NSExtensionRequestHandling", "parentViewController"]
 - ["PSo26NSExtensionRequestHandling", "rankingButton"]
 - ["PSo26NSExtensionRequestHandling", "rankingButtonPressed"]
 - ["PSo26NSExtensionRequestHandling", "rankingData"]
@@ -468,9 +544,11 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
 - !private ["CSo11NSIndexPath", "row"]
+- !private ["CSo8NSNumber", "deinit"]
 - ["CSo8NSObject", "AnyObject"]
 - ["CSo8NSObject", "Article"]
 - !private ["CSo8NSObject", "ArticleDao"]
+- !private ["CSo8NSObject", "ButtonBarPagerTabStripViewController"]
 - !private ["CSo8NSObject", "CGSizeMake"]
 - !private ["CSo8NSObject", "ColorPallete"]
 - ["CSo8NSObject", "DISPLAYMODE"]
@@ -480,13 +558,17 @@ depends-member:
 - ["CSo8NSObject", "NSIndexPath"]
 - ["CSo8NSObject", "PagerTabStripViewController"]
 - ["CSo8NSObject", "UIButton"]
+- !private ["CSo8NSObject", "UIColor"]
 - !private ["CSo8NSObject", "UIControlState"]
 - !private ["CSo8NSObject", "UIImage"]
 - !private ["CSo8NSObject", "UINib"]
 - ["CSo8NSObject", "UITableView"]
 - ["CSo8NSObject", "UITableViewCell"]
 - !private ["CSo8NSObject", "backgroundColor"]
+- !private ["CSo8NSObject", "buttonBarView"]
+- !private ["CSo8NSObject", "contentView"]
 - !private ["CSo8NSObject", "cornerRadius"]
+- !private ["CSo8NSObject", "deinit"]
 - !private ["CSo8NSObject", "dequeueReusableCellWithIdentifier"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
 - ["CSo8NSObject", "getArticle"]
@@ -498,6 +580,7 @@ depends-member:
 - !private ["CSo8NSObject", "layer"]
 - !private ["CSo8NSObject", "loadButtonPressed"]
 - ["CSo8NSObject", "mode"]
+- !private ["CSo8NSObject", "parentViewController"]
 - ["CSo8NSObject", "rankingButton"]
 - ["CSo8NSObject", "rankingButtonPressed"]
 - ["CSo8NSObject", "rankingData"]
@@ -508,19 +591,25 @@ depends-member:
 - !private ["CSo8NSObject", "setImage"]
 - !private ["CSo8NSObject", "shadowOffset"]
 - !private ["CSo8NSObject", "shadowOpacity"]
+- !private ["CSo8NSObject", "subviews"]
 - !private ["CSo8NSObject", "tableData"]
 - ["CSo8NSObject", "tableView"]
+- !private ["CSo8NSObject", "tag"]
 - ["CSo8NSObject", "viewDidLoad"]
+- !private ["CSo8NSObject", "whiteColor"]
 - !private ["PSo16NSObjectProtocol", "ArticleDao"]
 - !private ["PSo16NSObjectProtocol", "CGSizeMake"]
 - !private ["PSo16NSObjectProtocol", "ColorPallete"]
 - ["PSo16NSObjectProtocol", "DISPLAYMODE"]
 - !private ["PSo16NSObjectProtocol", "IndicatorInfo"]
 - !private ["PSo16NSObjectProtocol", "LOADMODE"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
 - !private ["PSo16NSObjectProtocol", "UIControlState"]
 - !private ["PSo16NSObjectProtocol", "UIImage"]
 - !private ["PSo16NSObjectProtocol", "UINib"]
 - !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- !private ["PSo16NSObjectProtocol", "buttonBarView"]
+- !private ["PSo16NSObjectProtocol", "contentView"]
 - !private ["PSo16NSObjectProtocol", "cornerRadius"]
 - !private ["PSo16NSObjectProtocol", "dequeueReusableCellWithIdentifier"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
@@ -533,6 +622,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "layer"]
 - !private ["PSo16NSObjectProtocol", "loadButtonPressed"]
 - ["PSo16NSObjectProtocol", "mode"]
+- !private ["PSo16NSObjectProtocol", "parentViewController"]
 - ["PSo16NSObjectProtocol", "rankingButton"]
 - ["PSo16NSObjectProtocol", "rankingButtonPressed"]
 - ["PSo16NSObjectProtocol", "rankingData"]
@@ -543,15 +633,21 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "setImage"]
 - !private ["PSo16NSObjectProtocol", "shadowOffset"]
 - !private ["PSo16NSObjectProtocol", "shadowOpacity"]
+- !private ["PSo16NSObjectProtocol", "subviews"]
 - !private ["PSo16NSObjectProtocol", "tableData"]
 - ["PSo16NSObjectProtocol", "tableView"]
+- !private ["PSo16NSObjectProtocol", "tag"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "whiteColor"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["PSo14NSSecureCoding", "row"]
+- !private ["PSo14NSSecureCoding", "whiteColor"]
+- !private ["CSo7NSValue", "deinit"]
 - ["C8GameNews18NewsViewController", "AnyObject"]
 - ["C8GameNews18NewsViewController", "Article"]
 - !private ["C8GameNews18NewsViewController", "ArticleDao"]
+- !private ["C8GameNews18NewsViewController", "ButtonBarPagerTabStripViewController"]
 - !private ["C8GameNews18NewsViewController", "CGSizeMake"]
 - !private ["C8GameNews18NewsViewController", "ColorPallete"]
 - ["C8GameNews18NewsViewController", "DISPLAYMODE"]
@@ -561,6 +657,7 @@ depends-member:
 - ["C8GameNews18NewsViewController", "NSIndexPath"]
 - ["C8GameNews18NewsViewController", "PagerTabStripViewController"]
 - ["C8GameNews18NewsViewController", "UIButton"]
+- !private ["C8GameNews18NewsViewController", "UIColor"]
 - !private ["C8GameNews18NewsViewController", "UIControlState"]
 - !private ["C8GameNews18NewsViewController", "UIImage"]
 - !private ["C8GameNews18NewsViewController", "UINib"]
@@ -576,6 +673,7 @@ depends-member:
 - ["C8GameNews18NewsViewController", "init"]
 - !private ["C8GameNews18NewsViewController", "loadButtonPressed"]
 - ["C8GameNews18NewsViewController", "mode"]
+- !private ["C8GameNews18NewsViewController", "parentViewController"]
 - ["C8GameNews18NewsViewController", "rankingButton"]
 - ["C8GameNews18NewsViewController", "rankingButtonPressed"]
 - ["C8GameNews18NewsViewController", "rankingData"]
@@ -584,18 +682,26 @@ depends-member:
 - ["C8GameNews18NewsViewController", "tableView"]
 - ["C8GameNews18NewsViewController", "viewDidLoad"]
 - !private ["Ps13OptionSetType", "Normal"]
+- !private ["Sq", "deinit"]
+- !private ["P15XLPagerTabStrip23PagerTabStripDataSource", "buttonBarView"]
+- !private ["P15XLPagerTabStrip21PagerTabStripDelegate", "buttonBarView"]
+- !private ["P15XLPagerTabStrip34PagerTabStripIsProgressiveDelegate", "buttonBarView"]
+- !private ["C15XLPagerTabStrip27PagerTabStripViewController", "buttonBarView"]
 - !private ["Ps21RandomAccessIndexType", "Distance"]
 - !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
 - !private ["Ps21RandomAccessIndexType", "hashValue"]
+- !private ["Vs5Range", "deinit"]
 - !private ["Ps30RangeReplaceableCollectionType", "Generator"]
 - !private ["Ps30RangeReplaceableCollectionType", "Index"]
 - !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
 - !private ["Ps30RangeReplaceableCollectionType", "count"]
 - !private ["Ps30RangeReplaceableCollectionType", "subscript"]
 - !private ["Ps16RawRepresentable", "Normal"]
 - ["C8GameNews24ReloadableViewController", "AnyObject"]
 - ["C8GameNews24ReloadableViewController", "Article"]
 - !private ["C8GameNews24ReloadableViewController", "ArticleDao"]
+- !private ["C8GameNews24ReloadableViewController", "ButtonBarPagerTabStripViewController"]
 - !private ["C8GameNews24ReloadableViewController", "CGSizeMake"]
 - !private ["C8GameNews24ReloadableViewController", "ColorPallete"]
 - ["C8GameNews24ReloadableViewController", "DISPLAYMODE"]
@@ -605,11 +711,13 @@ depends-member:
 - ["C8GameNews24ReloadableViewController", "NSIndexPath"]
 - ["C8GameNews24ReloadableViewController", "PagerTabStripViewController"]
 - ["C8GameNews24ReloadableViewController", "UIButton"]
+- !private ["C8GameNews24ReloadableViewController", "UIColor"]
 - !private ["C8GameNews24ReloadableViewController", "UIControlState"]
 - !private ["C8GameNews24ReloadableViewController", "UIImage"]
 - !private ["C8GameNews24ReloadableViewController", "UINib"]
 - ["C8GameNews24ReloadableViewController", "UITableView"]
 - ["C8GameNews24ReloadableViewController", "UITableViewCell"]
+- !private ["C8GameNews24ReloadableViewController", "deinit"]
 - ["C8GameNews24ReloadableViewController", "didReceiveMemoryWarning"]
 - ["C8GameNews24ReloadableViewController", "getArticle"]
 - ["C8GameNews24ReloadableViewController", "getArticles"]
@@ -619,6 +727,7 @@ depends-member:
 - ["C8GameNews24ReloadableViewController", "init"]
 - !private ["C8GameNews24ReloadableViewController", "loadButtonPressed"]
 - ["C8GameNews24ReloadableViewController", "mode"]
+- !private ["C8GameNews24ReloadableViewController", "parentViewController"]
 - ["C8GameNews24ReloadableViewController", "rankingButton"]
 - ["C8GameNews24ReloadableViewController", "rankingButtonPressed"]
 - ["C8GameNews24ReloadableViewController", "rankingData"]
@@ -650,28 +759,37 @@ depends-member:
 - !private ["Ps10Strideable", "hashValue"]
 - !private ["Ps24StringLiteralConvertible", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
+- !private ["PSo29UIAccessibilityIdentification", "contentView"]
 - !private ["PSo29UIAccessibilityIdentification", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "layer"]
 - !private ["PSo29UIAccessibilityIdentification", "registerNib"]
 - !private ["PSo29UIAccessibilityIdentification", "reloadData"]
 - !private ["PSo29UIAccessibilityIdentification", "setImage"]
+- !private ["PSo29UIAccessibilityIdentification", "subviews"]
+- !private ["PSo29UIAccessibilityIdentification", "tag"]
 - !private ["PSo12UIAppearance", "backgroundColor"]
+- !private ["PSo12UIAppearance", "contentView"]
 - !private ["PSo12UIAppearance", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo12UIAppearance", "layer"]
 - !private ["PSo12UIAppearance", "registerNib"]
 - !private ["PSo12UIAppearance", "reloadData"]
 - !private ["PSo12UIAppearance", "setImage"]
+- !private ["PSo12UIAppearance", "subviews"]
+- !private ["PSo12UIAppearance", "tag"]
 - !private ["PSo21UIAppearanceContainer", "ArticleDao"]
 - !private ["PSo21UIAppearanceContainer", "CGSizeMake"]
 - !private ["PSo21UIAppearanceContainer", "ColorPallete"]
 - ["PSo21UIAppearanceContainer", "DISPLAYMODE"]
 - !private ["PSo21UIAppearanceContainer", "IndicatorInfo"]
 - !private ["PSo21UIAppearanceContainer", "LOADMODE"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
 - !private ["PSo21UIAppearanceContainer", "UIControlState"]
 - !private ["PSo21UIAppearanceContainer", "UIImage"]
 - !private ["PSo21UIAppearanceContainer", "UINib"]
 - !private ["PSo21UIAppearanceContainer", "backgroundColor"]
+- !private ["PSo21UIAppearanceContainer", "buttonBarView"]
+- !private ["PSo21UIAppearanceContainer", "contentView"]
 - !private ["PSo21UIAppearanceContainer", "dequeueReusableCellWithIdentifier"]
 - ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
 - ["PSo21UIAppearanceContainer", "getArticle"]
@@ -683,6 +801,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "layer"]
 - !private ["PSo21UIAppearanceContainer", "loadButtonPressed"]
 - ["PSo21UIAppearanceContainer", "mode"]
+- !private ["PSo21UIAppearanceContainer", "parentViewController"]
 - ["PSo21UIAppearanceContainer", "rankingButton"]
 - ["PSo21UIAppearanceContainer", "rankingButtonPressed"]
 - ["PSo21UIAppearanceContainer", "rankingData"]
@@ -690,22 +809,30 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "reload"]
 - !private ["PSo21UIAppearanceContainer", "reloadData"]
 - !private ["PSo21UIAppearanceContainer", "setImage"]
+- !private ["PSo21UIAppearanceContainer", "subviews"]
 - !private ["PSo21UIAppearanceContainer", "tableData"]
 - ["PSo21UIAppearanceContainer", "tableView"]
+- !private ["PSo21UIAppearanceContainer", "tag"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
 - !private ["CSo8UIButton", "backgroundColor"]
 - !private ["CSo8UIButton", "layer"]
 - !private ["CSo8UIButton", "setImage"]
+- !private ["CSo16UICollectionView", "reloadData"]
+- !private ["PSo26UICollectionViewDataSource", "buttonBarView"]
+- !private ["PSo24UICollectionViewDelegate", "buttonBarView"]
+- !private ["CSo7UIColor", "whiteColor"]
 - !private ["PSo18UIContentContainer", "ArticleDao"]
 - !private ["PSo18UIContentContainer", "CGSizeMake"]
 - !private ["PSo18UIContentContainer", "ColorPallete"]
 - ["PSo18UIContentContainer", "DISPLAYMODE"]
 - !private ["PSo18UIContentContainer", "IndicatorInfo"]
 - !private ["PSo18UIContentContainer", "LOADMODE"]
+- !private ["PSo18UIContentContainer", "UIColor"]
 - !private ["PSo18UIContentContainer", "UIControlState"]
 - !private ["PSo18UIContentContainer", "UIImage"]
 - !private ["PSo18UIContentContainer", "UINib"]
+- !private ["PSo18UIContentContainer", "buttonBarView"]
 - ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
 - ["PSo18UIContentContainer", "getArticle"]
 - ["PSo18UIContentContainer", "getArticles"]
@@ -715,6 +842,7 @@ depends-member:
 - ["PSo18UIContentContainer", "init"]
 - !private ["PSo18UIContentContainer", "loadButtonPressed"]
 - ["PSo18UIContentContainer", "mode"]
+- !private ["PSo18UIContentContainer", "parentViewController"]
 - ["PSo18UIContentContainer", "rankingButton"]
 - ["PSo18UIContentContainer", "rankingButtonPressed"]
 - ["PSo18UIContentContainer", "rankingData"]
@@ -728,27 +856,36 @@ depends-member:
 - !private ["CSo9UIControl", "setImage"]
 - !private ["VSC14UIControlState", "Normal"]
 - !private ["PSo17UICoordinateSpace", "backgroundColor"]
+- !private ["PSo17UICoordinateSpace", "contentView"]
 - !private ["PSo17UICoordinateSpace", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo17UICoordinateSpace", "layer"]
 - !private ["PSo17UICoordinateSpace", "registerNib"]
 - !private ["PSo17UICoordinateSpace", "reloadData"]
 - !private ["PSo17UICoordinateSpace", "setImage"]
+- !private ["PSo17UICoordinateSpace", "subviews"]
+- !private ["PSo17UICoordinateSpace", "tag"]
 - !private ["PSo13UIDynamicItem", "backgroundColor"]
+- !private ["PSo13UIDynamicItem", "contentView"]
 - !private ["PSo13UIDynamicItem", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo13UIDynamicItem", "layer"]
 - !private ["PSo13UIDynamicItem", "registerNib"]
 - !private ["PSo13UIDynamicItem", "reloadData"]
 - !private ["PSo13UIDynamicItem", "setImage"]
+- !private ["PSo13UIDynamicItem", "subviews"]
+- !private ["PSo13UIDynamicItem", "tag"]
 - !private ["PSo18UIFocusEnvironment", "ArticleDao"]
 - !private ["PSo18UIFocusEnvironment", "CGSizeMake"]
 - !private ["PSo18UIFocusEnvironment", "ColorPallete"]
 - ["PSo18UIFocusEnvironment", "DISPLAYMODE"]
 - !private ["PSo18UIFocusEnvironment", "IndicatorInfo"]
 - !private ["PSo18UIFocusEnvironment", "LOADMODE"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
 - !private ["PSo18UIFocusEnvironment", "UIControlState"]
 - !private ["PSo18UIFocusEnvironment", "UIImage"]
 - !private ["PSo18UIFocusEnvironment", "UINib"]
 - !private ["PSo18UIFocusEnvironment", "backgroundColor"]
+- !private ["PSo18UIFocusEnvironment", "buttonBarView"]
+- !private ["PSo18UIFocusEnvironment", "contentView"]
 - !private ["PSo18UIFocusEnvironment", "dequeueReusableCellWithIdentifier"]
 - ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UIFocusEnvironment", "getArticle"]
@@ -760,6 +897,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "layer"]
 - !private ["PSo18UIFocusEnvironment", "loadButtonPressed"]
 - ["PSo18UIFocusEnvironment", "mode"]
+- !private ["PSo18UIFocusEnvironment", "parentViewController"]
 - ["PSo18UIFocusEnvironment", "rankingButton"]
 - ["PSo18UIFocusEnvironment", "rankingButtonPressed"]
 - ["PSo18UIFocusEnvironment", "rankingData"]
@@ -767,15 +905,19 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "reload"]
 - !private ["PSo18UIFocusEnvironment", "reloadData"]
 - !private ["PSo18UIFocusEnvironment", "setImage"]
+- !private ["PSo18UIFocusEnvironment", "subviews"]
 - !private ["PSo18UIFocusEnvironment", "tableData"]
 - ["PSo18UIFocusEnvironment", "tableView"]
+- !private ["PSo18UIFocusEnvironment", "tag"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo27UIGestureRecognizerDelegate", "contentView"]
 - !private ["CSo7UIImage", "init"]
 - !private ["CSo5UINib", "init"]
 - ["CSo11UIResponder", "AnyObject"]
 - ["CSo11UIResponder", "Article"]
 - !private ["CSo11UIResponder", "ArticleDao"]
+- !private ["CSo11UIResponder", "ButtonBarPagerTabStripViewController"]
 - !private ["CSo11UIResponder", "CGSizeMake"]
 - !private ["CSo11UIResponder", "ColorPallete"]
 - ["CSo11UIResponder", "DISPLAYMODE"]
@@ -785,12 +927,15 @@ depends-member:
 - ["CSo11UIResponder", "NSIndexPath"]
 - ["CSo11UIResponder", "PagerTabStripViewController"]
 - ["CSo11UIResponder", "UIButton"]
+- !private ["CSo11UIResponder", "UIColor"]
 - !private ["CSo11UIResponder", "UIControlState"]
 - !private ["CSo11UIResponder", "UIImage"]
 - !private ["CSo11UIResponder", "UINib"]
 - ["CSo11UIResponder", "UITableView"]
 - ["CSo11UIResponder", "UITableViewCell"]
 - !private ["CSo11UIResponder", "backgroundColor"]
+- !private ["CSo11UIResponder", "buttonBarView"]
+- !private ["CSo11UIResponder", "contentView"]
 - !private ["CSo11UIResponder", "dequeueReusableCellWithIdentifier"]
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
 - ["CSo11UIResponder", "getArticle"]
@@ -802,6 +947,7 @@ depends-member:
 - !private ["CSo11UIResponder", "layer"]
 - !private ["CSo11UIResponder", "loadButtonPressed"]
 - ["CSo11UIResponder", "mode"]
+- !private ["CSo11UIResponder", "parentViewController"]
 - ["CSo11UIResponder", "rankingButton"]
 - ["CSo11UIResponder", "rankingButtonPressed"]
 - ["CSo11UIResponder", "rankingData"]
@@ -809,8 +955,10 @@ depends-member:
 - ["CSo11UIResponder", "reload"]
 - !private ["CSo11UIResponder", "reloadData"]
 - !private ["CSo11UIResponder", "setImage"]
+- !private ["CSo11UIResponder", "subviews"]
 - !private ["CSo11UIResponder", "tableData"]
 - ["CSo11UIResponder", "tableView"]
+- !private ["CSo11UIResponder", "tag"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - !private ["CSo12UIScrollView", "dequeueReusableCellWithIdentifier"]
 - !private ["CSo12UIScrollView", "registerNib"]
@@ -821,9 +969,11 @@ depends-member:
 - ["PSo20UIScrollViewDelegate", "DISPLAYMODE"]
 - !private ["PSo20UIScrollViewDelegate", "IndicatorInfo"]
 - !private ["PSo20UIScrollViewDelegate", "LOADMODE"]
+- !private ["PSo20UIScrollViewDelegate", "UIColor"]
 - !private ["PSo20UIScrollViewDelegate", "UIControlState"]
 - !private ["PSo20UIScrollViewDelegate", "UIImage"]
 - !private ["PSo20UIScrollViewDelegate", "UINib"]
+- !private ["PSo20UIScrollViewDelegate", "buttonBarView"]
 - ["PSo20UIScrollViewDelegate", "didReceiveMemoryWarning"]
 - ["PSo20UIScrollViewDelegate", "getArticle"]
 - ["PSo20UIScrollViewDelegate", "getArticles"]
@@ -833,6 +983,7 @@ depends-member:
 - ["PSo20UIScrollViewDelegate", "init"]
 - !private ["PSo20UIScrollViewDelegate", "loadButtonPressed"]
 - ["PSo20UIScrollViewDelegate", "mode"]
+- !private ["PSo20UIScrollViewDelegate", "parentViewController"]
 - ["PSo20UIScrollViewDelegate", "rankingButton"]
 - ["PSo20UIScrollViewDelegate", "rankingButtonPressed"]
 - ["PSo20UIScrollViewDelegate", "rankingData"]
@@ -847,9 +998,11 @@ depends-member:
 - ["PSo16UIStateRestoring", "DISPLAYMODE"]
 - !private ["PSo16UIStateRestoring", "IndicatorInfo"]
 - !private ["PSo16UIStateRestoring", "LOADMODE"]
+- !private ["PSo16UIStateRestoring", "UIColor"]
 - !private ["PSo16UIStateRestoring", "UIControlState"]
 - !private ["PSo16UIStateRestoring", "UIImage"]
 - !private ["PSo16UIStateRestoring", "UINib"]
+- !private ["PSo16UIStateRestoring", "buttonBarView"]
 - ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
 - ["PSo16UIStateRestoring", "getArticle"]
 - ["PSo16UIStateRestoring", "getArticles"]
@@ -859,6 +1012,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "init"]
 - !private ["PSo16UIStateRestoring", "loadButtonPressed"]
 - ["PSo16UIStateRestoring", "mode"]
+- !private ["PSo16UIStateRestoring", "parentViewController"]
 - ["PSo16UIStateRestoring", "rankingButton"]
 - ["PSo16UIStateRestoring", "rankingButtonPressed"]
 - ["PSo16UIStateRestoring", "rankingData"]
@@ -870,12 +1024,14 @@ depends-member:
 - !private ["CSo11UITableView", "dequeueReusableCellWithIdentifier"]
 - !private ["CSo11UITableView", "registerNib"]
 - !private ["CSo11UITableView", "reloadData"]
+- !private ["CSo15UITableViewCell", "contentView"]
 - !private ["PSo21UITableViewDataSource", "ArticleDao"]
 - !private ["PSo21UITableViewDataSource", "CGSizeMake"]
 - !private ["PSo21UITableViewDataSource", "ColorPallete"]
 - ["PSo21UITableViewDataSource", "DISPLAYMODE"]
 - !private ["PSo21UITableViewDataSource", "IndicatorInfo"]
 - !private ["PSo21UITableViewDataSource", "LOADMODE"]
+- !private ["PSo21UITableViewDataSource", "UIColor"]
 - !private ["PSo21UITableViewDataSource", "UIControlState"]
 - !private ["PSo21UITableViewDataSource", "UIImage"]
 - !private ["PSo21UITableViewDataSource", "UINib"]
@@ -888,6 +1044,7 @@ depends-member:
 - ["PSo21UITableViewDataSource", "init"]
 - !private ["PSo21UITableViewDataSource", "loadButtonPressed"]
 - ["PSo21UITableViewDataSource", "mode"]
+- !private ["PSo21UITableViewDataSource", "parentViewController"]
 - ["PSo21UITableViewDataSource", "rankingButton"]
 - ["PSo21UITableViewDataSource", "rankingButtonPressed"]
 - ["PSo21UITableViewDataSource", "rankingData"]
@@ -902,6 +1059,7 @@ depends-member:
 - ["PSo19UITableViewDelegate", "DISPLAYMODE"]
 - !private ["PSo19UITableViewDelegate", "IndicatorInfo"]
 - !private ["PSo19UITableViewDelegate", "LOADMODE"]
+- !private ["PSo19UITableViewDelegate", "UIColor"]
 - !private ["PSo19UITableViewDelegate", "UIControlState"]
 - !private ["PSo19UITableViewDelegate", "UIImage"]
 - !private ["PSo19UITableViewDelegate", "UINib"]
@@ -914,6 +1072,7 @@ depends-member:
 - ["PSo19UITableViewDelegate", "init"]
 - !private ["PSo19UITableViewDelegate", "loadButtonPressed"]
 - ["PSo19UITableViewDelegate", "mode"]
+- !private ["PSo19UITableViewDelegate", "parentViewController"]
 - ["PSo19UITableViewDelegate", "rankingButton"]
 - ["PSo19UITableViewDelegate", "rankingButtonPressed"]
 - ["PSo19UITableViewDelegate", "rankingData"]
@@ -928,10 +1087,13 @@ depends-member:
 - ["PSo18UITraitEnvironment", "DISPLAYMODE"]
 - !private ["PSo18UITraitEnvironment", "IndicatorInfo"]
 - !private ["PSo18UITraitEnvironment", "LOADMODE"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
 - !private ["PSo18UITraitEnvironment", "UIControlState"]
 - !private ["PSo18UITraitEnvironment", "UIImage"]
 - !private ["PSo18UITraitEnvironment", "UINib"]
 - !private ["PSo18UITraitEnvironment", "backgroundColor"]
+- !private ["PSo18UITraitEnvironment", "buttonBarView"]
+- !private ["PSo18UITraitEnvironment", "contentView"]
 - !private ["PSo18UITraitEnvironment", "dequeueReusableCellWithIdentifier"]
 - ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UITraitEnvironment", "getArticle"]
@@ -943,6 +1105,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "layer"]
 - !private ["PSo18UITraitEnvironment", "loadButtonPressed"]
 - ["PSo18UITraitEnvironment", "mode"]
+- !private ["PSo18UITraitEnvironment", "parentViewController"]
 - ["PSo18UITraitEnvironment", "rankingButton"]
 - ["PSo18UITraitEnvironment", "rankingButtonPressed"]
 - ["PSo18UITraitEnvironment", "rankingData"]
@@ -950,19 +1113,25 @@ depends-member:
 - ["PSo18UITraitEnvironment", "reload"]
 - !private ["PSo18UITraitEnvironment", "reloadData"]
 - !private ["PSo18UITraitEnvironment", "setImage"]
+- !private ["PSo18UITraitEnvironment", "subviews"]
 - !private ["PSo18UITraitEnvironment", "tableData"]
 - ["PSo18UITraitEnvironment", "tableView"]
+- !private ["PSo18UITraitEnvironment", "tag"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
 - !private ["CSo6UIView", "backgroundColor"]
+- !private ["CSo6UIView", "contentView"]
 - !private ["CSo6UIView", "dequeueReusableCellWithIdentifier"]
 - !private ["CSo6UIView", "layer"]
 - !private ["CSo6UIView", "registerNib"]
 - !private ["CSo6UIView", "reloadData"]
 - !private ["CSo6UIView", "setImage"]
+- !private ["CSo6UIView", "subviews"]
+- !private ["CSo6UIView", "tag"]
 - ["CSo16UIViewController", "AnyObject"]
 - ["CSo16UIViewController", "Article"]
 - !private ["CSo16UIViewController", "ArticleDao"]
+- !private ["CSo16UIViewController", "ButtonBarPagerTabStripViewController"]
 - !private ["CSo16UIViewController", "CGSizeMake"]
 - !private ["CSo16UIViewController", "ColorPallete"]
 - ["CSo16UIViewController", "DISPLAYMODE"]
@@ -972,11 +1141,13 @@ depends-member:
 - ["CSo16UIViewController", "NSIndexPath"]
 - ["CSo16UIViewController", "PagerTabStripViewController"]
 - ["CSo16UIViewController", "UIButton"]
+- !private ["CSo16UIViewController", "UIColor"]
 - !private ["CSo16UIViewController", "UIControlState"]
 - !private ["CSo16UIViewController", "UIImage"]
 - !private ["CSo16UIViewController", "UINib"]
 - ["CSo16UIViewController", "UITableView"]
 - ["CSo16UIViewController", "UITableViewCell"]
+- !private ["CSo16UIViewController", "buttonBarView"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
 - ["CSo16UIViewController", "getArticle"]
 - ["CSo16UIViewController", "getArticles"]
@@ -986,6 +1157,7 @@ depends-member:
 - ["CSo16UIViewController", "init"]
 - !private ["CSo16UIViewController", "loadButtonPressed"]
 - ["CSo16UIViewController", "mode"]
+- !private ["CSo16UIViewController", "parentViewController"]
 - ["CSo16UIViewController", "rankingButton"]
 - ["CSo16UIViewController", "rankingButtonPressed"]
 - ["CSo16UIViewController", "rankingData"]
@@ -997,15 +1169,18 @@ depends-member:
 - !private ["Ps10_ArrayType", "Generator"]
 - !private ["Ps10_ArrayType", "Index"]
 - !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "_Element"]
 - !private ["Ps10_ArrayType", "count"]
 - !private ["Ps10_ArrayType", "subscript"]
 - !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
 - !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
 - !private ["Ps33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- !private ["Ps24_ColorLiteralConvertible", "whiteColor"]
 - !private ["Ps24_DestructorSafeContainer", "Generator"]
 - !private ["Ps24_DestructorSafeContainer", "Index"]
 - !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
 - !private ["Ps24_DestructorSafeContainer", "count"]
 - !private ["Ps24_DestructorSafeContainer", "subscript"]
 - !private ["Ps24_ImageLiteralConvertible", "init"]
@@ -1023,10 +1198,12 @@ depends-member:
 - !private ["Ps21_ObjectiveCBridgeable", "Index"]
 - !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
 - !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "count"]
 - !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
 - !private ["Ps22_RandomAccessAmbiguity", "Distance"]
 - !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
 - !private ["Ps22_RandomAccessAmbiguity", "hashValue"]
@@ -1035,8 +1212,10 @@ depends-member:
 - !private ["Ps12_Reflectable", "Index"]
 - !private ["Ps12_Reflectable", "IntegerLiteralType"]
 - !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "_Element"]
 - !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
 - !private ["Ps12_Reflectable", "backgroundColor"]
+- !private ["Ps12_Reflectable", "contentView"]
 - !private ["Ps12_Reflectable", "count"]
 - !private ["Ps12_Reflectable", "dequeueReusableCellWithIdentifier"]
 - !private ["Ps12_Reflectable", "hashValue"]
@@ -1045,6 +1224,8 @@ depends-member:
 - !private ["Ps12_Reflectable", "reloadData"]
 - !private ["Ps12_Reflectable", "setImage"]
 - !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps12_Reflectable", "subviews"]
+- !private ["Ps12_Reflectable", "tag"]
 - !private ["Ps18_SignedIntegerType", "Distance"]
 - !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
 - !private ["Ps18_SignedIntegerType", "hashValue"]
@@ -1059,6 +1240,8 @@ depends-nominal:
 - !private "Sb"
 - !private "Ps25BooleanLiteralConvertible"
 - !private "Ps11BooleanType"
+- !private "C15XLPagerTabStrip36ButtonBarPagerTabStripViewController"
+- !private "C15XLPagerTabStrip13ButtonBarView"
 - !private "CSo7CALayer"
 - !private "PSo13CAMediaTiming"
 - !private "V12CoreGraphics7CGFloat"
@@ -1069,6 +1252,7 @@ depends-nominal:
 - "Ps28CustomDebugStringConvertible"
 - "Ps23CustomStringConvertible"
 - "O8GameNews11DISPLAYMODE"
+- !private "Sd"
 - "Ps9Equatable"
 - !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
 - !private "Ps16ForwardIndexType"
@@ -1091,12 +1275,20 @@ depends-nominal:
 - !private "PSo9NSCopying"
 - "PSo26NSExtensionRequestHandling"
 - !private "CSo11NSIndexPath"
+- !private "CSo8NSNumber"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
+- !private "CSo7NSValue"
 - "C8GameNews18NewsViewController"
 - !private "Ps13OptionSetType"
+- !private "Sq"
+- !private "P15XLPagerTabStrip23PagerTabStripDataSource"
+- !private "P15XLPagerTabStrip21PagerTabStripDelegate"
+- !private "P15XLPagerTabStrip34PagerTabStripIsProgressiveDelegate"
+- !private "C15XLPagerTabStrip27PagerTabStripViewController"
 - !private "Ps21RandomAccessIndexType"
+- !private "Vs5Range"
 - !private "Ps30RangeReplaceableCollectionType"
 - !private "Ps16RawRepresentable"
 - "C8GameNews24ReloadableViewController"
@@ -1111,12 +1303,17 @@ depends-nominal:
 - !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
 - !private "CSo8UIButton"
+- !private "CSo16UICollectionView"
+- !private "PSo26UICollectionViewDataSource"
+- !private "PSo24UICollectionViewDelegate"
+- !private "CSo7UIColor"
 - "PSo18UIContentContainer"
 - !private "CSo9UIControl"
 - !private "VSC14UIControlState"
 - !private "PSo17UICoordinateSpace"
 - !private "PSo13UIDynamicItem"
 - "PSo18UIFocusEnvironment"
+- !private "PSo27UIGestureRecognizerDelegate"
 - !private "CSo7UIImage"
 - !private "CSo5UINib"
 - "CSo11UIResponder"
@@ -1124,6 +1321,7 @@ depends-nominal:
 - "PSo20UIScrollViewDelegate"
 - "PSo16UIStateRestoring"
 - !private "CSo11UITableView"
+- !private "CSo15UITableViewCell"
 - "PSo21UITableViewDataSource"
 - "PSo19UITableViewDelegate"
 - "PSo18UITraitEnvironment"
@@ -1133,12 +1331,14 @@ depends-nominal:
 - !private "Ps10_ArrayType"
 - !private "Ps33_BuiltinBooleanLiteralConvertible"
 - !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps24_ColorLiteralConvertible"
 - !private "Ps24_DestructorSafeContainer"
 - !private "Ps24_ImageLiteralConvertible"
 - !private "Ps14_Incrementable"
 - !private "Ps22_IntegerArithmeticType"
 - !private "Ps12_IntegerType"
 - !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
 - !private "Ps22_RandomAccessAmbiguity"
 - !private "Ps12_Reflectable"
 - !private "Ps18_SignedIntegerType"
@@ -1246,4 +1446,4 @@ depends-external:
 - "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Headers/GoogleMobileAds.h"
 - "/Users/yahagihiroyuki/work/others/GameNews/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework/Modules/module.modulemap"
 - "/Users/yahagihiroyuki/work/others/GameNews/Pods/Firebase/Analytics/Sources/Firebase.h"
-interface-hash: "eeeef4b92b4293252c21996e0436cd64"
+interface-hash: "66d34d864b8e0e3bbc910647bef8dde2"

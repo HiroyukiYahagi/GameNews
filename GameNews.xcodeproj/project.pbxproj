@@ -60,6 +60,19 @@
 		FFB4E1551D66151B001F3898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB4E1541D66151B001F3898 /* LaunchScreen.storyboard */; };
 		FFB4E1561D66151B001F3898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB4E1541D66151B001F3898 /* LaunchScreen.storyboard */; };
 		FFB4E1571D66151B001F3898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB4E1541D66151B001F3898 /* LaunchScreen.storyboard */; };
+		FFBA79B61D81DB0A00CB5BAF /* ic_app.png in Resources */ = {isa = PBXBuildFile; fileRef = FFBA79A91D81DB0A00CB5BAF /* ic_app.png */; };
+		FFBA79B71D81DB0A00CB5BAF /* ic_back.png in Resources */ = {isa = PBXBuildFile; fileRef = FFBA79AA1D81DB0A00CB5BAF /* ic_back.png */; };
+		FFBA79B81D81DB0A00CB5BAF /* ic_blogplus.png in Resources */ = {isa = PBXBuildFile; fileRef = FFBA79AB1D81DB0A00CB5BAF /* ic_blogplus.png */; };
+		FFBA79B91D81DB0A00CB5BAF /* ic_info.png in Resources */ = {isa = PBXBuildFile; fileRef = FFBA79AC1D81DB0A00CB5BAF /* ic_info.png */; };
+		FFBA79BA1D81DB0A00CB5BAF /* ic_new.png in Resources */ = {isa = PBXBuildFile; fileRef = FFBA79AD1D81DB0A00CB5BAF /* ic_new.png */; };
+		FFBA79BB1D81DB0A00CB5BAF /* ic_policy.png in Resources */ = {isa = PBXBuildFile; fileRef = FFBA79AE1D81DB0A00CB5BAF /* ic_policy.png */; };
+		FFBA79BC1D81DB0A00CB5BAF /* ic_rank.png in Resources */ = {isa = PBXBuildFile; fileRef = FFBA79AF1D81DB0A00CB5BAF /* ic_rank.png */; };
+		FFBA79BD1D81DB0A00CB5BAF /* ic_reload.png in Resources */ = {isa = PBXBuildFile; fileRef = FFBA79B01D81DB0A00CB5BAF /* ic_reload.png */; };
+		FFBA79BE1D81DB0A00CB5BAF /* ic_review.png in Resources */ = {isa = PBXBuildFile; fileRef = FFBA79B11D81DB0A00CB5BAF /* ic_review.png */; };
+		FFBA79BF1D81DB0A00CB5BAF /* ic_search.png in Resources */ = {isa = PBXBuildFile; fileRef = FFBA79B21D81DB0A00CB5BAF /* ic_search.png */; };
+		FFBA79C01D81DB0A00CB5BAF /* ic_setting.png in Resources */ = {isa = PBXBuildFile; fileRef = FFBA79B31D81DB0A00CB5BAF /* ic_setting.png */; };
+		FFBA79C11D81DB0A00CB5BAF /* ic_share-1.png in Resources */ = {isa = PBXBuildFile; fileRef = FFBA79B41D81DB0A00CB5BAF /* ic_share-1.png */; };
+		FFBA79C21D81DB0A00CB5BAF /* ic_share.png in Resources */ = {isa = PBXBuildFile; fileRef = FFBA79B51D81DB0A00CB5BAF /* ic_share.png */; };
 		FFC10E961D66096D003D6BC8 /* MyTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC10E951D66096D003D6BC8 /* MyTabViewController.swift */; };
 		FFDEDF6B1D7CA9C700B80437 /* XLActionController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2453C21D79BD4F00CE5E8A /* XLActionController.framework */; };
 		FFDEDF6C1D7CA9D500B80437 /* BSGridCollectionViewLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2454001D79F27500CE5E8A /* BSGridCollectionViewLayout.framework */; };
@@ -164,6 +177,19 @@
 		FFB4E1461D661043001F3898 /* EmbeddedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbeddedViewController.swift; sourceTree = "<group>"; };
 		FFB4E1481D6612DA001F3898 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FFB4E1541D66151B001F3898 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFBA79A91D81DB0A00CB5BAF /* ic_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_app.png; sourceTree = "<group>"; };
+		FFBA79AA1D81DB0A00CB5BAF /* ic_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_back.png; sourceTree = "<group>"; };
+		FFBA79AB1D81DB0A00CB5BAF /* ic_blogplus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_blogplus.png; sourceTree = "<group>"; };
+		FFBA79AC1D81DB0A00CB5BAF /* ic_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_info.png; sourceTree = "<group>"; };
+		FFBA79AD1D81DB0A00CB5BAF /* ic_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_new.png; sourceTree = "<group>"; };
+		FFBA79AE1D81DB0A00CB5BAF /* ic_policy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_policy.png; sourceTree = "<group>"; };
+		FFBA79AF1D81DB0A00CB5BAF /* ic_rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_rank.png; sourceTree = "<group>"; };
+		FFBA79B01D81DB0A00CB5BAF /* ic_reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_reload.png; sourceTree = "<group>"; };
+		FFBA79B11D81DB0A00CB5BAF /* ic_review.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_review.png; sourceTree = "<group>"; };
+		FFBA79B21D81DB0A00CB5BAF /* ic_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_search.png; sourceTree = "<group>"; };
+		FFBA79B31D81DB0A00CB5BAF /* ic_setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_setting.png; sourceTree = "<group>"; };
+		FFBA79B41D81DB0A00CB5BAF /* ic_share-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_share-1.png"; sourceTree = "<group>"; };
+		FFBA79B51D81DB0A00CB5BAF /* ic_share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_share.png; sourceTree = "<group>"; };
 		FFC10E951D66096D003D6BC8 /* MyTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabViewController.swift; sourceTree = "<group>"; };
 		FFDEDF6E1D7CACB200B80437 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
 		FFDEDF701D7DD9E700B80437 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
@@ -270,6 +296,7 @@
 		FF0202271D73475200DFF00B /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				FFBA79A81D81DAF900CB5BAF /* Common */,
 				FFDEDF6E1D7CACB200B80437 /* launch.png */,
 				FFED46621D7C36F200F74350 /* apps.png */,
 				FFED46601D7C36ED00F74350 /* inquery.png */,
@@ -392,6 +419,26 @@
 				FFED46641D7C385C00F74350 /* SearchView */,
 				FF2453CB1D79C0DE00CE5E8A /* ActionView */,
 				FF2453CA1D79C0D000CE5E8A /* TableView */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		FFBA79A81D81DAF900CB5BAF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FFBA79A91D81DB0A00CB5BAF /* ic_app.png */,
+				FFBA79AA1D81DB0A00CB5BAF /* ic_back.png */,
+				FFBA79AB1D81DB0A00CB5BAF /* ic_blogplus.png */,
+				FFBA79AC1D81DB0A00CB5BAF /* ic_info.png */,
+				FFBA79AD1D81DB0A00CB5BAF /* ic_new.png */,
+				FFBA79AE1D81DB0A00CB5BAF /* ic_policy.png */,
+				FFBA79AF1D81DB0A00CB5BAF /* ic_rank.png */,
+				FFBA79B01D81DB0A00CB5BAF /* ic_reload.png */,
+				FFBA79B11D81DB0A00CB5BAF /* ic_review.png */,
+				FFBA79B21D81DB0A00CB5BAF /* ic_search.png */,
+				FFBA79B31D81DB0A00CB5BAF /* ic_setting.png */,
+				FFBA79B41D81DB0A00CB5BAF /* ic_share-1.png */,
+				FFBA79B51D81DB0A00CB5BAF /* ic_share.png */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -610,27 +657,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFBA79B71D81DB0A00CB5BAF /* ic_back.png in Resources */,
+				FFBA79C11D81DB0A00CB5BAF /* ic_share-1.png in Resources */,
 				FFED46521D7C287000F74350 /* ContractView.xib in Resources */,
 				FF2453DE1D79CCAB00CE5E8A /* black.png in Resources */,
 				FFED46631D7C36F200F74350 /* apps.png in Resources */,
+				FFBA79BF1D81DB0A00CB5BAF /* ic_search.png in Resources */,
 				FFB4E1491D6612DA001F3898 /* GoogleService-Info.plist in Resources */,
+				FFBA79B81D81DB0A00CB5BAF /* ic_blogplus.png in Resources */,
+				FFBA79BA1D81DB0A00CB5BAF /* ic_new.png in Resources */,
 				FF2453DF1D79CCAB00CE5E8A /* light.jpg in Resources */,
+				FFBA79BB1D81DB0A00CB5BAF /* ic_policy.png in Resources */,
 				FF2453DB1D79C6F600CE5E8A /* twitter.png in Resources */,
+				FFBA79B91D81DB0A00CB5BAF /* ic_info.png in Resources */,
 				FFDEDF6F1D7CACB200B80437 /* launch.png in Resources */,
 				FFED465D1D7C36E600F74350 /* constract.png in Resources */,
 				FFB4E1551D66151B001F3898 /* LaunchScreen.storyboard in Resources */,
 				FF2453FD1D79E7F700CE5E8A /* safari.png in Resources */,
+				FFBA79BE1D81DB0A00CB5BAF /* ic_review.png in Resources */,
 				FF44EEB81D71EFFA00162476 /* NewsView.xib in Resources */,
 				FF2453DA1D79C6F600CE5E8A /* instagram.jpg in Resources */,
 				FF2453D91D79C6F600CE5E8A /* facebook.png in Resources */,
 				FF2453E31D79CECB00CE5E8A /* ranking.png in Resources */,
 				FF0202801D76157800DFF00B /* RankCell.xib in Resources */,
 				FFED46611D7C36ED00F74350 /* inquery.png in Resources */,
+				FFBA79BC1D81DB0A00CB5BAF /* ic_rank.png in Resources */,
 				FF02022F1D734DB400DFF00B /* SettingView.xib in Resources */,
 				FFED46591D7C36DD00F74350 /* friends.png in Resources */,
 				FF0202261D73413E00DFF00B /* CommonCustomCell.xib in Resources */,
 				FFEA6E591D65FDE60024DB3F /* Assets.xcassets in Resources */,
 				FF2453D21D79C10C00CE5E8A /* TwitterCell.xib in Resources */,
+				FFBA79B61D81DB0A00CB5BAF /* ic_app.png in Resources */,
 				FF02022D1D734B6D00DFF00B /* WebView.xib in Resources */,
 				FFEA6E541D65FDE60024DB3F /* Main.storyboard in Resources */,
 				FF2453E91D79D6EA00CE5E8A /* news.png in Resources */,
@@ -639,9 +696,12 @@
 				FF2453F31D79D9BC00CE5E8A /* cog.png in Resources */,
 				FF0202291D73479C00DFF00B /* no_image.jpg in Resources */,
 				FFED465B1D7C36E100F74350 /* reviews.png in Resources */,
+				FFBA79C21D81DB0A00CB5BAF /* ic_share.png in Resources */,
 				FFED464B1D7C14AE00F74350 /* SettingCell.xib in Resources */,
 				FF0202611D746DCA00DFF00B /* settings.plist in Resources */,
 				FFED466C1D7C3A5400F74350 /* SearchViewController.xib in Resources */,
+				FFBA79BD1D81DB0A00CB5BAF /* ic_reload.png in Resources */,
+				FFBA79C01D81DB0A00CB5BAF /* ic_setting.png in Resources */,
 				FFED465F1D7C36E900F74350 /* blogs.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

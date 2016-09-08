@@ -7,20 +7,20 @@ provides-member:
 - ["C8GameNews16PropertiesLoader", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
+- "StringLiteralType"
+- "PropertiesLoader"
+- "AnyObject"
 - !private "NSBundle"
 - !private "UnicodeScalarType"
-- !private "NSUserDefaults"
-- !private "*"
-- !private "ASIdentifierManager"
-- "NSDate"
-- "StringLiteralType"
-- "AnyObject"
-- !private "NSDictionary"
-- "PropertiesLoader"
-- !private "CommonUtil"
-- !private "JSONParser"
 - !private "=="
+- !private "ASIdentifierManager"
+- !private "CommonUtil"
+- "String"
+- !private "*"
+- !private "JSONParser"
+- "NSDate"
+- !private "NSUserDefaults"
+- !private "NSDictionary"
 depends-member:
 - !private ["CSo19ASIdentifierManager", "advertisingIdentifier"]
 - !private ["CSo19ASIdentifierManager", "advertisingTrackingEnabled"]
